@@ -1,0 +1,46 @@
+name: Refresh threat data
+
+on:
+  schedule:
+    # Monday 06:17 UTC. Weekly on purpose, so a down feed is not polled all day.
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-threat-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check the counting code
+        run: python3 -m unittest pipeline.test_transform
+
+      - name: Download feeds and write the snapshot
+        env:
+          ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}
+        run: python3 pipeline/fetch_threat_data.py
+
+      - name: Commit the snapshot when it changed
+        run: |
+          if git diff --quiet -- data/; then
+            echo "No data change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/snapshot.json data/countries.csv data/kev_by_month.csv data/kev_top_vendors.csv
+          git commit -m "Refresh threat data snapshot"
+          git push

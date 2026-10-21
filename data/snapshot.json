@@ -1,0 +1,7657 @@
+{
+  "schema": 1,
+  "project": "Zambia Cyber Threat Map",
+  "generated_at": "2026-10-21T19:41:21+00:00",
+  "sources": {
+    "kev": {
+      "id": "kev",
+      "name": "CISA Known Exploited Vulnerabilities Catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "license": "United States government work (public domain). Catalog terms: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "ok": true,
+      "skipped": false,
+      "stale": false,
+      "error": null,
+      "reason": null,
+      "stale_reason": null,
+      "retrieved_at": "2026-10-21T19:41:14+00:00",
+      "last_attempt_at": null,
+      "data": {
+        "total": 1754,
+        "as_of": "2026-10-21",
+        "ransomware_by_flag": [
+          {
+            "flag": "Unknown",
+            "count": 1393
+          },
+          {
+            "flag": "Known",
+            "count": 361
+          }
+        ],
+        "ransomware_known": 361,
+        "ransomware_other": 1393,
+        "ransomware_pct": 20.6,
+        "added_last_30_days": 38,
+        "added_last_90_days": 101,
+        "by_month": [
+          {
+            "month": "2021-11",
+            "count": 291
+          },
+          {
+            "month": "2021-12",
+            "count": 20
+          },
+          {
+            "month": "2022-01",
+            "count": 40
+          },
+          {
+            "month": "2022-02",
+            "count": 32
+          },
+          {
+            "month": "2022-03",
+            "count": 226
+          },
+          {
+            "month": "2022-04",
+            "count": 45
+          },
+          {
+            "month": "2022-05",
+            "count": 83
+          },
+          {
+            "month": "2022-06",
+            "count": 48
+          },
+          {
+            "month": "2022-07",
+            "count": 3
+          },
+          {
+            "month": "2022-08",
+            "count": 23
+          },
+          {
+            "month": "2022-09",
+            "count": 24
+          },
+          {
+            "month": "2022-10",
+            "count": 12
+          },
+          {
+            "month": "2022-11",
+            "count": 10
+          },
+          {
+            "month": "2022-12",
+            "count": 9
+          },
+          {
+            "month": "2023-01",
+            "count": 5
+          },
+          {
+            "month": "2023-02",
+            "count": 14
+          },
+          {
+            "month": "2023-03",
+            "count": 18
+          },
+          {
+            "month": "2023-04",
+            "count": 17
+          },
+          {
+            "month": "2023-05",
+            "count": 19
+          },
+          {
+            "month": "2023-06",
+            "count": 24
+          },
+          {
+            "month": "2023-07",
+            "count": 16
+          },
+          {
+            "month": "2023-08",
+            "count": 8
+          },
+          {
+            "month": "2023-09",
+            "count": 19
+          },
+          {
+            "month": "2023-10",
+            "count": 18
+          },
+          {
+            "month": "2023-11",
+            "count": 18
+          },
+          {
+            "month": "2023-12",
+            "count": 11
+          },
+          {
+            "month": "2024-01",
+            "count": 21
+          },
+          {
+            "month": "2024-02",
+            "count": 9
+          },
+          {
+            "month": "2024-03",
+            "count": 10
+          },
+          {
+            "month": "2024-04",
+            "count": 10
+          },
+          {
+            "month": "2024-05",
+            "count": 14
+          },
+          {
+            "month": "2024-06",
+            "count": 9
+          },
+          {
+            "month": "2024-07",
+            "count": 14
+          },
+          {
+            "month": "2024-08",
+            "count": 19
+          },
+          {
+            "month": "2024-09",
+            "count": 25
+          },
+          {
+            "month": "2024-10",
+            "count": 17
+          },
+          {
+            "month": "2024-11",
+            "count": 22
+          },
+          {
+            "month": "2024-12",
+            "count": 16
+          },
+          {
+            "month": "2025-01",
+            "count": 14
+          },
+          {
+            "month": "2025-02",
+            "count": 27
+          },
+          {
+            "month": "2025-03",
+            "count": 32
+          },
+          {
+            "month": "2025-04",
+            "count": 15
+          },
+          {
+            "month": "2025-05",
+            "count": 24
+          },
+          {
+            "month": "2025-06",
+            "count": 20
+          },
+          {
+            "month": "2025-07",
+            "count": 20
+          },
+          {
+            "month": "2025-08",
+            "count": 15
+          },
+          {
+            "month": "2025-09",
+            "count": 16
+          },
+          {
+            "month": "2025-10",
+            "count": 31
+          },
+          {
+            "month": "2025-11",
+            "count": 11
+          },
+          {
+            "month": "2025-12",
+            "count": 20
+          },
+          {
+            "month": "2026-01",
+            "count": 17
+          },
+          {
+            "month": "2026-02",
+            "count": 28
+          },
+          {
+            "month": "2026-03",
+            "count": 26
+          },
+          {
+            "month": "2026-04",
+            "count": 31
+          },
+          {
+            "month": "2026-05",
+            "count": 21
+          },
+          {
+            "month": "2026-06",
+            "count": 23
+          },
+          {
+            "month": "2026-07",
+            "count": 26
+          },
+          {
+            "month": "2026-08",
+            "count": 31
+          },
+          {
+            "month": "2026-09",
+            "count": 43
+          },
+          {
+            "month": "2026-10",
+            "count": 24
+          }
+        ],
+        "top_vendors": [
+          {
+            "name": "Microsoft",
+            "count": 390,
+            "ransomware_known": 117
+          },
+          {
+            "name": "Cisco",
+            "count": 101,
+            "ransomware_known": 7
+          },
+          {
+            "name": "Apple",
+            "count": 95,
+            "ransomware_known": 0
+          },
+          {
+            "name": "Adobe",
+            "count": 82,
+            "ransomware_known": 11
+          },
+          {
+            "name": "Google",
+            "count": 75,
+            "ransomware_known": 0
+          },
+          {
+            "name": "Oracle",
+            "count": 46,
+            "ransomware_known": 13
+          },
+          {
+            "name": "Apache",
+            "count": 41,
+            "ransomware_known": 8
+          },
+          {
+            "name": "Ivanti",
+            "count": 36,
+            "ransomware_known": 12
+          },
+          {
+            "name": "Fortinet",
+            "count": 32,
+            "ransomware_known": 14
+          },
+          {
+            "name": "Linux",
+            "count": 31,
+            "ransomware_known": 2
+          }
+        ],
+        "top_products": [
+          {
+            "vendor": "Microsoft",
+            "product": "Windows",
+            "count": 173
+          },
+          {
+            "vendor": "Apple",
+            "product": "Multiple Products",
+            "count": 54
+          },
+          {
+            "vendor": "Google",
+            "product": "Chromium V8",
+            "count": 41
+          },
+          {
+            "vendor": "Microsoft",
+            "product": "Internet Explorer",
+            "count": 36
+          },
+          {
+            "vendor": "Adobe",
+            "product": "Flash Player",
+            "count": 33
+          },
+          {
+            "vendor": "Linux",
+            "product": "Kernel",
+            "count": 31
+          },
+          {
+            "vendor": "Microsoft",
+            "product": "Office",
+            "count": 29
+          },
+          {
+            "vendor": "Microsoft",
+            "product": "Win32k",
+            "count": 25
+          }
+        ],
+        "banking": {
+          "rule": "Exact vendorProject match against the curated list stored in vendors.",
+          "vendors": [
+            "Fortinet",
+            "Cisco",
+            "Palo Alto Networks",
+            "Citrix",
+            "Ivanti",
+            "SonicWall",
+            "F5",
+            "Juniper",
+            "Check Point",
+            "Pulse Secure",
+            "Barracuda Networks",
+            "WatchGuard",
+            "Sophos",
+            "Microsoft",
+            "VMware",
+            "VMware Tanzu",
+            "Oracle",
+            "Apache",
+            "Atlassian",
+            "Progress",
+            "Fortra",
+            "SAP",
+            "IBM",
+            "Qlik",
+            "SolarWinds",
+            "Zoho",
+            "ConnectWise",
+            "Veeam"
+          ],
+          "by_vendor": [
+            {
+              "name": "Microsoft",
+              "count": 390,
+              "ransomware_known": 117
+            },
+            {
+              "name": "Cisco",
+              "count": 101,
+              "ransomware_known": 7
+            },
+            {
+              "name": "Oracle",
+              "count": 46,
+              "ransomware_known": 13
+            },
+            {
+              "name": "Apache",
+              "count": 41,
+              "ransomware_known": 8
+            },
+            {
+              "name": "Ivanti",
+              "count": 36,
+              "ransomware_known": 12
+            },
+            {
+              "name": "Fortinet",
+              "count": 32,
+              "ransomware_known": 14
+            },
+            {
+              "name": "Citrix",
+              "count": 27,
+              "ransomware_known": 7
+            },
+            {
+              "name": "VMware",
+              "count": 26,
+              "ransomware_known": 9
+            },
+            {
+              "name": "SonicWall",
+              "count": 19,
+              "ransomware_known": 13
+            },
+            {
+              "name": "Palo Alto Networks",
+              "count": 16,
+              "ransomware_known": 6
+            },
+            {
+              "name": "Atlassian",
+              "count": 14,
+              "ransomware_known": 8
+            },
+            {
+              "name": "SAP",
+              "count": 14,
+              "ransomware_known": 3
+            },
+            {
+              "name": "SolarWinds",
+              "count": 11,
+              "ransomware_known": 2
+            },
+            {
+              "name": "Progress",
+              "count": 9,
+              "ransomware_known": 4
+            },
+            {
+              "name": "Zoho",
+              "count": 9,
+              "ransomware_known": 2
+            },
+            {
+              "name": "F5",
+              "count": 8,
+              "ransomware_known": 4
+            },
+            {
+              "name": "IBM",
+              "count": 8,
+              "ransomware_known": 2
+            },
+            {
+              "name": "Juniper",
+              "count": 8,
+              "ransomware_known": 0
+            },
+            {
+              "name": "Sophos",
+              "count": 7,
+              "ransomware_known": 2
+            },
+            {
+              "name": "Check Point",
+              "count": 5,
+              "ransomware_known": 2
+            },
+            {
+              "name": "ConnectWise",
+              "count": 4,
+              "ransomware_known": 2
+            },
+            {
+              "name": "Fortra",
+              "count": 4,
+              "ransomware_known": 2
+            },
+            {
+              "name": "Veeam",
+              "count": 4,
+              "ransomware_known": 4
+            },
+            {
+              "name": "WatchGuard",
+              "count": 4,
+              "ransomware_known": 1
+            },
+            {
+              "name": "Qlik",
+              "count": 3,
+              "ransomware_known": 3
+            },
+            {
+              "name": "VMware Tanzu",
+              "count": 3,
+              "ransomware_known": 1
+            },
+            {
+              "name": "Barracuda Networks",
+              "count": 1,
+              "ransomware_known": 0
+            },
+            {
+              "name": "Pulse Secure",
+              "count": 1,
+              "ransomware_known": 0
+            }
+          ],
+          "total": 851,
+          "ransomware_known": 248
+        },
+        "edge": {
+          "rule": "Exact vendorProject match against the edge and remote-access list.",
+          "vendors": [
+            "Fortinet",
+            "Cisco",
+            "Palo Alto Networks",
+            "Citrix",
+            "Ivanti",
+            "SonicWall",
+            "F5",
+            "Juniper",
+            "Check Point",
+            "Pulse Secure",
+            "Barracuda Networks",
+            "WatchGuard",
+            "Sophos"
+          ],
+          "by_vendor": [
+            {
+              "name": "Cisco",
+              "count": 101,
+              "ransomware_known": 7
+            },
+            {
+              "name": "Ivanti",
+              "count": 36,
+              "ransomware_known": 12
+            },
+            {
+              "name": "Fortinet",
+              "count": 32,
+              "ransomware_known": 14
+            },
+            {
+              "name": "Citrix",
+              "count": 27,
+              "ransomware_known": 7
+            },
+            {
+              "name": "SonicWall",
+              "count": 19,
+              "ransomware_known": 13
+            },
+            {
+              "name": "Palo Alto Networks",
+              "count": 16,
+              "ransomware_known": 6
+            },
+            {
+              "name": "F5",
+              "count": 8,
+              "ransomware_known": 4
+            },
+            {
+              "name": "Juniper",
+              "count": 8,
+              "ransomware_known": 0
+            },
+            {
+              "name": "Sophos",
+              "count": 7,
+              "ransomware_known": 2
+            },
+            {
+              "name": "Check Point",
+              "count": 5,
+              "ransomware_known": 2
+            },
+            {
+              "name": "WatchGuard",
+              "count": 4,
+              "ransomware_known": 1
+            },
+            {
+              "name": "Barracuda Networks",
+              "count": 1,
+              "ransomware_known": 0
+            },
+            {
+              "name": "Pulse Secure",
+              "count": 1,
+              "ransomware_known": 0
+            }
+          ],
+          "ransomware_by_vendor": [
+            {
+              "name": "Fortinet",
+              "count": 32,
+              "ransomware_known": 14
+            },
+            {
+              "name": "SonicWall",
+              "count": 19,
+              "ransomware_known": 13
+            },
+            {
+              "name": "Ivanti",
+              "count": 36,
+              "ransomware_known": 12
+            },
+            {
+              "name": "Cisco",
+              "count": 101,
+              "ransomware_known": 7
+            },
+            {
+              "name": "Citrix",
+              "count": 27,
+              "ransomware_known": 7
+            },
+            {
+              "name": "Palo Alto Networks",
+              "count": 16,
+              "ransomware_known": 6
+            },
+            {
+              "name": "F5",
+              "count": 8,
+              "ransomware_known": 4
+            },
+            {
+              "name": "Check Point",
+              "count": 5,
+              "ransomware_known": 2
+            },
+            {
+              "name": "Sophos",
+              "count": 7,
+              "ransomware_known": 2
+            },
+            {
+              "name": "WatchGuard",
+              "count": 4,
+              "ransomware_known": 1
+            }
+          ],
+          "total": 265,
+          "ransomware_known": 68
+        },
+        "microsoft": {
+          "total": 390,
+          "ransomware_known": 117,
+          "exchange": 18,
+          "exchange_rule": "vendorProject is Microsoft and the product is 'Exchange', starts with 'Exchange ', or contains 'Exchange Server'. Internet Key Exchange is not counted."
+        },
+        "recent": [
+          {
+            "cve": "CVE-2026-96656",
+            "vendor": "Plex",
+            "product": "Media Server",
+            "name": "Plex Media Server External Control of File Name or Path Vulnerability",
+            "date_added": "2026-10-20",
+            "ransomware": "Unknown",
+            "description": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655."
+          },
+          {
+            "cve": "CVE-2026-96655",
+            "vendor": "Plex",
+            "product": "Media Server",
+            "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+            "date_added": "2026-10-20",
+            "ransomware": "Unknown",
+            "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656."
+          },
+          {
+            "cve": "CVE-2026-96654",
+            "vendor": "Plex",
+            "product": "Media Server",
+            "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+            "date_added": "2026-10-20",
+            "ransomware": "Unknown",
+            "description": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656."
+          },
+          {
+            "cve": "CVE-2026-96652",
+            "vendor": "Plex",
+            "product": "Media Server",
+            "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+            "date_added": "2026-10-20",
+            "ransomware": "Unknown",
+            "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. "
+          },
+          {
+            "cve": "CVE-2026-110936",
+            "vendor": "Siemens",
+            "product": "Software Center",
+            "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+            "date_added": "2026-10-20",
+            "ransomware": "Unknown",
+            "description": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application."
+          },
+          {
+            "cve": "CVE-2026-106931",
+            "vendor": "EG Secure Solutions",
+            "product": "SiteGuard Server Edition",
+            "name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+            "date_added": "2026-10-20",
+            "ransomware": "Unknown",
+            "description": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product."
+          },
+          {
+            "cve": "CVE-2026-102764",
+            "vendor": "BeyondTrust",
+            "product": "Remote Support",
+            "name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+            "date_added": "2026-10-16",
+            "ransomware": "Unknown",
+            "description": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance."
+          },
+          {
+            "cve": "CVE-2025-61624",
+            "vendor": "Fortinet",
+            "product": "Multiple Products",
+            "name": "Fortinet Multiple Products Path Traversal Vulnerability",
+            "date_added": "2026-10-16",
+            "ransomware": "Unknown",
+            "description": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands."
+          }
+        ],
+        "catalog_version": "2026.10.21",
+        "date_released": "2026-10-21T14:04:39.8983Z",
+        "title": "CISA Catalog of Known Exploited Vulnerabilities",
+        "count_reported": 1754
+      }
+    },
+    "dshield": {
+      "id": "dshield",
+      "name": "SANS Internet Storm Center / DShield country summary",
+      "url": "https://isc.sans.edu/api/country/?json",
+      "license": "CC BY-NC-SA 4.0. Attribute SANS Internet Storm Center. https://creativecommons.org/licenses/by-nc-sa/4.0/ and https://isc.sans.edu/api/",
+      "ok": true,
+      "skipped": false,
+      "stale": false,
+      "error": null,
+      "reason": null,
+      "stale_reason": null,
+      "retrieved_at": "2026-10-21T19:41:15+00:00",
+      "last_attempt_at": null,
+      "data": {
+        "endpoint": "https://isc.sans.edu/api/country/?json",
+        "countries": [
+          {
+            "iso2": "US",
+            "sources": 67803,
+            "reports": 178888425,
+            "targets": 4987880,
+            "persistence": 219.0384
+          },
+          {
+            "iso2": "CN",
+            "sources": 44465,
+            "reports": 13619415,
+            "targets": 880823,
+            "persistence": 236.0533
+          },
+          {
+            "iso2": "RU",
+            "sources": 12937,
+            "reports": 10308832,
+            "targets": 155050,
+            "persistence": 153.5671
+          },
+          {
+            "iso2": "CA",
+            "sources": 12687,
+            "reports": 47475629,
+            "targets": 122633,
+            "persistence": 115.5888
+          },
+          {
+            "iso2": "BR",
+            "sources": 11789,
+            "reports": 7050758,
+            "targets": 276972,
+            "persistence": 94.4985
+          },
+          {
+            "iso2": "AR",
+            "sources": 10110,
+            "reports": 700172,
+            "targets": 112445,
+            "persistence": 67.7893
+          },
+          {
+            "iso2": "UA",
+            "sources": 9762,
+            "reports": 1514208,
+            "targets": 128871,
+            "persistence": 79.6729
+          },
+          {
+            "iso2": "PK",
+            "sources": 9348,
+            "reports": 6480959,
+            "targets": 149394,
+            "persistence": 128.2521
+          },
+          {
+            "iso2": "GB",
+            "sources": 7076,
+            "reports": 30917110,
+            "targets": 1005777,
+            "persistence": 360.0992
+          },
+          {
+            "iso2": "NL",
+            "sources": 6858,
+            "reports": 75242455,
+            "targets": 335173,
+            "persistence": 182.9665
+          },
+          {
+            "iso2": "DE",
+            "sources": 6523,
+            "reports": 27813026,
+            "targets": 460216,
+            "persistence": 191.9215
+          },
+          {
+            "iso2": "IN",
+            "sources": 6110,
+            "reports": 4257488,
+            "targets": 111525,
+            "persistence": 192.6622
+          },
+          {
+            "iso2": "FR",
+            "sources": 5547,
+            "reports": 45447541,
+            "targets": 218995,
+            "persistence": 159.7224
+          },
+          {
+            "iso2": "KR",
+            "sources": 4978,
+            "reports": 3788294,
+            "targets": 157427,
+            "persistence": 196.0072
+          },
+          {
+            "iso2": "VN",
+            "sources": 4976,
+            "reports": 6317730,
+            "targets": 301715,
+            "persistence": 129.8832
+          },
+          {
+            "iso2": "JP",
+            "sources": 4621,
+            "reports": 6232023,
+            "targets": 202780,
+            "persistence": 129.6172
+          },
+          {
+            "iso2": "TR",
+            "sources": 3971,
+            "reports": 21440652,
+            "targets": 97724,
+            "persistence": 106.27
+          },
+          {
+            "iso2": "TW",
+            "sources": 3332,
+            "reports": 1502376,
+            "targets": 69836,
+            "persistence": 144.8247
+          },
+          {
+            "iso2": "ID",
+            "sources": 3322,
+            "reports": 3109442,
+            "targets": 64783,
+            "persistence": 173.6499
+          },
+          {
+            "iso2": "HK",
+            "sources": 3252,
+            "reports": 7272897,
+            "targets": 181956,
+            "persistence": 194.6894
+          },
+          {
+            "iso2": "MX",
+            "sources": 3241,
+            "reports": 820805,
+            "targets": 45445,
+            "persistence": 104.1777
+          },
+          {
+            "iso2": "UZ",
+            "sources": 3066,
+            "reports": 300341,
+            "targets": 44149,
+            "persistence": 117.3389
+          },
+          {
+            "iso2": "SG",
+            "sources": 3032,
+            "reports": 14715734,
+            "targets": 216808,
+            "persistence": 190.9017
+          },
+          {
+            "iso2": "CO",
+            "sources": 2836,
+            "reports": 343950,
+            "targets": 32760,
+            "persistence": 94.7271
+          },
+          {
+            "iso2": "BD",
+            "sources": 2639,
+            "reports": 522232,
+            "targets": 26580,
+            "persistence": 101.0678
+          },
+          {
+            "iso2": "SE",
+            "sources": 2174,
+            "reports": 2841618,
+            "targets": 34621,
+            "persistence": 175.506
+          },
+          {
+            "iso2": "CH",
+            "sources": 2096,
+            "reports": 8930213,
+            "targets": 50714,
+            "persistence": 225.1832
+          },
+          {
+            "iso2": "ZA",
+            "sources": 1970,
+            "reports": 763833,
+            "targets": 26949,
+            "persistence": 117.0025
+          },
+          {
+            "iso2": "TH",
+            "sources": 1957,
+            "reports": 968033,
+            "targets": 40497,
+            "persistence": 117.9397
+          },
+          {
+            "iso2": "ES",
+            "sources": 1887,
+            "reports": 1121840,
+            "targets": 22150,
+            "persistence": 127.991
+          },
+          {
+            "iso2": "MY",
+            "sources": 1771,
+            "reports": 750626,
+            "targets": 147793,
+            "persistence": 196.0858
+          },
+          {
+            "iso2": "AU",
+            "sources": 1758,
+            "reports": 2300593,
+            "targets": 18796,
+            "persistence": 132.6024
+          },
+          {
+            "iso2": "CL",
+            "sources": 1754,
+            "reports": 294350,
+            "targets": 19281,
+            "persistence": 98.9886
+          },
+          {
+            "iso2": "GT",
+            "sources": 1607,
+            "reports": 41611,
+            "targets": 4378,
+            "persistence": 63.738
+          },
+          {
+            "iso2": "VE",
+            "sources": 1586,
+            "reports": 115599,
+            "targets": 12458,
+            "persistence": 101.0574
+          },
+          {
+            "iso2": "PH",
+            "sources": 1400,
+            "reports": 524306,
+            "targets": 20419,
+            "persistence": 171.805
+          },
+          {
+            "iso2": "IT",
+            "sources": 1386,
+            "reports": 2841080,
+            "targets": 17681,
+            "persistence": 173.3817
+          },
+          {
+            "iso2": "MM",
+            "sources": 1263,
+            "reports": 308977,
+            "targets": 6885,
+            "persistence": 59.3413
+          },
+          {
+            "iso2": "PL",
+            "sources": 1221,
+            "reports": 1101967,
+            "targets": 14593,
+            "persistence": 115.9107
+          },
+          {
+            "iso2": "BG",
+            "sources": 1132,
+            "reports": 58047446,
+            "targets": 70412,
+            "persistence": 135.1466
+          },
+          {
+            "iso2": "KE",
+            "sources": 1057,
+            "reports": 110987,
+            "targets": 13412,
+            "persistence": 127.0539
+          },
+          {
+            "iso2": "GR",
+            "sources": 1015,
+            "reports": 658337,
+            "targets": 6200,
+            "persistence": 167.5222
+          },
+          {
+            "iso2": "FI",
+            "sources": 988,
+            "reports": 5900672,
+            "targets": 25555,
+            "persistence": 186.9747
+          },
+          {
+            "iso2": "IR",
+            "sources": 988,
+            "reports": 1854016,
+            "targets": 26508,
+            "persistence": 84.831
+          },
+          {
+            "iso2": "PT",
+            "sources": 969,
+            "reports": 1294936,
+            "targets": 129125,
+            "persistence": 325.9401
+          },
+          {
+            "iso2": "EC",
+            "sources": 937,
+            "reports": 94868,
+            "targets": 11221,
+            "persistence": 94.3821
+          },
+          {
+            "iso2": "BE",
+            "sources": 880,
+            "reports": 690482,
+            "targets": 20730,
+            "persistence": 234.633
+          },
+          {
+            "iso2": "RO",
+            "sources": 821,
+            "reports": 8984748,
+            "targets": 18752,
+            "persistence": 149.6188
+          },
+          {
+            "iso2": "IE",
+            "sources": 746,
+            "reports": 279973,
+            "targets": 7655,
+            "persistence": 170.2239
+          },
+          {
+            "iso2": "KZ",
+            "sources": 686,
+            "reports": 1494744,
+            "targets": 13567,
+            "persistence": 208.1414
+          },
+          {
+            "iso2": "IL",
+            "sources": 674,
+            "reports": 187687,
+            "targets": 11030,
+            "persistence": 121.6261
+          },
+          {
+            "iso2": "DO",
+            "sources": 672,
+            "reports": 95965,
+            "targets": 4452,
+            "persistence": 83.4286
+          },
+          {
+            "iso2": "HU",
+            "sources": 628,
+            "reports": 379884,
+            "targets": 2602,
+            "persistence": 97.0605
+          },
+          {
+            "iso2": "EG",
+            "sources": 624,
+            "reports": 148444,
+            "targets": 14900,
+            "persistence": 341.2452
+          },
+          {
+            "iso2": "LT",
+            "sources": 598,
+            "reports": 787186,
+            "targets": 70169,
+            "persistence": 91.0719
+          },
+          {
+            "iso2": "AZ",
+            "sources": 597,
+            "reports": 716861,
+            "targets": 5106,
+            "persistence": 106.9012
+          },
+          {
+            "iso2": "CZ",
+            "sources": 596,
+            "reports": 436922,
+            "targets": 3539,
+            "persistence": 133.3977
+          },
+          {
+            "iso2": "NG",
+            "sources": 536,
+            "reports": 1119121,
+            "targets": 19899,
+            "persistence": 161.0672
+          },
+          {
+            "iso2": "SC",
+            "sources": 525,
+            "reports": 3337500,
+            "targets": 21473,
+            "persistence": 75.3238
+          },
+          {
+            "iso2": "IQ",
+            "sources": 493,
+            "reports": 164570,
+            "targets": 6893,
+            "persistence": 125.7972
+          },
+          {
+            "iso2": "AE",
+            "sources": 486,
+            "reports": 2405466,
+            "targets": 20267,
+            "persistence": 151.1584
+          },
+          {
+            "iso2": "GE",
+            "sources": 478,
+            "reports": 106203,
+            "targets": 8006,
+            "persistence": 177.9686
+          },
+          {
+            "iso2": "NO",
+            "sources": 472,
+            "reports": 1168587,
+            "targets": 5432,
+            "persistence": 175.3411
+          },
+          {
+            "iso2": "NP",
+            "sources": 462,
+            "reports": 27525,
+            "targets": 3060,
+            "persistence": 108.4199
+          },
+          {
+            "iso2": "AT",
+            "sources": 454,
+            "reports": 360215,
+            "targets": 3697,
+            "persistence": 198.3238
+          },
+          {
+            "iso2": "DK",
+            "sources": 443,
+            "reports": 8206404,
+            "targets": 3137,
+            "persistence": 175.0564
+          },
+          {
+            "iso2": "PE",
+            "sources": 419,
+            "reports": 133049,
+            "targets": 6302,
+            "persistence": 142.284
+          },
+          {
+            "iso2": "MD",
+            "sources": 393,
+            "reports": 176946,
+            "targets": 7664,
+            "persistence": 137.8931
+          },
+          {
+            "iso2": "PY",
+            "sources": 390,
+            "reports": 20055,
+            "targets": 2574,
+            "persistence": 104.4692
+          },
+          {
+            "iso2": "NZ",
+            "sources": 356,
+            "reports": 245431,
+            "targets": 2457,
+            "persistence": 160.9831
+          },
+          {
+            "iso2": "AM",
+            "sources": 315,
+            "reports": 133433,
+            "targets": 6304,
+            "persistence": 168.7714
+          },
+          {
+            "iso2": "LV",
+            "sources": 308,
+            "reports": 233984,
+            "targets": 3521,
+            "persistence": 145.6688
+          },
+          {
+            "iso2": "BO",
+            "sources": 278,
+            "reports": 186872,
+            "targets": 5219,
+            "persistence": 241.4317
+          },
+          {
+            "iso2": "CI",
+            "sources": 271,
+            "reports": 13253,
+            "targets": 2199,
+            "persistence": 72.0627
+          },
+          {
+            "iso2": "AL",
+            "sources": 262,
+            "reports": 70537,
+            "targets": 3875,
+            "persistence": 114.0954
+          },
+          {
+            "iso2": "RS",
+            "sources": 256,
+            "reports": 45878,
+            "targets": 1916,
+            "persistence": 162.8242
+          },
+          {
+            "iso2": "ET",
+            "sources": 255,
+            "reports": 84050,
+            "targets": 6233,
+            "persistence": 252.651
+          },
+          {
+            "iso2": "BY",
+            "sources": 246,
+            "reports": 21785,
+            "targets": 1111,
+            "persistence": 163.7805
+          },
+          {
+            "iso2": "PR",
+            "sources": 245,
+            "reports": 14748,
+            "targets": 1944,
+            "persistence": 119.0327
+          },
+          {
+            "iso2": "SA",
+            "sources": 245,
+            "reports": 25831,
+            "targets": 2360,
+            "persistence": 130.1265
+          },
+          {
+            "iso2": "TN",
+            "sources": 238,
+            "reports": 89038,
+            "targets": 4201,
+            "persistence": 418.8992
+          },
+          {
+            "iso2": "CG",
+            "sources": 234,
+            "reports": 1956,
+            "targets": 683,
+            "persistence": 57.094
+          },
+          {
+            "iso2": "QA",
+            "sources": 228,
+            "reports": 119846,
+            "targets": 1248,
+            "persistence": 115.7018
+          },
+          {
+            "iso2": "SK",
+            "sources": 226,
+            "reports": 233536,
+            "targets": 1459,
+            "persistence": 127.5354
+          },
+          {
+            "iso2": "SI",
+            "sources": 216,
+            "reports": 347285,
+            "targets": 7936,
+            "persistence": 125.2824
+          },
+          {
+            "iso2": "CR",
+            "sources": 208,
+            "reports": 14191,
+            "targets": 2008,
+            "persistence": 138.6923
+          },
+          {
+            "iso2": "KH",
+            "sources": 192,
+            "reports": 79346,
+            "targets": 2820,
+            "persistence": 150.599
+          },
+          {
+            "iso2": "DZ",
+            "sources": 186,
+            "reports": 39999,
+            "targets": 1666,
+            "persistence": 208.4032
+          },
+          {
+            "iso2": "MA",
+            "sources": 182,
+            "reports": 172784,
+            "targets": 5346,
+            "persistence": 170.1429
+          },
+          {
+            "iso2": "MN",
+            "sources": 180,
+            "reports": 70689,
+            "targets": 3811,
+            "persistence": 574.1611
+          },
+          {
+            "iso2": "PA",
+            "sources": 171,
+            "reports": 1176691,
+            "targets": 5464,
+            "persistence": 195.6667
+          },
+          {
+            "iso2": "EE",
+            "sources": 170,
+            "reports": 149577,
+            "targets": 1202,
+            "persistence": 119.9647
+          },
+          {
+            "iso2": "LU",
+            "sources": 164,
+            "reports": 619699,
+            "targets": 2040,
+            "persistence": 233.3963
+          },
+          {
+            "iso2": "KG",
+            "sources": 155,
+            "reports": 16018,
+            "targets": 1620,
+            "persistence": 195.5935
+          },
+          {
+            "iso2": "TG",
+            "sources": 155,
+            "reports": 5817,
+            "targets": 1450,
+            "persistence": 66.9161
+          },
+          {
+            "iso2": "BF",
+            "sources": 145,
+            "reports": 8168,
+            "targets": 1892,
+            "persistence": 68.0759
+          },
+          {
+            "iso2": "HR",
+            "sources": 143,
+            "reports": 53021,
+            "targets": 838,
+            "persistence": 112.6923
+          },
+          {
+            "iso2": "IS",
+            "sources": 142,
+            "reports": 451545,
+            "targets": 746,
+            "persistence": 161.5563
+          },
+          {
+            "iso2": "CM",
+            "sources": 122,
+            "reports": 60301,
+            "targets": 1379,
+            "persistence": 117.6311
+          },
+          {
+            "iso2": "JO",
+            "sources": 122,
+            "reports": 13826,
+            "targets": 1894,
+            "persistence": 241.1311
+          },
+          {
+            "iso2": "TZ",
+            "sources": 117,
+            "reports": 58093,
+            "targets": 1471,
+            "persistence": 127.0769
+          },
+          {
+            "iso2": "LK",
+            "sources": 110,
+            "reports": 67943,
+            "targets": 3087,
+            "persistence": 300.6636
+          },
+          {
+            "iso2": "SV",
+            "sources": 108,
+            "reports": 55260,
+            "targets": 1157,
+            "persistence": 94.0278
+          },
+          {
+            "iso2": "CY",
+            "sources": 105,
+            "reports": 30871,
+            "targets": 1156,
+            "persistence": 240.7619
+          },
+          {
+            "iso2": "LA",
+            "sources": 104,
+            "reports": 7582,
+            "targets": 820,
+            "persistence": 203.9519
+          },
+          {
+            "iso2": "AO",
+            "sources": 96,
+            "reports": 23704,
+            "targets": 1128,
+            "persistence": 111.4896
+          },
+          {
+            "iso2": "BH",
+            "sources": 92,
+            "reports": 24006,
+            "targets": 1002,
+            "persistence": 100.5543
+          },
+          {
+            "iso2": "OM",
+            "sources": 92,
+            "reports": 4183,
+            "targets": 689,
+            "persistence": 150.4239
+          },
+          {
+            "iso2": "LB",
+            "sources": 91,
+            "reports": 4842,
+            "targets": 1016,
+            "persistence": 161.7692
+          },
+          {
+            "iso2": "MZ",
+            "sources": 91,
+            "reports": 14203,
+            "targets": 1412,
+            "persistence": 154.022
+          },
+          {
+            "iso2": "XK",
+            "sources": 90,
+            "reports": 4169,
+            "targets": 1118,
+            "persistence": 209.8778
+          },
+          {
+            "iso2": "MK",
+            "sources": 89,
+            "reports": 49561,
+            "targets": 979,
+            "persistence": 203.5843
+          },
+          {
+            "iso2": "TT",
+            "sources": 88,
+            "reports": 10085,
+            "targets": 674,
+            "persistence": 96.5682
+          },
+          {
+            "iso2": "MO",
+            "sources": 86,
+            "reports": 177991,
+            "targets": 2278,
+            "persistence": 265.4535
+          },
+          {
+            "iso2": "JM",
+            "sources": 84,
+            "reports": 2533,
+            "targets": 827,
+            "persistence": 143.5833
+          },
+          {
+            "iso2": "GH",
+            "sources": 83,
+            "reports": 221494,
+            "targets": 1739,
+            "persistence": 132.3253
+          },
+          {
+            "iso2": "ML",
+            "sources": 82,
+            "reports": 661,
+            "targets": 357,
+            "persistence": 64.5488
+          },
+          {
+            "iso2": "PS",
+            "sources": 80,
+            "reports": 5262,
+            "targets": 1238,
+            "persistence": 402.825
+          },
+          {
+            "iso2": "TJ",
+            "sources": 79,
+            "reports": 17111,
+            "targets": 1415,
+            "persistence": 189.3291
+          },
+          {
+            "iso2": "HN",
+            "sources": 76,
+            "reports": 8561,
+            "targets": 939,
+            "persistence": 131.0263
+          },
+          {
+            "iso2": "KW",
+            "sources": 76,
+            "reports": 14146,
+            "targets": 1233,
+            "persistence": 267.9211
+          },
+          {
+            "iso2": "LY",
+            "sources": 73,
+            "reports": 103147,
+            "targets": 750,
+            "persistence": 107.5479
+          },
+          {
+            "iso2": "UY",
+            "sources": 71,
+            "reports": 11496,
+            "targets": 384,
+            "persistence": 76.1408
+          },
+          {
+            "iso2": "SY",
+            "sources": 69,
+            "reports": 33035,
+            "targets": 1166,
+            "persistence": 139.3913
+          },
+          {
+            "iso2": "RE",
+            "sources": 68,
+            "reports": 5703,
+            "targets": 916,
+            "persistence": 93.3676
+          },
+          {
+            "iso2": "ZW",
+            "sources": 67,
+            "reports": 19944,
+            "targets": 571,
+            "persistence": 145.403
+          },
+          {
+            "iso2": "BA",
+            "sources": 64,
+            "reports": 33656,
+            "targets": 1147,
+            "persistence": 123.3594
+          },
+          {
+            "iso2": "UG",
+            "sources": 60,
+            "reports": 24889,
+            "targets": 1431,
+            "persistence": 261.8
+          },
+          {
+            "iso2": "BW",
+            "sources": 58,
+            "reports": 36216,
+            "targets": 763,
+            "persistence": 145.5172
+          },
+          {
+            "iso2": "NI",
+            "sources": 57,
+            "reports": 9783,
+            "targets": 1032,
+            "persistence": 182.2982
+          },
+          {
+            "iso2": "SN",
+            "sources": 57,
+            "reports": 34143,
+            "targets": 827,
+            "persistence": 102.5439
+          },
+          {
+            "iso2": "GP",
+            "sources": 54,
+            "reports": 9772,
+            "targets": 842,
+            "persistence": 70.1296
+          },
+          {
+            "iso2": "ZM",
+            "sources": 48,
+            "reports": 22944,
+            "targets": 964,
+            "persistence": 141.7708
+          },
+          {
+            "iso2": "MQ",
+            "sources": 47,
+            "reports": 7698,
+            "targets": 497,
+            "persistence": 105.4468
+          },
+          {
+            "iso2": "AF",
+            "sources": 45,
+            "reports": 26406,
+            "targets": 1163,
+            "persistence": 219.8667
+          },
+          {
+            "iso2": "MU",
+            "sources": 43,
+            "reports": 48510,
+            "targets": 852,
+            "persistence": 269.2558
+          },
+          {
+            "iso2": "MT",
+            "sources": 42,
+            "reports": 4524,
+            "targets": 485,
+            "persistence": 170.881
+          },
+          {
+            "iso2": "BS",
+            "sources": 38,
+            "reports": 3306,
+            "targets": 174,
+            "persistence": 88.4474
+          },
+          {
+            "iso2": "RW",
+            "sources": 36,
+            "reports": 19905,
+            "targets": 396,
+            "persistence": 137.9444
+          },
+          {
+            "iso2": "MG",
+            "sources": 33,
+            "reports": 1315,
+            "targets": 299,
+            "persistence": 128.7273
+          },
+          {
+            "iso2": "MV",
+            "sources": 33,
+            "reports": 2147,
+            "targets": 165,
+            "persistence": 265.2727
+          },
+          {
+            "iso2": "GA",
+            "sources": 32,
+            "reports": 2029,
+            "targets": 297,
+            "persistence": 113.4688
+          },
+          {
+            "iso2": "CD",
+            "sources": 31,
+            "reports": 5214,
+            "targets": 334,
+            "persistence": 64.871
+          },
+          {
+            "iso2": "BN",
+            "sources": 28,
+            "reports": 4993,
+            "targets": 495,
+            "persistence": 242.6071
+          },
+          {
+            "iso2": "NA",
+            "sources": 28,
+            "reports": 555,
+            "targets": 81,
+            "persistence": 86.1429
+          },
+          {
+            "iso2": "AD",
+            "sources": 26,
+            "reports": 33474,
+            "targets": 123,
+            "persistence": 114.3462
+          },
+          {
+            "iso2": "CW",
+            "sources": 24,
+            "reports": 4686,
+            "targets": 213,
+            "persistence": 128.25
+          },
+          {
+            "iso2": "ME",
+            "sources": 22,
+            "reports": 6374,
+            "targets": 161,
+            "persistence": 131.8182
+          },
+          {
+            "iso2": "LR",
+            "sources": 20,
+            "reports": 1022,
+            "targets": 234,
+            "persistence": 147.6
+          },
+          {
+            "iso2": "MC",
+            "sources": 20,
+            "reports": 116662,
+            "targets": 1903,
+            "persistence": 207.1
+          },
+          {
+            "iso2": "GF",
+            "sources": 18,
+            "reports": 1616,
+            "targets": 418,
+            "persistence": 112.4444
+          },
+          {
+            "iso2": "GY",
+            "sources": 18,
+            "reports": 823,
+            "targets": 45,
+            "persistence": 154.3333
+          },
+          {
+            "iso2": "SR",
+            "sources": 18,
+            "reports": 3539,
+            "targets": 81,
+            "persistence": 240.3333
+          },
+          {
+            "iso2": "GU",
+            "sources": 17,
+            "reports": 1086,
+            "targets": 188,
+            "persistence": 249.9412
+          },
+          {
+            "iso2": "SO",
+            "sources": 17,
+            "reports": 193233,
+            "targets": 106,
+            "persistence": 76.2353
+          },
+          {
+            "iso2": "TM",
+            "sources": 16,
+            "reports": 265065,
+            "targets": 388,
+            "persistence": 163.5
+          },
+          {
+            "iso2": "BZ",
+            "sources": 15,
+            "reports": 9312,
+            "targets": 120,
+            "persistence": 112.7333
+          },
+          {
+            "iso2": "HT",
+            "sources": 15,
+            "reports": 3805,
+            "targets": 840,
+            "persistence": 78.6
+          },
+          {
+            "iso2": "MR",
+            "sources": 14,
+            "reports": 15889,
+            "targets": 598,
+            "persistence": 94.5714
+          },
+          {
+            "iso2": "MW",
+            "sources": 14,
+            "reports": 8730,
+            "targets": 549,
+            "persistence": 141.6429
+          },
+          {
+            "iso2": "AG",
+            "sources": 13,
+            "reports": 1308,
+            "targets": 95,
+            "persistence": 48.6923
+          },
+          {
+            "iso2": "BJ",
+            "sources": 13,
+            "reports": 490,
+            "targets": 59,
+            "persistence": 74.6154
+          },
+          {
+            "iso2": "CV",
+            "sources": 13,
+            "reports": 221,
+            "targets": 73,
+            "persistence": 38.6154
+          },
+          {
+            "iso2": "GM",
+            "sources": 13,
+            "reports": 410,
+            "targets": 69,
+            "persistence": 55.0
+          },
+          {
+            "iso2": "BM",
+            "sources": 12,
+            "reports": 3461,
+            "targets": 52,
+            "persistence": 77.0833
+          },
+          {
+            "iso2": "FJ",
+            "sources": 12,
+            "reports": 153,
+            "targets": 20,
+            "persistence": 63.25
+          },
+          {
+            "iso2": "NE",
+            "sources": 12,
+            "reports": 887,
+            "targets": 25,
+            "persistence": 128.3333
+          },
+          {
+            "iso2": "PF",
+            "sources": 12,
+            "reports": 362,
+            "targets": 117,
+            "persistence": 171.6667
+          },
+          {
+            "iso2": "SD",
+            "sources": 12,
+            "reports": 892,
+            "targets": 254,
+            "persistence": 226.5
+          },
+          {
+            "iso2": "DJ",
+            "sources": 11,
+            "reports": 404,
+            "targets": 43,
+            "persistence": 180.5455
+          },
+          {
+            "iso2": "BB",
+            "sources": 10,
+            "reports": 370,
+            "targets": 38,
+            "persistence": 206.1
+          },
+          {
+            "iso2": "BT",
+            "sources": 10,
+            "reports": 510,
+            "targets": 29,
+            "persistence": 216.0
+          },
+          {
+            "iso2": "ER",
+            "sources": 10,
+            "reports": 1676376,
+            "targets": 1025,
+            "persistence": 140.3
+          },
+          {
+            "iso2": "LC",
+            "sources": 10,
+            "reports": 1686,
+            "targets": 25,
+            "persistence": 57.5
+          },
+          {
+            "iso2": "PG",
+            "sources": 10,
+            "reports": 394,
+            "targets": 164,
+            "persistence": 78.9
+          },
+          {
+            "iso2": "VG",
+            "sources": 10,
+            "reports": 2887,
+            "targets": 37,
+            "persistence": 90.3
+          },
+          {
+            "iso2": "IM",
+            "sources": 9,
+            "reports": 22322,
+            "targets": 243,
+            "persistence": 110.6667
+          },
+          {
+            "iso2": "VC",
+            "sources": 9,
+            "reports": 1231,
+            "targets": 24,
+            "persistence": 71.5556
+          },
+          {
+            "iso2": "CU",
+            "sources": 8,
+            "reports": 1469,
+            "targets": 24,
+            "persistence": 52.125
+          },
+          {
+            "iso2": "TD",
+            "sources": 8,
+            "reports": 5408,
+            "targets": 143,
+            "persistence": 179.625
+          },
+          {
+            "iso2": "VI",
+            "sources": 8,
+            "reports": 1977,
+            "targets": 181,
+            "persistence": 126.0
+          },
+          {
+            "iso2": "AW",
+            "sources": 7,
+            "reports": 14173,
+            "targets": 27,
+            "persistence": 99.7143
+          },
+          {
+            "iso2": "FO",
+            "sources": 7,
+            "reports": 4211,
+            "targets": 28,
+            "persistence": 147.2857
+          },
+          {
+            "iso2": "GN",
+            "sources": 7,
+            "reports": 232,
+            "targets": 23,
+            "persistence": 50.5714
+          },
+          {
+            "iso2": "KY",
+            "sources": 7,
+            "reports": 320,
+            "targets": 42,
+            "persistence": 83.4286
+          },
+          {
+            "iso2": "NC",
+            "sources": 7,
+            "reports": 536,
+            "targets": 71,
+            "persistence": 175.4286
+          },
+          {
+            "iso2": "LI",
+            "sources": 6,
+            "reports": 705,
+            "targets": 29,
+            "persistence": 80.3333
+          },
+          {
+            "iso2": "SX",
+            "sources": 6,
+            "reports": 167,
+            "targets": 51,
+            "persistence": 125.8333
+          },
+          {
+            "iso2": "BI",
+            "sources": 5,
+            "reports": 369,
+            "targets": 30,
+            "persistence": 367.6
+          },
+          {
+            "iso2": "GD",
+            "sources": 5,
+            "reports": 86,
+            "targets": 8,
+            "persistence": 84.0
+          },
+          {
+            "iso2": "GL",
+            "sources": 5,
+            "reports": 703,
+            "targets": 20,
+            "persistence": 145.0
+          },
+          {
+            "iso2": "LS",
+            "sources": 5,
+            "reports": 5059,
+            "targets": 76,
+            "persistence": 75.6
+          },
+          {
+            "iso2": "SZ",
+            "sources": 5,
+            "reports": 545,
+            "targets": 82,
+            "persistence": 187.6
+          },
+          {
+            "iso2": "YE",
+            "sources": 5,
+            "reports": 1285,
+            "targets": 158,
+            "persistence": 85.4
+          },
+          {
+            "iso2": "BQ",
+            "sources": 4,
+            "reports": 32,
+            "targets": 18,
+            "persistence": 57.0
+          },
+          {
+            "iso2": "GQ",
+            "sources": 4,
+            "reports": 36,
+            "targets": 8,
+            "persistence": 46.5
+          },
+          {
+            "iso2": "KM",
+            "sources": 4,
+            "reports": 240,
+            "targets": 78,
+            "persistence": 512.0
+          },
+          {
+            "iso2": "TL",
+            "sources": 4,
+            "reports": 1029,
+            "targets": 76,
+            "persistence": 42.0
+          },
+          {
+            "iso2": "XX",
+            "sources": 4,
+            "reports": 496008,
+            "targets": 8,
+            "persistence": 311.5
+          },
+          {
+            "iso2": "DM",
+            "sources": 3,
+            "reports": 229,
+            "targets": 123,
+            "persistence": 387.0
+          },
+          {
+            "iso2": "KN",
+            "sources": 3,
+            "reports": 29,
+            "targets": 5,
+            "persistence": 35.6667
+          },
+          {
+            "iso2": "MF",
+            "sources": 3,
+            "reports": 73,
+            "targets": 16,
+            "persistence": 103.0
+          },
+          {
+            "iso2": "SB",
+            "sources": 3,
+            "reports": 81,
+            "targets": 8,
+            "persistence": 71.3333
+          },
+          {
+            "iso2": "CK",
+            "sources": 2,
+            "reports": 2,
+            "targets": 2,
+            "persistence": 17.5
+          },
+          {
+            "iso2": "GG",
+            "sources": 2,
+            "reports": 12,
+            "targets": 5,
+            "persistence": 48.5
+          },
+          {
+            "iso2": "JE",
+            "sources": 2,
+            "reports": 506,
+            "targets": 34,
+            "persistence": 245.0
+          },
+          {
+            "iso2": "SL",
+            "sources": 2,
+            "reports": 2392,
+            "targets": 30,
+            "persistence": 58.5
+          },
+          {
+            "iso2": "SS",
+            "sources": 2,
+            "reports": 22,
+            "targets": 8,
+            "persistence": 87.5
+          },
+          {
+            "iso2": "ST",
+            "sources": 2,
+            "reports": 10,
+            "targets": 2,
+            "persistence": 38.0
+          },
+          {
+            "iso2": "YT",
+            "sources": 2,
+            "reports": 57,
+            "targets": 23,
+            "persistence": 55.5
+          },
+          {
+            "iso2": "AI",
+            "sources": 1,
+            "reports": 15784,
+            "targets": 6,
+            "persistence": 134.0
+          },
+          {
+            "iso2": "BV",
+            "sources": 1,
+            "reports": 20,
+            "targets": 1,
+            "persistence": 0.0
+          },
+          {
+            "iso2": "CF",
+            "sources": 1,
+            "reports": 2,
+            "targets": 1,
+            "persistence": 0.0
+          },
+          {
+            "iso2": "GI",
+            "sources": 1,
+            "reports": 177,
+            "targets": 3,
+            "persistence": 37.0
+          },
+          {
+            "iso2": "MP",
+            "sources": 1,
+            "reports": 46,
+            "targets": 11,
+            "persistence": 131.0
+          },
+          {
+            "iso2": "PM",
+            "sources": 1,
+            "reports": 23,
+            "targets": 16,
+            "persistence": 46.0
+          },
+          {
+            "iso2": "PW",
+            "sources": 1,
+            "reports": 2,
+            "targets": 1,
+            "persistence": 0.0
+          },
+          {
+            "iso2": "SM",
+            "sources": 1,
+            "reports": 3,
+            "targets": 3,
+            "persistence": 97.0
+          },
+          {
+            "iso2": "WS",
+            "sources": 1,
+            "reports": 10,
+            "targets": 1,
+            "persistence": 54.0
+          }
+        ],
+        "country_rows": 219,
+        "total_sources": 308620,
+        "total_reports": 647383782,
+        "total_targets": 11526752,
+        "unknown_country_sources": 2,
+        "unknown_country_reports": 367,
+        "unknown_country_targets": 34,
+        "field_notes": {
+          "sources": "Distinct source IP addresses, as labeled by SANS ISC.",
+          "reports": "Report count, as labeled by SANS ISC.",
+          "targets": "Distinct target IP addresses, as labeled by SANS ISC.",
+          "persistence": "SANS field `persistance`, stored unchanged. The API docs do not define the unit, so the page does not chart it.",
+          "window": "The country endpoint does not label its time window. This project does not guess one."
+        }
+      }
+    },
+    "feodo": {
+      "id": "feodo",
+      "name": "abuse.ch Feodo Tracker botnet C2 blocklist",
+      "url": "https://feodotracker.abuse.ch/downloads/ipblocklist.json",
+      "license": "abuse.ch Feodo Tracker terms: https://feodotracker.abuse.ch/blocklist/ . Counts only; IP addresses are not republished.",
+      "ok": true,
+      "skipped": false,
+      "stale": false,
+      "error": null,
+      "reason": null,
+      "stale_reason": null,
+      "retrieved_at": "2026-10-21T19:41:18+00:00",
+      "last_attempt_at": null,
+      "data": {
+        "feed_updated": "2026-03-04 14:28:39 UTC",
+        "newest_first_seen": "2026-03-04 14:28:39",
+        "newest_last_online": "2026-03-12",
+        "total": 5,
+        "online": 1,
+        "offline": 4,
+        "by_country": [
+          {
+            "iso2": "US",
+            "count": 3,
+            "online": 1
+          },
+          {
+            "iso2": "GB",
+            "count": 1,
+            "online": 0
+          },
+          {
+            "iso2": "JP",
+            "count": 1,
+            "online": 0
+          }
+        ],
+        "by_malware": [
+          {
+            "name": "QakBot",
+            "count": 4
+          },
+          {
+            "name": "Emotet",
+            "count": 1
+          }
+        ],
+        "other_families": 0,
+        "distinct_families": 2,
+        "zambia": 0
+      }
+    },
+    "ransomware": {
+      "id": "ransomware",
+      "name": "Ransomware.live open victim dataset",
+      "url": "https://data.ransomware.live/victims.json",
+      "license": "Non-commercial academic use with attribution. Source: Ransomware.live (https://www.ransomware.live/). Raw victim records are not republished. Terms: https://www.ransomware.live/t&c",
+      "ok": true,
+      "skipped": false,
+      "stale": false,
+      "error": null,
+      "reason": null,
+      "stale_reason": null,
+      "retrieved_at": "2026-10-21T19:41:18+00:00",
+      "last_attempt_at": null,
+      "data": {
+        "total": 33084,
+        "unknown_country": 8308,
+        "unknown_sector": 1625,
+        "global_finance": 1862,
+        "by_country": [
+          {
+            "iso2": "US",
+            "count": 10844
+          },
+          {
+            "iso2": "GB",
+            "count": 1157
+          },
+          {
+            "iso2": "DE",
+            "count": 1133
+          },
+          {
+            "iso2": "CA",
+            "count": 1121
+          },
+          {
+            "iso2": "IT",
+            "count": 734
+          },
+          {
+            "iso2": "FR",
+            "count": 709
+          },
+          {
+            "iso2": "BR",
+            "count": 605
+          },
+          {
+            "iso2": "IN",
+            "count": 564
+          },
+          {
+            "iso2": "AU",
+            "count": 541
+          },
+          {
+            "iso2": "ES",
+            "count": 523
+          },
+          {
+            "iso2": "JP",
+            "count": 356
+          },
+          {
+            "iso2": "MX",
+            "count": 325
+          },
+          {
+            "iso2": "CH",
+            "count": 257
+          },
+          {
+            "iso2": "TW",
+            "count": 235
+          },
+          {
+            "iso2": "TH",
+            "count": 232
+          },
+          {
+            "iso2": "AR",
+            "count": 216
+          },
+          {
+            "iso2": "SG",
+            "count": 198
+          },
+          {
+            "iso2": "NL",
+            "count": 196
+          },
+          {
+            "iso2": "AE",
+            "count": 192
+          },
+          {
+            "iso2": "IL",
+            "count": 188
+          },
+          {
+            "iso2": "BE",
+            "count": 183
+          },
+          {
+            "iso2": "TR",
+            "count": 181
+          },
+          {
+            "iso2": "SE",
+            "count": 176
+          },
+          {
+            "iso2": "MY",
+            "count": 161
+          },
+          {
+            "iso2": "CO",
+            "count": 158
+          },
+          {
+            "iso2": "ID",
+            "count": 154
+          },
+          {
+            "iso2": "CN",
+            "count": 150
+          },
+          {
+            "iso2": "AT",
+            "count": 147
+          },
+          {
+            "iso2": "KR",
+            "count": 146
+          },
+          {
+            "iso2": "PL",
+            "count": 142
+          },
+          {
+            "iso2": "ZA",
+            "count": 138
+          },
+          {
+            "iso2": "HK",
+            "count": 114
+          },
+          {
+            "iso2": "CZ",
+            "count": 107
+          },
+          {
+            "iso2": "PT",
+            "count": 96
+          },
+          {
+            "iso2": "CL",
+            "count": 96
+          },
+          {
+            "iso2": "PH",
+            "count": 95
+          },
+          {
+            "iso2": "PE",
+            "count": 93
+          },
+          {
+            "iso2": "VN",
+            "count": 86
+          },
+          {
+            "iso2": "SA",
+            "count": 86
+          },
+          {
+            "iso2": "DK",
+            "count": 85
+          },
+          {
+            "iso2": "EG",
+            "count": 80
+          },
+          {
+            "iso2": "IE",
+            "count": 79
+          },
+          {
+            "iso2": "RU",
+            "count": 74
+          },
+          {
+            "iso2": "RO",
+            "count": 73
+          },
+          {
+            "iso2": "NO",
+            "count": 69
+          },
+          {
+            "iso2": "NZ",
+            "count": 65
+          },
+          {
+            "iso2": "GR",
+            "count": 52
+          },
+          {
+            "iso2": "FI",
+            "count": 47
+          },
+          {
+            "iso2": "PK",
+            "count": 45
+          },
+          {
+            "iso2": "BG",
+            "count": 44
+          },
+          {
+            "iso2": "EC",
+            "count": 38
+          },
+          {
+            "iso2": "VE",
+            "count": 38
+          },
+          {
+            "iso2": "MA",
+            "count": 35
+          },
+          {
+            "iso2": "IR",
+            "count": 34
+          },
+          {
+            "iso2": "HR",
+            "count": 31
+          },
+          {
+            "iso2": "HU",
+            "count": 30
+          },
+          {
+            "iso2": "LU",
+            "count": 29
+          },
+          {
+            "iso2": "DO",
+            "count": 29
+          },
+          {
+            "iso2": "SK",
+            "count": 27
+          },
+          {
+            "iso2": "BD",
+            "count": 27
+          },
+          {
+            "iso2": "KE",
+            "count": 27
+          },
+          {
+            "iso2": "OM",
+            "count": 25
+          },
+          {
+            "iso2": "JO",
+            "count": 25
+          },
+          {
+            "iso2": "TN",
+            "count": 24
+          },
+          {
+            "iso2": "NG",
+            "count": 24
+          },
+          {
+            "iso2": "QA",
+            "count": 24
+          },
+          {
+            "iso2": "CR",
+            "count": 23
+          },
+          {
+            "iso2": "GT",
+            "count": 23
+          },
+          {
+            "iso2": "UY",
+            "count": 22
+          },
+          {
+            "iso2": "PR",
+            "count": 22
+          },
+          {
+            "iso2": "PA",
+            "count": 22
+          },
+          {
+            "iso2": "LK",
+            "count": 21
+          },
+          {
+            "iso2": "KW",
+            "count": 20
+          },
+          {
+            "iso2": "CY",
+            "count": 20
+          },
+          {
+            "iso2": "PY",
+            "count": 18
+          },
+          {
+            "iso2": "NA",
+            "count": 16
+          },
+          {
+            "iso2": "RS",
+            "count": 16
+          },
+          {
+            "iso2": "JM",
+            "count": 16
+          },
+          {
+            "iso2": "LB",
+            "count": 16
+          },
+          {
+            "iso2": "BO",
+            "count": 15
+          },
+          {
+            "iso2": "TT",
+            "count": 13
+          },
+          {
+            "iso2": "TZ",
+            "count": 13
+          },
+          {
+            "iso2": "DZ",
+            "count": 12
+          },
+          {
+            "iso2": "SV",
+            "count": 12
+          },
+          {
+            "iso2": "LT",
+            "count": 11
+          },
+          {
+            "iso2": "AO",
+            "count": 11
+          },
+          {
+            "iso2": "UA",
+            "count": 11
+          },
+          {
+            "iso2": "BS",
+            "count": 11
+          },
+          {
+            "iso2": "SN",
+            "count": 10
+          },
+          {
+            "iso2": "MM",
+            "count": 10
+          },
+          {
+            "iso2": "GH",
+            "count": 10
+          },
+          {
+            "iso2": "SI",
+            "count": 10
+          },
+          {
+            "iso2": "MN",
+            "count": 9
+          },
+          {
+            "iso2": "MT",
+            "count": 9
+          },
+          {
+            "iso2": "MU",
+            "count": 9
+          },
+          {
+            "iso2": "IQ",
+            "count": 9
+          },
+          {
+            "iso2": "BH",
+            "count": 9
+          },
+          {
+            "iso2": "BB",
+            "count": 9
+          },
+          {
+            "iso2": "MK",
+            "count": 8
+          },
+          {
+            "iso2": "LV",
+            "count": 8
+          },
+          {
+            "iso2": "IS",
+            "count": 8
+          },
+          {
+            "iso2": "GE",
+            "count": 7
+          },
+          {
+            "iso2": "BW",
+            "count": 7
+          },
+          {
+            "iso2": "ZW",
+            "count": 7
+          },
+          {
+            "iso2": "ZM",
+            "count": 7
+          },
+          {
+            "iso2": "SJ",
+            "count": 7
+          },
+          {
+            "iso2": "EE",
+            "count": 6
+          },
+          {
+            "iso2": "LA",
+            "count": 6
+          },
+          {
+            "iso2": "UZ",
+            "count": 6
+          },
+          {
+            "iso2": "CI",
+            "count": 6
+          },
+          {
+            "iso2": "CM",
+            "count": 6
+          },
+          {
+            "iso2": "PS",
+            "count": 6
+          },
+          {
+            "iso2": "FJ",
+            "count": 6
+          },
+          {
+            "iso2": "GA",
+            "count": 5
+          },
+          {
+            "iso2": "BZ",
+            "count": 5
+          },
+          {
+            "iso2": "UG",
+            "count": 5
+          },
+          {
+            "iso2": "MD",
+            "count": 5
+          },
+          {
+            "iso2": "BA",
+            "count": 5
+          },
+          {
+            "iso2": "NI",
+            "count": 5
+          },
+          {
+            "iso2": "LY",
+            "count": 5
+          },
+          {
+            "iso2": "KH",
+            "count": 5
+          },
+          {
+            "iso2": "BM",
+            "count": 5
+          },
+          {
+            "iso2": "MC",
+            "count": 5
+          },
+          {
+            "iso2": "BY",
+            "count": 5
+          },
+          {
+            "iso2": "TV",
+            "count": 5
+          },
+          {
+            "iso2": "ET",
+            "count": 4
+          },
+          {
+            "iso2": "AD",
+            "count": 4
+          },
+          {
+            "iso2": "KZ",
+            "count": 4
+          },
+          {
+            "iso2": "HT",
+            "count": 4
+          },
+          {
+            "iso2": "AG",
+            "count": 4
+          },
+          {
+            "iso2": "MO",
+            "count": 4
+          },
+          {
+            "iso2": "WS",
+            "count": 4
+          },
+          {
+            "iso2": "HN",
+            "count": 4
+          },
+          {
+            "iso2": "AL",
+            "count": 4
+          },
+          {
+            "iso2": "MV",
+            "count": 4
+          },
+          {
+            "iso2": "VG",
+            "count": 4
+          },
+          {
+            "iso2": "AW",
+            "count": 4
+          },
+          {
+            "iso2": "DM",
+            "count": 4
+          },
+          {
+            "iso2": "SD",
+            "count": 4
+          },
+          {
+            "iso2": "TL",
+            "count": 3
+          },
+          {
+            "iso2": "ML",
+            "count": 3
+          },
+          {
+            "iso2": "AZ",
+            "count": 3
+          },
+          {
+            "iso2": "AM",
+            "count": 3
+          },
+          {
+            "iso2": "SC",
+            "count": 3
+          },
+          {
+            "iso2": "TO",
+            "count": 3
+          },
+          {
+            "iso2": "NP",
+            "count": 3
+          },
+          {
+            "iso2": "TD",
+            "count": 3
+          },
+          {
+            "iso2": "PW",
+            "count": 3
+          },
+          {
+            "iso2": "AF",
+            "count": 3
+          },
+          {
+            "iso2": "VC",
+            "count": 3
+          },
+          {
+            "iso2": "RE",
+            "count": 2
+          },
+          {
+            "iso2": "VU",
+            "count": 2
+          },
+          {
+            "iso2": "AI",
+            "count": 2
+          },
+          {
+            "iso2": "YE",
+            "count": 2
+          },
+          {
+            "iso2": "PG",
+            "count": 2
+          },
+          {
+            "iso2": "TC",
+            "count": 2
+          },
+          {
+            "iso2": "NE",
+            "count": 2
+          },
+          {
+            "iso2": "MG",
+            "count": 2
+          },
+          {
+            "iso2": "MZ",
+            "count": 2
+          },
+          {
+            "iso2": "CW",
+            "count": 2
+          },
+          {
+            "iso2": "KY",
+            "count": 2
+          },
+          {
+            "iso2": "SY",
+            "count": 2
+          },
+          {
+            "iso2": "TK",
+            "count": 2
+          },
+          {
+            "iso2": "KN",
+            "count": 2
+          },
+          {
+            "iso2": "CU",
+            "count": 2
+          },
+          {
+            "iso2": "SO",
+            "count": 1
+          },
+          {
+            "iso2": "MS",
+            "count": 1
+          },
+          {
+            "iso2": "BT",
+            "count": 1
+          },
+          {
+            "iso2": "YT",
+            "count": 1
+          },
+          {
+            "iso2": "ME",
+            "count": 1
+          },
+          {
+            "iso2": "VA",
+            "count": 1
+          },
+          {
+            "iso2": "LS",
+            "count": 1
+          },
+          {
+            "iso2": "CD",
+            "count": 1
+          },
+          {
+            "iso2": "GY",
+            "count": 1
+          },
+          {
+            "iso2": "RW",
+            "count": 1
+          },
+          {
+            "iso2": "KI",
+            "count": 1
+          },
+          {
+            "iso2": "TJ",
+            "count": 1
+          },
+          {
+            "iso2": "MR",
+            "count": 1
+          },
+          {
+            "iso2": "FO",
+            "count": 1
+          },
+          {
+            "iso2": "DJ",
+            "count": 1
+          },
+          {
+            "iso2": "JE",
+            "count": 1
+          },
+          {
+            "iso2": "CG",
+            "count": 1
+          },
+          {
+            "iso2": "AX",
+            "count": 1
+          },
+          {
+            "iso2": "BF",
+            "count": 1
+          },
+          {
+            "iso2": "GN",
+            "count": 1
+          },
+          {
+            "iso2": "GM",
+            "count": 1
+          },
+          {
+            "iso2": "MQ",
+            "count": 1
+          },
+          {
+            "iso2": "LC",
+            "count": 1
+          }
+        ],
+        "by_sector": [
+          {
+            "sector": "Professional Services",
+            "count": 6146
+          },
+          {
+            "sector": "Manufacturing",
+            "count": 5773
+          },
+          {
+            "sector": "Technology",
+            "count": 4149
+          },
+          {
+            "sector": "Healthcare",
+            "count": 2817
+          },
+          {
+            "sector": "Retail & E-Commerce",
+            "count": 2283
+          },
+          {
+            "sector": "Financial Services",
+            "count": 1862
+          },
+          {
+            "sector": "Not Found",
+            "count": 1623
+          },
+          {
+            "sector": "Transportation",
+            "count": 1517
+          },
+          {
+            "sector": "Education",
+            "count": 1437
+          },
+          {
+            "sector": "Government & Defense",
+            "count": 1403
+          },
+          {
+            "sector": "Agriculture and Food Production",
+            "count": 1356
+          },
+          {
+            "sector": "Energy & Utilities",
+            "count": 999
+          }
+        ],
+        "by_year": [
+          {
+            "year": "2013",
+            "count": 2
+          },
+          {
+            "year": "2014",
+            "count": 2
+          },
+          {
+            "year": "2015",
+            "count": 6
+          },
+          {
+            "year": "2016",
+            "count": 16
+          },
+          {
+            "year": "2017",
+            "count": 40
+          },
+          {
+            "year": "2018",
+            "count": 21
+          },
+          {
+            "year": "2019",
+            "count": 55
+          },
+          {
+            "year": "2020",
+            "count": 247
+          },
+          {
+            "year": "2021",
+            "count": 1775
+          },
+          {
+            "year": "2022",
+            "count": 2837
+          },
+          {
+            "year": "2023",
+            "count": 5329
+          },
+          {
+            "year": "2024",
+            "count": 6111
+          },
+          {
+            "year": "2025",
+            "count": 8146
+          },
+          {
+            "year": "2026",
+            "count": 8497
+          }
+        ],
+        "top_groups": [
+          {
+            "name": "qilin",
+            "count": 2394
+          },
+          {
+            "name": "lockbit3",
+            "count": 2016
+          },
+          {
+            "name": "akira",
+            "count": 1646
+          },
+          {
+            "name": "clop",
+            "count": 1366
+          },
+          {
+            "name": "play",
+            "count": 1333
+          },
+          {
+            "name": "thegentlemen",
+            "count": 1002
+          },
+          {
+            "name": "lockbit2",
+            "count": 1002
+          },
+          {
+            "name": "incransom",
+            "count": 979
+          },
+          {
+            "name": "ransomhub",
+            "count": 842
+          },
+          {
+            "name": "alphv",
+            "count": 731
+          }
+        ],
+        "other_groups": 19773,
+        "distinct_groups": 379,
+        "africa": {
+          "total": 493,
+          "finance": 66,
+          "by_country": [
+            {
+              "iso2": "ZA",
+              "count": 138
+            },
+            {
+              "iso2": "EG",
+              "count": 80
+            },
+            {
+              "iso2": "MA",
+              "count": 35
+            },
+            {
+              "iso2": "KE",
+              "count": 27
+            },
+            {
+              "iso2": "TN",
+              "count": 24
+            },
+            {
+              "iso2": "NG",
+              "count": 24
+            },
+            {
+              "iso2": "NA",
+              "count": 16
+            },
+            {
+              "iso2": "TZ",
+              "count": 13
+            },
+            {
+              "iso2": "DZ",
+              "count": 12
+            },
+            {
+              "iso2": "AO",
+              "count": 11
+            },
+            {
+              "iso2": "SN",
+              "count": 10
+            },
+            {
+              "iso2": "GH",
+              "count": 10
+            },
+            {
+              "iso2": "MU",
+              "count": 9
+            },
+            {
+              "iso2": "BW",
+              "count": 7
+            },
+            {
+              "iso2": "ZW",
+              "count": 7
+            },
+            {
+              "iso2": "ZM",
+              "count": 7
+            },
+            {
+              "iso2": "CI",
+              "count": 6
+            },
+            {
+              "iso2": "CM",
+              "count": 6
+            },
+            {
+              "iso2": "GA",
+              "count": 5
+            },
+            {
+              "iso2": "UG",
+              "count": 5
+            },
+            {
+              "iso2": "LY",
+              "count": 5
+            },
+            {
+              "iso2": "ET",
+              "count": 4
+            },
+            {
+              "iso2": "SD",
+              "count": 4
+            },
+            {
+              "iso2": "ML",
+              "count": 3
+            },
+            {
+              "iso2": "SC",
+              "count": 3
+            },
+            {
+              "iso2": "TD",
+              "count": 3
+            },
+            {
+              "iso2": "RE",
+              "count": 2
+            },
+            {
+              "iso2": "NE",
+              "count": 2
+            },
+            {
+              "iso2": "MG",
+              "count": 2
+            },
+            {
+              "iso2": "MZ",
+              "count": 2
+            },
+            {
+              "iso2": "SO",
+              "count": 1
+            },
+            {
+              "iso2": "YT",
+              "count": 1
+            },
+            {
+              "iso2": "LS",
+              "count": 1
+            },
+            {
+              "iso2": "CD",
+              "count": 1
+            },
+            {
+              "iso2": "RW",
+              "count": 1
+            },
+            {
+              "iso2": "MR",
+              "count": 1
+            },
+            {
+              "iso2": "DJ",
+              "count": 1
+            },
+            {
+              "iso2": "CG",
+              "count": 1
+            },
+            {
+              "iso2": "BF",
+              "count": 1
+            },
+            {
+              "iso2": "GN",
+              "count": 1
+            },
+            {
+              "iso2": "GM",
+              "count": 1
+            }
+          ],
+          "by_sector": [
+            {
+              "sector": "Financial Services",
+              "count": 66
+            },
+            {
+              "sector": "Professional Services",
+              "count": 60
+            },
+            {
+              "sector": "Technology",
+              "count": 52
+            },
+            {
+              "sector": "Government & Defense",
+              "count": 52
+            },
+            {
+              "sector": "Manufacturing",
+              "count": 48
+            },
+            {
+              "sector": "Healthcare",
+              "count": 36
+            },
+            {
+              "sector": "Transportation",
+              "count": 35
+            },
+            {
+              "sector": "Energy & Utilities",
+              "count": 31
+            }
+          ],
+          "top_groups": [
+            {
+              "name": "lockbit3",
+              "count": 39
+            },
+            {
+              "name": "thegentlemen",
+              "count": 35
+            },
+            {
+              "name": "qilin",
+              "count": 26
+            },
+            {
+              "name": "alphv",
+              "count": 19
+            },
+            {
+              "name": "incransom",
+              "count": 18
+            }
+          ]
+        },
+        "zambia": {
+          "total": 7,
+          "by_sector": [
+            {
+              "sector": "Financial Services",
+              "count": 2
+            },
+            {
+              "sector": "Government & Defense",
+              "count": 2
+            },
+            {
+              "sector": "Healthcare",
+              "count": 1
+            },
+            {
+              "sector": "Professional Services",
+              "count": 1
+            },
+            {
+              "sector": "Technology",
+              "count": 1
+            }
+          ],
+          "by_group": [
+            {
+              "name": "flocker",
+              "count": 2
+            },
+            {
+              "name": "funksec",
+              "count": 2
+            },
+            {
+              "name": "krybit",
+              "count": 1
+            },
+            {
+              "name": "clop",
+              "count": 1
+            },
+            {
+              "name": "babuk2",
+              "count": 1
+            }
+          ],
+          "by_year": [
+            {
+              "year": "2025",
+              "count": 4
+            },
+            {
+              "year": "2024",
+              "count": 2
+            },
+            {
+              "year": "2026",
+              "count": 1
+            }
+          ]
+        },
+        "dataset_url": "https://data.ransomware.live/victims.json",
+        "attribution": "Source: Ransomware.live"
+      }
+    },
+    "threatfox": {
+      "id": "threatfox",
+      "name": "abuse.ch ThreatFox recent indicators",
+      "url": "https://threatfox-api.abuse.ch/v2/files/exports/<Auth-Key>/recent.csv",
+      "license": "abuse.ch community API. A free Auth-Key is required. Counts only; raw indicators are not republished. https://auth.abuse.ch/",
+      "ok": false,
+      "skipped": true,
+      "stale": false,
+      "error": null,
+      "reason": "ABUSECH_AUTH_KEY is not set",
+      "stale_reason": null,
+      "retrieved_at": "2026-10-21T19:41:21+00:00",
+      "last_attempt_at": null,
+      "data": null
+    },
+    "urlhaus": {
+      "id": "urlhaus",
+      "name": "abuse.ch URLhaus recent malware URLs",
+      "url": "https://urlhaus-api.abuse.ch/v2/files/exports/<Auth-Key>/recent.csv",
+      "license": "abuse.ch community API. A free Auth-Key is required. Counts only; raw indicators are not republished. https://auth.abuse.ch/",
+      "ok": false,
+      "skipped": true,
+      "stale": false,
+      "error": null,
+      "reason": "ABUSECH_AUTH_KEY is not set",
+      "stale_reason": null,
+      "retrieved_at": "2026-10-21T19:41:21+00:00",
+      "last_attempt_at": null,
+      "data": null
+    }
+  },
+  "countries": [
+    {
+      "iso2": "AF",
+      "iso3": "AFG",
+      "numeric": "004",
+      "name": "Afghanistan",
+      "label": "Afghanistan",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "dshield_sources": 45,
+      "dshield_reports": 26406,
+      "dshield_targets": 1163,
+      "ransomware_victims": 3,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AL",
+      "iso3": "ALB",
+      "numeric": "008",
+      "name": "Albania",
+      "label": "Albania",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 262,
+      "dshield_reports": 70537,
+      "dshield_targets": 3875,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "DZ",
+      "iso3": "DZA",
+      "numeric": "012",
+      "name": "Algeria",
+      "label": "Algeria",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "dshield_sources": 186,
+      "dshield_reports": 39999,
+      "dshield_targets": 1666,
+      "ransomware_victims": 12,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "numeric": "016",
+      "name": "American Samoa",
+      "label": "American Samoa",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AD",
+      "iso3": "AND",
+      "numeric": "020",
+      "name": "Andorra",
+      "label": "Andorra",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 26,
+      "dshield_reports": 33474,
+      "dshield_targets": 123,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AO",
+      "iso3": "AGO",
+      "numeric": "024",
+      "name": "Angola",
+      "label": "Angola",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 96,
+      "dshield_reports": 23704,
+      "dshield_targets": 1128,
+      "ransomware_victims": 11,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AI",
+      "iso3": "AIA",
+      "numeric": "660",
+      "name": "Anguilla",
+      "label": "Anguilla",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 1,
+      "dshield_reports": 15784,
+      "dshield_targets": 6,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AQ",
+      "iso3": "ATA",
+      "numeric": "010",
+      "name": "Antarctica",
+      "label": "Antarctica",
+      "region": "",
+      "subregion": "",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AG",
+      "iso3": "ATG",
+      "numeric": "028",
+      "name": "Antigua and Barbuda",
+      "label": "Antigua and Barbuda",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 13,
+      "dshield_reports": 1308,
+      "dshield_targets": 95,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AR",
+      "iso3": "ARG",
+      "numeric": "032",
+      "name": "Argentina",
+      "label": "Argentina",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 10110,
+      "dshield_reports": 700172,
+      "dshield_targets": 112445,
+      "ransomware_victims": 216,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AM",
+      "iso3": "ARM",
+      "numeric": "051",
+      "name": "Armenia",
+      "label": "Armenia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 315,
+      "dshield_reports": 133433,
+      "dshield_targets": 6304,
+      "ransomware_victims": 3,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AW",
+      "iso3": "ABW",
+      "numeric": "533",
+      "name": "Aruba",
+      "label": "Aruba",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 7,
+      "dshield_reports": 14173,
+      "dshield_targets": 27,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AU",
+      "iso3": "AUS",
+      "numeric": "036",
+      "name": "Australia",
+      "label": "Australia",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "dshield_sources": 1758,
+      "dshield_reports": 2300593,
+      "dshield_targets": 18796,
+      "ransomware_victims": 541,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AT",
+      "iso3": "AUT",
+      "numeric": "040",
+      "name": "Austria",
+      "label": "Austria",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "dshield_sources": 454,
+      "dshield_reports": 360215,
+      "dshield_targets": 3697,
+      "ransomware_victims": 147,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AZ",
+      "iso3": "AZE",
+      "numeric": "031",
+      "name": "Azerbaijan",
+      "label": "Azerbaijan",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 597,
+      "dshield_reports": 716861,
+      "dshield_targets": 5106,
+      "ransomware_victims": 3,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BS",
+      "iso3": "BHS",
+      "numeric": "044",
+      "name": "Bahamas",
+      "label": "Bahamas",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 38,
+      "dshield_reports": 3306,
+      "dshield_targets": 174,
+      "ransomware_victims": 11,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BH",
+      "iso3": "BHR",
+      "numeric": "048",
+      "name": "Bahrain",
+      "label": "Bahrain",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 92,
+      "dshield_reports": 24006,
+      "dshield_targets": 1002,
+      "ransomware_victims": 9,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BD",
+      "iso3": "BGD",
+      "numeric": "050",
+      "name": "Bangladesh",
+      "label": "Bangladesh",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "dshield_sources": 2639,
+      "dshield_reports": 522232,
+      "dshield_targets": 26580,
+      "ransomware_victims": 27,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BB",
+      "iso3": "BRB",
+      "numeric": "052",
+      "name": "Barbados",
+      "label": "Barbados",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 10,
+      "dshield_reports": 370,
+      "dshield_targets": 38,
+      "ransomware_victims": 9,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BY",
+      "iso3": "BLR",
+      "numeric": "112",
+      "name": "Belarus",
+      "label": "Belarus",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "dshield_sources": 246,
+      "dshield_reports": 21785,
+      "dshield_targets": 1111,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BE",
+      "iso3": "BEL",
+      "numeric": "056",
+      "name": "Belgium",
+      "label": "Belgium",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "dshield_sources": 880,
+      "dshield_reports": 690482,
+      "dshield_targets": 20730,
+      "ransomware_victims": 183,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BZ",
+      "iso3": "BLZ",
+      "numeric": "084",
+      "name": "Belize",
+      "label": "Belize",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 15,
+      "dshield_reports": 9312,
+      "dshield_targets": 120,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BJ",
+      "iso3": "BEN",
+      "numeric": "204",
+      "name": "Benin",
+      "label": "Benin",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 13,
+      "dshield_reports": 490,
+      "dshield_targets": 59,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BM",
+      "iso3": "BMU",
+      "numeric": "060",
+      "name": "Bermuda",
+      "label": "Bermuda",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "dshield_sources": 12,
+      "dshield_reports": 3461,
+      "dshield_targets": 52,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BT",
+      "iso3": "BTN",
+      "numeric": "064",
+      "name": "Bhutan",
+      "label": "Bhutan",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "dshield_sources": 10,
+      "dshield_reports": 510,
+      "dshield_targets": 29,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BO",
+      "iso3": "BOL",
+      "numeric": "068",
+      "name": "Bolivia, Plurinational State of",
+      "label": "Bolivia",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 278,
+      "dshield_reports": 186872,
+      "dshield_targets": 5219,
+      "ransomware_victims": 15,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BQ",
+      "iso3": "BES",
+      "numeric": "535",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "label": "Bonaire, Sint Eustatius and Saba",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 4,
+      "dshield_reports": 32,
+      "dshield_targets": 18,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BA",
+      "iso3": "BIH",
+      "numeric": "070",
+      "name": "Bosnia and Herzegovina",
+      "label": "Bosnia and Herzegovina",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 64,
+      "dshield_reports": 33656,
+      "dshield_targets": 1147,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BW",
+      "iso3": "BWA",
+      "numeric": "072",
+      "name": "Botswana",
+      "label": "Botswana",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 58,
+      "dshield_reports": 36216,
+      "dshield_targets": 763,
+      "ransomware_victims": 7,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BV",
+      "iso3": "BVT",
+      "numeric": "074",
+      "name": "Bouvet Island",
+      "label": "Bouvet Island",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 1,
+      "dshield_reports": 20,
+      "dshield_targets": 1,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BR",
+      "iso3": "BRA",
+      "numeric": "076",
+      "name": "Brazil",
+      "label": "Brazil",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 11789,
+      "dshield_reports": 7050758,
+      "dshield_targets": 276972,
+      "ransomware_victims": 605,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "IO",
+      "iso3": "IOT",
+      "numeric": "086",
+      "name": "British Indian Ocean Territory",
+      "label": "British Indian Ocean Territory",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BN",
+      "iso3": "BRN",
+      "numeric": "096",
+      "name": "Brunei Darussalam",
+      "label": "Brunei",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "dshield_sources": 28,
+      "dshield_reports": 4993,
+      "dshield_targets": 495,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BG",
+      "iso3": "BGR",
+      "numeric": "100",
+      "name": "Bulgaria",
+      "label": "Bulgaria",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "dshield_sources": 1132,
+      "dshield_reports": 58047446,
+      "dshield_targets": 70412,
+      "ransomware_victims": 44,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BF",
+      "iso3": "BFA",
+      "numeric": "854",
+      "name": "Burkina Faso",
+      "label": "Burkina Faso",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 145,
+      "dshield_reports": 8168,
+      "dshield_targets": 1892,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BI",
+      "iso3": "BDI",
+      "numeric": "108",
+      "name": "Burundi",
+      "label": "Burundi",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 5,
+      "dshield_reports": 369,
+      "dshield_targets": 30,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CV",
+      "iso3": "CPV",
+      "numeric": "132",
+      "name": "Cabo Verde",
+      "label": "Cabo Verde",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 13,
+      "dshield_reports": 221,
+      "dshield_targets": 73,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "KH",
+      "iso3": "KHM",
+      "numeric": "116",
+      "name": "Cambodia",
+      "label": "Cambodia",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "dshield_sources": 192,
+      "dshield_reports": 79346,
+      "dshield_targets": 2820,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CM",
+      "iso3": "CMR",
+      "numeric": "120",
+      "name": "Cameroon",
+      "label": "Cameroon",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 122,
+      "dshield_reports": 60301,
+      "dshield_targets": 1379,
+      "ransomware_victims": 6,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CA",
+      "iso3": "CAN",
+      "numeric": "124",
+      "name": "Canada",
+      "label": "Canada",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "dshield_sources": 12687,
+      "dshield_reports": 47475629,
+      "dshield_targets": 122633,
+      "ransomware_victims": 1121,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "KY",
+      "iso3": "CYM",
+      "numeric": "136",
+      "name": "Cayman Islands",
+      "label": "Cayman Islands",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 7,
+      "dshield_reports": 320,
+      "dshield_targets": 42,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CF",
+      "iso3": "CAF",
+      "numeric": "140",
+      "name": "Central African Republic",
+      "label": "Central African Republic",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 1,
+      "dshield_reports": 2,
+      "dshield_targets": 1,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TD",
+      "iso3": "TCD",
+      "numeric": "148",
+      "name": "Chad",
+      "label": "Chad",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 8,
+      "dshield_reports": 5408,
+      "dshield_targets": 143,
+      "ransomware_victims": 3,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CL",
+      "iso3": "CHL",
+      "numeric": "152",
+      "name": "Chile",
+      "label": "Chile",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 1754,
+      "dshield_reports": 294350,
+      "dshield_targets": 19281,
+      "ransomware_victims": 96,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CN",
+      "iso3": "CHN",
+      "numeric": "156",
+      "name": "China",
+      "label": "China",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "dshield_sources": 44465,
+      "dshield_reports": 13619415,
+      "dshield_targets": 880823,
+      "ransomware_victims": 150,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CX",
+      "iso3": "CXR",
+      "numeric": "162",
+      "name": "Christmas Island",
+      "label": "Christmas Island",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CC",
+      "iso3": "CCK",
+      "numeric": "166",
+      "name": "Cocos (Keeling) Islands",
+      "label": "Cocos (Keeling) Islands",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CO",
+      "iso3": "COL",
+      "numeric": "170",
+      "name": "Colombia",
+      "label": "Colombia",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 2836,
+      "dshield_reports": 343950,
+      "dshield_targets": 32760,
+      "ransomware_victims": 158,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "KM",
+      "iso3": "COM",
+      "numeric": "174",
+      "name": "Comoros",
+      "label": "Comoros",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 4,
+      "dshield_reports": 240,
+      "dshield_targets": 78,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CG",
+      "iso3": "COG",
+      "numeric": "178",
+      "name": "Congo",
+      "label": "Congo",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 234,
+      "dshield_reports": 1956,
+      "dshield_targets": 683,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CD",
+      "iso3": "COD",
+      "numeric": "180",
+      "name": "Congo, Democratic Republic of the",
+      "label": "DR Congo",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 31,
+      "dshield_reports": 5214,
+      "dshield_targets": 334,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CK",
+      "iso3": "COK",
+      "numeric": "184",
+      "name": "Cook Islands",
+      "label": "Cook Islands",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "dshield_sources": 2,
+      "dshield_reports": 2,
+      "dshield_targets": 2,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CR",
+      "iso3": "CRI",
+      "numeric": "188",
+      "name": "Costa Rica",
+      "label": "Costa Rica",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 208,
+      "dshield_reports": 14191,
+      "dshield_targets": 2008,
+      "ransomware_victims": 23,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "HR",
+      "iso3": "HRV",
+      "numeric": "191",
+      "name": "Croatia",
+      "label": "Croatia",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 143,
+      "dshield_reports": 53021,
+      "dshield_targets": 838,
+      "ransomware_victims": 31,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CU",
+      "iso3": "CUB",
+      "numeric": "192",
+      "name": "Cuba",
+      "label": "Cuba",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 8,
+      "dshield_reports": 1469,
+      "dshield_targets": 24,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CW",
+      "iso3": "CUW",
+      "numeric": "531",
+      "name": "Curaçao",
+      "label": "Curaçao",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 24,
+      "dshield_reports": 4686,
+      "dshield_targets": 213,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CY",
+      "iso3": "CYP",
+      "numeric": "196",
+      "name": "Cyprus",
+      "label": "Cyprus",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 105,
+      "dshield_reports": 30871,
+      "dshield_targets": 1156,
+      "ransomware_victims": 20,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CZ",
+      "iso3": "CZE",
+      "numeric": "203",
+      "name": "Czechia",
+      "label": "Czechia",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "dshield_sources": 596,
+      "dshield_reports": 436922,
+      "dshield_targets": 3539,
+      "ransomware_victims": 107,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CI",
+      "iso3": "CIV",
+      "numeric": "384",
+      "name": "Côte d'Ivoire",
+      "label": "Côte d'Ivoire",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 271,
+      "dshield_reports": 13253,
+      "dshield_targets": 2199,
+      "ransomware_victims": 6,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "DK",
+      "iso3": "DNK",
+      "numeric": "208",
+      "name": "Denmark",
+      "label": "Denmark",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 443,
+      "dshield_reports": 8206404,
+      "dshield_targets": 3137,
+      "ransomware_victims": 85,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "DJ",
+      "iso3": "DJI",
+      "numeric": "262",
+      "name": "Djibouti",
+      "label": "Djibouti",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 11,
+      "dshield_reports": 404,
+      "dshield_targets": 43,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "DM",
+      "iso3": "DMA",
+      "numeric": "212",
+      "name": "Dominica",
+      "label": "Dominica",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 3,
+      "dshield_reports": 229,
+      "dshield_targets": 123,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "DO",
+      "iso3": "DOM",
+      "numeric": "214",
+      "name": "Dominican Republic",
+      "label": "Dominican Republic",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 672,
+      "dshield_reports": 95965,
+      "dshield_targets": 4452,
+      "ransomware_victims": 29,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "EC",
+      "iso3": "ECU",
+      "numeric": "218",
+      "name": "Ecuador",
+      "label": "Ecuador",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 937,
+      "dshield_reports": 94868,
+      "dshield_targets": 11221,
+      "ransomware_victims": 38,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "EG",
+      "iso3": "EGY",
+      "numeric": "818",
+      "name": "Egypt",
+      "label": "Egypt",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "dshield_sources": 624,
+      "dshield_reports": 148444,
+      "dshield_targets": 14900,
+      "ransomware_victims": 80,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SV",
+      "iso3": "SLV",
+      "numeric": "222",
+      "name": "El Salvador",
+      "label": "El Salvador",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 108,
+      "dshield_reports": 55260,
+      "dshield_targets": 1157,
+      "ransomware_victims": 12,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GQ",
+      "iso3": "GNQ",
+      "numeric": "226",
+      "name": "Equatorial Guinea",
+      "label": "Equatorial Guinea",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 4,
+      "dshield_reports": 36,
+      "dshield_targets": 8,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "ER",
+      "iso3": "ERI",
+      "numeric": "232",
+      "name": "Eritrea",
+      "label": "Eritrea",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 10,
+      "dshield_reports": 1676376,
+      "dshield_targets": 1025,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "EE",
+      "iso3": "EST",
+      "numeric": "233",
+      "name": "Estonia",
+      "label": "Estonia",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 170,
+      "dshield_reports": 149577,
+      "dshield_targets": 1202,
+      "ransomware_victims": 6,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SZ",
+      "iso3": "SWZ",
+      "numeric": "748",
+      "name": "Eswatini",
+      "label": "Eswatini",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 5,
+      "dshield_reports": 545,
+      "dshield_targets": 82,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "ET",
+      "iso3": "ETH",
+      "numeric": "231",
+      "name": "Ethiopia",
+      "label": "Ethiopia",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 255,
+      "dshield_reports": 84050,
+      "dshield_targets": 6233,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "FK",
+      "iso3": "FLK",
+      "numeric": "238",
+      "name": "Falkland Islands (Malvinas)",
+      "label": "Falkland Islands (Malvinas)",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "FO",
+      "iso3": "FRO",
+      "numeric": "234",
+      "name": "Faroe Islands",
+      "label": "Faroe Islands",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 7,
+      "dshield_reports": 4211,
+      "dshield_targets": 28,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "FJ",
+      "iso3": "FJI",
+      "numeric": "242",
+      "name": "Fiji",
+      "label": "Fiji",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "dshield_sources": 12,
+      "dshield_reports": 153,
+      "dshield_targets": 20,
+      "ransomware_victims": 6,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "FI",
+      "iso3": "FIN",
+      "numeric": "246",
+      "name": "Finland",
+      "label": "Finland",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 988,
+      "dshield_reports": 5900672,
+      "dshield_targets": 25555,
+      "ransomware_victims": 47,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "FR",
+      "iso3": "FRA",
+      "numeric": "250",
+      "name": "France",
+      "label": "France",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "dshield_sources": 5547,
+      "dshield_reports": 45447541,
+      "dshield_targets": 218995,
+      "ransomware_victims": 709,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GF",
+      "iso3": "GUF",
+      "numeric": "254",
+      "name": "French Guiana",
+      "label": "French Guiana",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 18,
+      "dshield_reports": 1616,
+      "dshield_targets": 418,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PF",
+      "iso3": "PYF",
+      "numeric": "258",
+      "name": "French Polynesia",
+      "label": "French Polynesia",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "dshield_sources": 12,
+      "dshield_reports": 362,
+      "dshield_targets": 117,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TF",
+      "iso3": "ATF",
+      "numeric": "260",
+      "name": "French Southern Territories",
+      "label": "French Southern Territories",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GA",
+      "iso3": "GAB",
+      "numeric": "266",
+      "name": "Gabon",
+      "label": "Gabon",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 32,
+      "dshield_reports": 2029,
+      "dshield_targets": 297,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GM",
+      "iso3": "GMB",
+      "numeric": "270",
+      "name": "Gambia",
+      "label": "Gambia",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 13,
+      "dshield_reports": 410,
+      "dshield_targets": 69,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GE",
+      "iso3": "GEO",
+      "numeric": "268",
+      "name": "Georgia",
+      "label": "Georgia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 478,
+      "dshield_reports": 106203,
+      "dshield_targets": 8006,
+      "ransomware_victims": 7,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "DE",
+      "iso3": "DEU",
+      "numeric": "276",
+      "name": "Germany",
+      "label": "Germany",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "dshield_sources": 6523,
+      "dshield_reports": 27813026,
+      "dshield_targets": 460216,
+      "ransomware_victims": 1133,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GH",
+      "iso3": "GHA",
+      "numeric": "288",
+      "name": "Ghana",
+      "label": "Ghana",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 83,
+      "dshield_reports": 221494,
+      "dshield_targets": 1739,
+      "ransomware_victims": 10,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GI",
+      "iso3": "GIB",
+      "numeric": "292",
+      "name": "Gibraltar",
+      "label": "Gibraltar",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 1,
+      "dshield_reports": 177,
+      "dshield_targets": 3,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GR",
+      "iso3": "GRC",
+      "numeric": "300",
+      "name": "Greece",
+      "label": "Greece",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 1015,
+      "dshield_reports": 658337,
+      "dshield_targets": 6200,
+      "ransomware_victims": 52,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GL",
+      "iso3": "GRL",
+      "numeric": "304",
+      "name": "Greenland",
+      "label": "Greenland",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "dshield_sources": 5,
+      "dshield_reports": 703,
+      "dshield_targets": 20,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GD",
+      "iso3": "GRD",
+      "numeric": "308",
+      "name": "Grenada",
+      "label": "Grenada",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 5,
+      "dshield_reports": 86,
+      "dshield_targets": 8,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GP",
+      "iso3": "GLP",
+      "numeric": "312",
+      "name": "Guadeloupe",
+      "label": "Guadeloupe",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 54,
+      "dshield_reports": 9772,
+      "dshield_targets": 842,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GU",
+      "iso3": "GUM",
+      "numeric": "316",
+      "name": "Guam",
+      "label": "Guam",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "dshield_sources": 17,
+      "dshield_reports": 1086,
+      "dshield_targets": 188,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GT",
+      "iso3": "GTM",
+      "numeric": "320",
+      "name": "Guatemala",
+      "label": "Guatemala",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 1607,
+      "dshield_reports": 41611,
+      "dshield_targets": 4378,
+      "ransomware_victims": 23,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GG",
+      "iso3": "GGY",
+      "numeric": "831",
+      "name": "Guernsey",
+      "label": "Guernsey",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 2,
+      "dshield_reports": 12,
+      "dshield_targets": 5,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GN",
+      "iso3": "GIN",
+      "numeric": "324",
+      "name": "Guinea",
+      "label": "Guinea",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 7,
+      "dshield_reports": 232,
+      "dshield_targets": 23,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GW",
+      "iso3": "GNB",
+      "numeric": "624",
+      "name": "Guinea-Bissau",
+      "label": "Guinea-Bissau",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GY",
+      "iso3": "GUY",
+      "numeric": "328",
+      "name": "Guyana",
+      "label": "Guyana",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 18,
+      "dshield_reports": 823,
+      "dshield_targets": 45,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "HT",
+      "iso3": "HTI",
+      "numeric": "332",
+      "name": "Haiti",
+      "label": "Haiti",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 15,
+      "dshield_reports": 3805,
+      "dshield_targets": 840,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "HM",
+      "iso3": "HMD",
+      "numeric": "334",
+      "name": "Heard Island and McDonald Islands",
+      "label": "Heard Island and McDonald Islands",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "VA",
+      "iso3": "VAT",
+      "numeric": "336",
+      "name": "Holy See",
+      "label": "Holy See",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "HN",
+      "iso3": "HND",
+      "numeric": "340",
+      "name": "Honduras",
+      "label": "Honduras",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 76,
+      "dshield_reports": 8561,
+      "dshield_targets": 939,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "HK",
+      "iso3": "HKG",
+      "numeric": "344",
+      "name": "Hong Kong",
+      "label": "Hong Kong",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "dshield_sources": 3252,
+      "dshield_reports": 7272897,
+      "dshield_targets": 181956,
+      "ransomware_victims": 114,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "HU",
+      "iso3": "HUN",
+      "numeric": "348",
+      "name": "Hungary",
+      "label": "Hungary",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "dshield_sources": 628,
+      "dshield_reports": 379884,
+      "dshield_targets": 2602,
+      "ransomware_victims": 30,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "IS",
+      "iso3": "ISL",
+      "numeric": "352",
+      "name": "Iceland",
+      "label": "Iceland",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 142,
+      "dshield_reports": 451545,
+      "dshield_targets": 746,
+      "ransomware_victims": 8,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "IN",
+      "iso3": "IND",
+      "numeric": "356",
+      "name": "India",
+      "label": "India",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "dshield_sources": 6110,
+      "dshield_reports": 4257488,
+      "dshield_targets": 111525,
+      "ransomware_victims": 564,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "ID",
+      "iso3": "IDN",
+      "numeric": "360",
+      "name": "Indonesia",
+      "label": "Indonesia",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "dshield_sources": 3322,
+      "dshield_reports": 3109442,
+      "dshield_targets": 64783,
+      "ransomware_victims": 154,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "IR",
+      "iso3": "IRN",
+      "numeric": "364",
+      "name": "Iran, Islamic Republic of",
+      "label": "Iran",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "dshield_sources": 988,
+      "dshield_reports": 1854016,
+      "dshield_targets": 26508,
+      "ransomware_victims": 34,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "IQ",
+      "iso3": "IRQ",
+      "numeric": "368",
+      "name": "Iraq",
+      "label": "Iraq",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 493,
+      "dshield_reports": 164570,
+      "dshield_targets": 6893,
+      "ransomware_victims": 9,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "IE",
+      "iso3": "IRL",
+      "numeric": "372",
+      "name": "Ireland",
+      "label": "Ireland",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 746,
+      "dshield_reports": 279973,
+      "dshield_targets": 7655,
+      "ransomware_victims": 79,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "IM",
+      "iso3": "IMN",
+      "numeric": "833",
+      "name": "Isle of Man",
+      "label": "Isle of Man",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 9,
+      "dshield_reports": 22322,
+      "dshield_targets": 243,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "IL",
+      "iso3": "ISR",
+      "numeric": "376",
+      "name": "Israel",
+      "label": "Israel",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 674,
+      "dshield_reports": 187687,
+      "dshield_targets": 11030,
+      "ransomware_victims": 188,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "IT",
+      "iso3": "ITA",
+      "numeric": "380",
+      "name": "Italy",
+      "label": "Italy",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 1386,
+      "dshield_reports": 2841080,
+      "dshield_targets": 17681,
+      "ransomware_victims": 734,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "JM",
+      "iso3": "JAM",
+      "numeric": "388",
+      "name": "Jamaica",
+      "label": "Jamaica",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 84,
+      "dshield_reports": 2533,
+      "dshield_targets": 827,
+      "ransomware_victims": 16,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "JP",
+      "iso3": "JPN",
+      "numeric": "392",
+      "name": "Japan",
+      "label": "Japan",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "dshield_sources": 4621,
+      "dshield_reports": 6232023,
+      "dshield_targets": 202780,
+      "ransomware_victims": 356,
+      "feodo_c2": 1,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "JE",
+      "iso3": "JEY",
+      "numeric": "832",
+      "name": "Jersey",
+      "label": "Jersey",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 2,
+      "dshield_reports": 506,
+      "dshield_targets": 34,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "JO",
+      "iso3": "JOR",
+      "numeric": "400",
+      "name": "Jordan",
+      "label": "Jordan",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 122,
+      "dshield_reports": 13826,
+      "dshield_targets": 1894,
+      "ransomware_victims": 25,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "KZ",
+      "iso3": "KAZ",
+      "numeric": "398",
+      "name": "Kazakhstan",
+      "label": "Kazakhstan",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "dshield_sources": 686,
+      "dshield_reports": 1494744,
+      "dshield_targets": 13567,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "KE",
+      "iso3": "KEN",
+      "numeric": "404",
+      "name": "Kenya",
+      "label": "Kenya",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 1057,
+      "dshield_reports": 110987,
+      "dshield_targets": 13412,
+      "ransomware_victims": 27,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "KI",
+      "iso3": "KIR",
+      "numeric": "296",
+      "name": "Kiribati",
+      "label": "Kiribati",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "KP",
+      "iso3": "PRK",
+      "numeric": "408",
+      "name": "Korea, Democratic People's Republic of",
+      "label": "North Korea",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "KR",
+      "iso3": "KOR",
+      "numeric": "410",
+      "name": "Korea, Republic of",
+      "label": "South Korea",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "dshield_sources": 4978,
+      "dshield_reports": 3788294,
+      "dshield_targets": 157427,
+      "ransomware_victims": 146,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "KW",
+      "iso3": "KWT",
+      "numeric": "414",
+      "name": "Kuwait",
+      "label": "Kuwait",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 76,
+      "dshield_reports": 14146,
+      "dshield_targets": 1233,
+      "ransomware_victims": 20,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "KG",
+      "iso3": "KGZ",
+      "numeric": "417",
+      "name": "Kyrgyzstan",
+      "label": "Kyrgyzstan",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "dshield_sources": 155,
+      "dshield_reports": 16018,
+      "dshield_targets": 1620,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "LA",
+      "iso3": "LAO",
+      "numeric": "418",
+      "name": "Lao People's Democratic Republic",
+      "label": "Laos",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "dshield_sources": 104,
+      "dshield_reports": 7582,
+      "dshield_targets": 820,
+      "ransomware_victims": 6,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "LV",
+      "iso3": "LVA",
+      "numeric": "428",
+      "name": "Latvia",
+      "label": "Latvia",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 308,
+      "dshield_reports": 233984,
+      "dshield_targets": 3521,
+      "ransomware_victims": 8,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "LB",
+      "iso3": "LBN",
+      "numeric": "422",
+      "name": "Lebanon",
+      "label": "Lebanon",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 91,
+      "dshield_reports": 4842,
+      "dshield_targets": 1016,
+      "ransomware_victims": 16,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "LS",
+      "iso3": "LSO",
+      "numeric": "426",
+      "name": "Lesotho",
+      "label": "Lesotho",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 5,
+      "dshield_reports": 5059,
+      "dshield_targets": 76,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "LR",
+      "iso3": "LBR",
+      "numeric": "430",
+      "name": "Liberia",
+      "label": "Liberia",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 20,
+      "dshield_reports": 1022,
+      "dshield_targets": 234,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "LY",
+      "iso3": "LBY",
+      "numeric": "434",
+      "name": "Libya",
+      "label": "Libya",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "dshield_sources": 73,
+      "dshield_reports": 103147,
+      "dshield_targets": 750,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "LI",
+      "iso3": "LIE",
+      "numeric": "438",
+      "name": "Liechtenstein",
+      "label": "Liechtenstein",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "dshield_sources": 6,
+      "dshield_reports": 705,
+      "dshield_targets": 29,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "LT",
+      "iso3": "LTU",
+      "numeric": "440",
+      "name": "Lithuania",
+      "label": "Lithuania",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 598,
+      "dshield_reports": 787186,
+      "dshield_targets": 70169,
+      "ransomware_victims": 11,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "LU",
+      "iso3": "LUX",
+      "numeric": "442",
+      "name": "Luxembourg",
+      "label": "Luxembourg",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "dshield_sources": 164,
+      "dshield_reports": 619699,
+      "dshield_targets": 2040,
+      "ransomware_victims": 29,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MO",
+      "iso3": "MAC",
+      "numeric": "446",
+      "name": "Macao",
+      "label": "Macao",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "dshield_sources": 86,
+      "dshield_reports": 177991,
+      "dshield_targets": 2278,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MG",
+      "iso3": "MDG",
+      "numeric": "450",
+      "name": "Madagascar",
+      "label": "Madagascar",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 33,
+      "dshield_reports": 1315,
+      "dshield_targets": 299,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MW",
+      "iso3": "MWI",
+      "numeric": "454",
+      "name": "Malawi",
+      "label": "Malawi",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 14,
+      "dshield_reports": 8730,
+      "dshield_targets": 549,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MY",
+      "iso3": "MYS",
+      "numeric": "458",
+      "name": "Malaysia",
+      "label": "Malaysia",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "dshield_sources": 1771,
+      "dshield_reports": 750626,
+      "dshield_targets": 147793,
+      "ransomware_victims": 161,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MV",
+      "iso3": "MDV",
+      "numeric": "462",
+      "name": "Maldives",
+      "label": "Maldives",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "dshield_sources": 33,
+      "dshield_reports": 2147,
+      "dshield_targets": 165,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "ML",
+      "iso3": "MLI",
+      "numeric": "466",
+      "name": "Mali",
+      "label": "Mali",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 82,
+      "dshield_reports": 661,
+      "dshield_targets": 357,
+      "ransomware_victims": 3,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MT",
+      "iso3": "MLT",
+      "numeric": "470",
+      "name": "Malta",
+      "label": "Malta",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 42,
+      "dshield_reports": 4524,
+      "dshield_targets": 485,
+      "ransomware_victims": 9,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MH",
+      "iso3": "MHL",
+      "numeric": "584",
+      "name": "Marshall Islands",
+      "label": "Marshall Islands",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MQ",
+      "iso3": "MTQ",
+      "numeric": "474",
+      "name": "Martinique",
+      "label": "Martinique",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 47,
+      "dshield_reports": 7698,
+      "dshield_targets": 497,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MR",
+      "iso3": "MRT",
+      "numeric": "478",
+      "name": "Mauritania",
+      "label": "Mauritania",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 14,
+      "dshield_reports": 15889,
+      "dshield_targets": 598,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MU",
+      "iso3": "MUS",
+      "numeric": "480",
+      "name": "Mauritius",
+      "label": "Mauritius",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 43,
+      "dshield_reports": 48510,
+      "dshield_targets": 852,
+      "ransomware_victims": 9,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "YT",
+      "iso3": "MYT",
+      "numeric": "175",
+      "name": "Mayotte",
+      "label": "Mayotte",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 2,
+      "dshield_reports": 57,
+      "dshield_targets": 23,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MX",
+      "iso3": "MEX",
+      "numeric": "484",
+      "name": "Mexico",
+      "label": "Mexico",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 3241,
+      "dshield_reports": 820805,
+      "dshield_targets": 45445,
+      "ransomware_victims": 325,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "FM",
+      "iso3": "FSM",
+      "numeric": "583",
+      "name": "Micronesia, Federated States of",
+      "label": "Micronesia, Federated States of",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MD",
+      "iso3": "MDA",
+      "numeric": "498",
+      "name": "Moldova, Republic of",
+      "label": "Moldova",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "dshield_sources": 393,
+      "dshield_reports": 176946,
+      "dshield_targets": 7664,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MC",
+      "iso3": "MCO",
+      "numeric": "492",
+      "name": "Monaco",
+      "label": "Monaco",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "dshield_sources": 20,
+      "dshield_reports": 116662,
+      "dshield_targets": 1903,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MN",
+      "iso3": "MNG",
+      "numeric": "496",
+      "name": "Mongolia",
+      "label": "Mongolia",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "dshield_sources": 180,
+      "dshield_reports": 70689,
+      "dshield_targets": 3811,
+      "ransomware_victims": 9,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "ME",
+      "iso3": "MNE",
+      "numeric": "499",
+      "name": "Montenegro",
+      "label": "Montenegro",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 22,
+      "dshield_reports": 6374,
+      "dshield_targets": 161,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MS",
+      "iso3": "MSR",
+      "numeric": "500",
+      "name": "Montserrat",
+      "label": "Montserrat",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MA",
+      "iso3": "MAR",
+      "numeric": "504",
+      "name": "Morocco",
+      "label": "Morocco",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "dshield_sources": 182,
+      "dshield_reports": 172784,
+      "dshield_targets": 5346,
+      "ransomware_victims": 35,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MZ",
+      "iso3": "MOZ",
+      "numeric": "508",
+      "name": "Mozambique",
+      "label": "Mozambique",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 91,
+      "dshield_reports": 14203,
+      "dshield_targets": 1412,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MM",
+      "iso3": "MMR",
+      "numeric": "104",
+      "name": "Myanmar",
+      "label": "Myanmar",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "dshield_sources": 1263,
+      "dshield_reports": 308977,
+      "dshield_targets": 6885,
+      "ransomware_victims": 10,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NA",
+      "iso3": "NAM",
+      "numeric": "516",
+      "name": "Namibia",
+      "label": "Namibia",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 28,
+      "dshield_reports": 555,
+      "dshield_targets": 81,
+      "ransomware_victims": 16,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NR",
+      "iso3": "NRU",
+      "numeric": "520",
+      "name": "Nauru",
+      "label": "Nauru",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NP",
+      "iso3": "NPL",
+      "numeric": "524",
+      "name": "Nepal",
+      "label": "Nepal",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "dshield_sources": 462,
+      "dshield_reports": 27525,
+      "dshield_targets": 3060,
+      "ransomware_victims": 3,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NL",
+      "iso3": "NLD",
+      "numeric": "528",
+      "name": "Netherlands, Kingdom of the",
+      "label": "Netherlands",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "dshield_sources": 6858,
+      "dshield_reports": 75242455,
+      "dshield_targets": 335173,
+      "ransomware_victims": 196,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NC",
+      "iso3": "NCL",
+      "numeric": "540",
+      "name": "New Caledonia",
+      "label": "New Caledonia",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "dshield_sources": 7,
+      "dshield_reports": 536,
+      "dshield_targets": 71,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NZ",
+      "iso3": "NZL",
+      "numeric": "554",
+      "name": "New Zealand",
+      "label": "New Zealand",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "dshield_sources": 356,
+      "dshield_reports": 245431,
+      "dshield_targets": 2457,
+      "ransomware_victims": 65,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NI",
+      "iso3": "NIC",
+      "numeric": "558",
+      "name": "Nicaragua",
+      "label": "Nicaragua",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 57,
+      "dshield_reports": 9783,
+      "dshield_targets": 1032,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NE",
+      "iso3": "NER",
+      "numeric": "562",
+      "name": "Niger",
+      "label": "Niger",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 12,
+      "dshield_reports": 887,
+      "dshield_targets": 25,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NG",
+      "iso3": "NGA",
+      "numeric": "566",
+      "name": "Nigeria",
+      "label": "Nigeria",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 536,
+      "dshield_reports": 1119121,
+      "dshield_targets": 19899,
+      "ransomware_victims": 24,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NU",
+      "iso3": "NIU",
+      "numeric": "570",
+      "name": "Niue",
+      "label": "Niue",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NF",
+      "iso3": "NFK",
+      "numeric": "574",
+      "name": "Norfolk Island",
+      "label": "Norfolk Island",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MK",
+      "iso3": "MKD",
+      "numeric": "807",
+      "name": "North Macedonia",
+      "label": "North Macedonia",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 89,
+      "dshield_reports": 49561,
+      "dshield_targets": 979,
+      "ransomware_victims": 8,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MP",
+      "iso3": "MNP",
+      "numeric": "580",
+      "name": "Northern Mariana Islands",
+      "label": "Northern Mariana Islands",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "dshield_sources": 1,
+      "dshield_reports": 46,
+      "dshield_targets": 11,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "NO",
+      "iso3": "NOR",
+      "numeric": "578",
+      "name": "Norway",
+      "label": "Norway",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 472,
+      "dshield_reports": 1168587,
+      "dshield_targets": 5432,
+      "ransomware_victims": 69,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "OM",
+      "iso3": "OMN",
+      "numeric": "512",
+      "name": "Oman",
+      "label": "Oman",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 92,
+      "dshield_reports": 4183,
+      "dshield_targets": 689,
+      "ransomware_victims": 25,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PK",
+      "iso3": "PAK",
+      "numeric": "586",
+      "name": "Pakistan",
+      "label": "Pakistan",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "dshield_sources": 9348,
+      "dshield_reports": 6480959,
+      "dshield_targets": 149394,
+      "ransomware_victims": 45,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PW",
+      "iso3": "PLW",
+      "numeric": "585",
+      "name": "Palau",
+      "label": "Palau",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "dshield_sources": 1,
+      "dshield_reports": 2,
+      "dshield_targets": 1,
+      "ransomware_victims": 3,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PS",
+      "iso3": "PSE",
+      "numeric": "275",
+      "name": "Palestine, State of",
+      "label": "Palestine, State of",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 80,
+      "dshield_reports": 5262,
+      "dshield_targets": 1238,
+      "ransomware_victims": 6,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PA",
+      "iso3": "PAN",
+      "numeric": "591",
+      "name": "Panama",
+      "label": "Panama",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 171,
+      "dshield_reports": 1176691,
+      "dshield_targets": 5464,
+      "ransomware_victims": 22,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PG",
+      "iso3": "PNG",
+      "numeric": "598",
+      "name": "Papua New Guinea",
+      "label": "Papua New Guinea",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "dshield_sources": 10,
+      "dshield_reports": 394,
+      "dshield_targets": 164,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PY",
+      "iso3": "PRY",
+      "numeric": "600",
+      "name": "Paraguay",
+      "label": "Paraguay",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 390,
+      "dshield_reports": 20055,
+      "dshield_targets": 2574,
+      "ransomware_victims": 18,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PE",
+      "iso3": "PER",
+      "numeric": "604",
+      "name": "Peru",
+      "label": "Peru",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 419,
+      "dshield_reports": 133049,
+      "dshield_targets": 6302,
+      "ransomware_victims": 93,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PH",
+      "iso3": "PHL",
+      "numeric": "608",
+      "name": "Philippines",
+      "label": "Philippines",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "dshield_sources": 1400,
+      "dshield_reports": 524306,
+      "dshield_targets": 20419,
+      "ransomware_victims": 95,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PN",
+      "iso3": "PCN",
+      "numeric": "612",
+      "name": "Pitcairn",
+      "label": "Pitcairn",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PL",
+      "iso3": "POL",
+      "numeric": "616",
+      "name": "Poland",
+      "label": "Poland",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "dshield_sources": 1221,
+      "dshield_reports": 1101967,
+      "dshield_targets": 14593,
+      "ransomware_victims": 142,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PT",
+      "iso3": "PRT",
+      "numeric": "620",
+      "name": "Portugal",
+      "label": "Portugal",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 969,
+      "dshield_reports": 1294936,
+      "dshield_targets": 129125,
+      "ransomware_victims": 96,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PR",
+      "iso3": "PRI",
+      "numeric": "630",
+      "name": "Puerto Rico",
+      "label": "Puerto Rico",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 245,
+      "dshield_reports": 14748,
+      "dshield_targets": 1944,
+      "ransomware_victims": 22,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "QA",
+      "iso3": "QAT",
+      "numeric": "634",
+      "name": "Qatar",
+      "label": "Qatar",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 228,
+      "dshield_reports": 119846,
+      "dshield_targets": 1248,
+      "ransomware_victims": 24,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "RO",
+      "iso3": "ROU",
+      "numeric": "642",
+      "name": "Romania",
+      "label": "Romania",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "dshield_sources": 821,
+      "dshield_reports": 8984748,
+      "dshield_targets": 18752,
+      "ransomware_victims": 73,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "RU",
+      "iso3": "RUS",
+      "numeric": "643",
+      "name": "Russian Federation",
+      "label": "Russia",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "dshield_sources": 12937,
+      "dshield_reports": 10308832,
+      "dshield_targets": 155050,
+      "ransomware_victims": 74,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "RW",
+      "iso3": "RWA",
+      "numeric": "646",
+      "name": "Rwanda",
+      "label": "Rwanda",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 36,
+      "dshield_reports": 19905,
+      "dshield_targets": 396,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "RE",
+      "iso3": "REU",
+      "numeric": "638",
+      "name": "Réunion",
+      "label": "Réunion",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 68,
+      "dshield_reports": 5703,
+      "dshield_targets": 916,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "BL",
+      "iso3": "BLM",
+      "numeric": "652",
+      "name": "Saint Barthélemy",
+      "label": "Saint Barthélemy",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SH",
+      "iso3": "SHN",
+      "numeric": "654",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "label": "Saint Helena, Ascension and Tristan da Cunha",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "KN",
+      "iso3": "KNA",
+      "numeric": "659",
+      "name": "Saint Kitts and Nevis",
+      "label": "Saint Kitts and Nevis",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 3,
+      "dshield_reports": 29,
+      "dshield_targets": 5,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "LC",
+      "iso3": "LCA",
+      "numeric": "662",
+      "name": "Saint Lucia",
+      "label": "Saint Lucia",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 10,
+      "dshield_reports": 1686,
+      "dshield_targets": 25,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "MF",
+      "iso3": "MAF",
+      "numeric": "663",
+      "name": "Saint Martin (French part)",
+      "label": "Saint Martin (French part)",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 3,
+      "dshield_reports": 73,
+      "dshield_targets": 16,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "PM",
+      "iso3": "SPM",
+      "numeric": "666",
+      "name": "Saint Pierre and Miquelon",
+      "label": "Saint Pierre and Miquelon",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "dshield_sources": 1,
+      "dshield_reports": 23,
+      "dshield_targets": 16,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "VC",
+      "iso3": "VCT",
+      "numeric": "670",
+      "name": "Saint Vincent and the Grenadines",
+      "label": "Saint Vincent and the Grenadines",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 9,
+      "dshield_reports": 1231,
+      "dshield_targets": 24,
+      "ransomware_victims": 3,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "WS",
+      "iso3": "WSM",
+      "numeric": "882",
+      "name": "Samoa",
+      "label": "Samoa",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "dshield_sources": 1,
+      "dshield_reports": 10,
+      "dshield_targets": 1,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SM",
+      "iso3": "SMR",
+      "numeric": "674",
+      "name": "San Marino",
+      "label": "San Marino",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 1,
+      "dshield_reports": 3,
+      "dshield_targets": 3,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "ST",
+      "iso3": "STP",
+      "numeric": "678",
+      "name": "Sao Tome and Principe",
+      "label": "Sao Tome and Principe",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 2,
+      "dshield_reports": 10,
+      "dshield_targets": 2,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SA",
+      "iso3": "SAU",
+      "numeric": "682",
+      "name": "Saudi Arabia",
+      "label": "Saudi Arabia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 245,
+      "dshield_reports": 25831,
+      "dshield_targets": 2360,
+      "ransomware_victims": 86,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SN",
+      "iso3": "SEN",
+      "numeric": "686",
+      "name": "Senegal",
+      "label": "Senegal",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 57,
+      "dshield_reports": 34143,
+      "dshield_targets": 827,
+      "ransomware_victims": 10,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "RS",
+      "iso3": "SRB",
+      "numeric": "688",
+      "name": "Serbia",
+      "label": "Serbia",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 256,
+      "dshield_reports": 45878,
+      "dshield_targets": 1916,
+      "ransomware_victims": 16,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SC",
+      "iso3": "SYC",
+      "numeric": "690",
+      "name": "Seychelles",
+      "label": "Seychelles",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 525,
+      "dshield_reports": 3337500,
+      "dshield_targets": 21473,
+      "ransomware_victims": 3,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SL",
+      "iso3": "SLE",
+      "numeric": "694",
+      "name": "Sierra Leone",
+      "label": "Sierra Leone",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 2,
+      "dshield_reports": 2392,
+      "dshield_targets": 30,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SG",
+      "iso3": "SGP",
+      "numeric": "702",
+      "name": "Singapore",
+      "label": "Singapore",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "dshield_sources": 3032,
+      "dshield_reports": 14715734,
+      "dshield_targets": 216808,
+      "ransomware_victims": 198,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SX",
+      "iso3": "SXM",
+      "numeric": "534",
+      "name": "Sint Maarten (Dutch part)",
+      "label": "Sint Maarten (Dutch part)",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 6,
+      "dshield_reports": 167,
+      "dshield_targets": 51,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SK",
+      "iso3": "SVK",
+      "numeric": "703",
+      "name": "Slovakia",
+      "label": "Slovakia",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "dshield_sources": 226,
+      "dshield_reports": 233536,
+      "dshield_targets": 1459,
+      "ransomware_victims": 27,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SI",
+      "iso3": "SVN",
+      "numeric": "705",
+      "name": "Slovenia",
+      "label": "Slovenia",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 216,
+      "dshield_reports": 347285,
+      "dshield_targets": 7936,
+      "ransomware_victims": 10,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SB",
+      "iso3": "SLB",
+      "numeric": "090",
+      "name": "Solomon Islands",
+      "label": "Solomon Islands",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "dshield_sources": 3,
+      "dshield_reports": 81,
+      "dshield_targets": 8,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SO",
+      "iso3": "SOM",
+      "numeric": "706",
+      "name": "Somalia",
+      "label": "Somalia",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 17,
+      "dshield_reports": 193233,
+      "dshield_targets": 106,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "ZA",
+      "iso3": "ZAF",
+      "numeric": "710",
+      "name": "South Africa",
+      "label": "South Africa",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 1970,
+      "dshield_reports": 763833,
+      "dshield_targets": 26949,
+      "ransomware_victims": 138,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GS",
+      "iso3": "SGS",
+      "numeric": "239",
+      "name": "South Georgia and the South Sandwich Islands",
+      "label": "South Georgia and the South Sandwich Islands",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SS",
+      "iso3": "SSD",
+      "numeric": "728",
+      "name": "South Sudan",
+      "label": "South Sudan",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 2,
+      "dshield_reports": 22,
+      "dshield_targets": 8,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "ES",
+      "iso3": "ESP",
+      "numeric": "724",
+      "name": "Spain",
+      "label": "Spain",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "dshield_sources": 1887,
+      "dshield_reports": 1121840,
+      "dshield_targets": 22150,
+      "ransomware_victims": 523,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "LK",
+      "iso3": "LKA",
+      "numeric": "144",
+      "name": "Sri Lanka",
+      "label": "Sri Lanka",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "dshield_sources": 110,
+      "dshield_reports": 67943,
+      "dshield_targets": 3087,
+      "ransomware_victims": 21,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SD",
+      "iso3": "SDN",
+      "numeric": "729",
+      "name": "Sudan",
+      "label": "Sudan",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "dshield_sources": 12,
+      "dshield_reports": 892,
+      "dshield_targets": 254,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SR",
+      "iso3": "SUR",
+      "numeric": "740",
+      "name": "Suriname",
+      "label": "Suriname",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 18,
+      "dshield_reports": 3539,
+      "dshield_targets": 81,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SJ",
+      "iso3": "SJM",
+      "numeric": "744",
+      "name": "Svalbard and Jan Mayen",
+      "label": "Svalbard and Jan Mayen",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 7,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SE",
+      "iso3": "SWE",
+      "numeric": "752",
+      "name": "Sweden",
+      "label": "Sweden",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 2174,
+      "dshield_reports": 2841618,
+      "dshield_targets": 34621,
+      "ransomware_victims": 176,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "CH",
+      "iso3": "CHE",
+      "numeric": "756",
+      "name": "Switzerland",
+      "label": "Switzerland",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "dshield_sources": 2096,
+      "dshield_reports": 8930213,
+      "dshield_targets": 50714,
+      "ransomware_victims": 257,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "SY",
+      "iso3": "SYR",
+      "numeric": "760",
+      "name": "Syrian Arab Republic",
+      "label": "Syria",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 69,
+      "dshield_reports": 33035,
+      "dshield_targets": 1166,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TW",
+      "iso3": "TWN",
+      "numeric": "158",
+      "name": "Taiwan, Province of China",
+      "label": "Taiwan",
+      "region": "",
+      "subregion": "",
+      "dshield_sources": 3332,
+      "dshield_reports": 1502376,
+      "dshield_targets": 69836,
+      "ransomware_victims": 235,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TJ",
+      "iso3": "TJK",
+      "numeric": "762",
+      "name": "Tajikistan",
+      "label": "Tajikistan",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "dshield_sources": 79,
+      "dshield_reports": 17111,
+      "dshield_targets": 1415,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TZ",
+      "iso3": "TZA",
+      "numeric": "834",
+      "name": "Tanzania, United Republic of",
+      "label": "Tanzania",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 117,
+      "dshield_reports": 58093,
+      "dshield_targets": 1471,
+      "ransomware_victims": 13,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TH",
+      "iso3": "THA",
+      "numeric": "764",
+      "name": "Thailand",
+      "label": "Thailand",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "dshield_sources": 1957,
+      "dshield_reports": 968033,
+      "dshield_targets": 40497,
+      "ransomware_victims": 232,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TL",
+      "iso3": "TLS",
+      "numeric": "626",
+      "name": "Timor-Leste",
+      "label": "Timor-Leste",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "dshield_sources": 4,
+      "dshield_reports": 1029,
+      "dshield_targets": 76,
+      "ransomware_victims": 3,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TG",
+      "iso3": "TGO",
+      "numeric": "768",
+      "name": "Togo",
+      "label": "Togo",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 155,
+      "dshield_reports": 5817,
+      "dshield_targets": 1450,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TK",
+      "iso3": "TKL",
+      "numeric": "772",
+      "name": "Tokelau",
+      "label": "Tokelau",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TO",
+      "iso3": "TON",
+      "numeric": "776",
+      "name": "Tonga",
+      "label": "Tonga",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 3,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TT",
+      "iso3": "TTO",
+      "numeric": "780",
+      "name": "Trinidad and Tobago",
+      "label": "Trinidad and Tobago",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 88,
+      "dshield_reports": 10085,
+      "dshield_targets": 674,
+      "ransomware_victims": 13,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TN",
+      "iso3": "TUN",
+      "numeric": "788",
+      "name": "Tunisia",
+      "label": "Tunisia",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "dshield_sources": 238,
+      "dshield_reports": 89038,
+      "dshield_targets": 4201,
+      "ransomware_victims": 24,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TM",
+      "iso3": "TKM",
+      "numeric": "795",
+      "name": "Turkmenistan",
+      "label": "Turkmenistan",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "dshield_sources": 16,
+      "dshield_reports": 265065,
+      "dshield_targets": 388,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TC",
+      "iso3": "TCA",
+      "numeric": "796",
+      "name": "Turks and Caicos Islands",
+      "label": "Turks and Caicos Islands",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TV",
+      "iso3": "TUV",
+      "numeric": "798",
+      "name": "Tuvalu",
+      "label": "Tuvalu",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "TR",
+      "iso3": "TUR",
+      "numeric": "792",
+      "name": "Türkiye",
+      "label": "Türkiye",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 3971,
+      "dshield_reports": 21440652,
+      "dshield_targets": 97724,
+      "ransomware_victims": 181,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "UG",
+      "iso3": "UGA",
+      "numeric": "800",
+      "name": "Uganda",
+      "label": "Uganda",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 60,
+      "dshield_reports": 24889,
+      "dshield_targets": 1431,
+      "ransomware_victims": 5,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "UA",
+      "iso3": "UKR",
+      "numeric": "804",
+      "name": "Ukraine",
+      "label": "Ukraine",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "dshield_sources": 9762,
+      "dshield_reports": 1514208,
+      "dshield_targets": 128871,
+      "ransomware_victims": 11,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AE",
+      "iso3": "ARE",
+      "numeric": "784",
+      "name": "United Arab Emirates",
+      "label": "United Arab Emirates",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 486,
+      "dshield_reports": 2405466,
+      "dshield_targets": 20267,
+      "ransomware_victims": 192,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "GB",
+      "iso3": "GBR",
+      "numeric": "826",
+      "name": "United Kingdom of Great Britain and Northern Ireland",
+      "label": "United Kingdom",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 7076,
+      "dshield_reports": 30917110,
+      "dshield_targets": 1005777,
+      "ransomware_victims": 1157,
+      "feodo_c2": 1,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "UM",
+      "iso3": "UMI",
+      "numeric": "581",
+      "name": "United States Minor Outlying Islands",
+      "label": "United States Minor Outlying Islands",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "US",
+      "iso3": "USA",
+      "numeric": "840",
+      "name": "United States of America",
+      "label": "United States",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "dshield_sources": 67803,
+      "dshield_reports": 178888425,
+      "dshield_targets": 4987880,
+      "ransomware_victims": 10844,
+      "feodo_c2": 3,
+      "feodo_c2_online": 1,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "UY",
+      "iso3": "URY",
+      "numeric": "858",
+      "name": "Uruguay",
+      "label": "Uruguay",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 71,
+      "dshield_reports": 11496,
+      "dshield_targets": 384,
+      "ransomware_victims": 22,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "UZ",
+      "iso3": "UZB",
+      "numeric": "860",
+      "name": "Uzbekistan",
+      "label": "Uzbekistan",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "dshield_sources": 3066,
+      "dshield_reports": 300341,
+      "dshield_targets": 44149,
+      "ransomware_victims": 6,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "VU",
+      "iso3": "VUT",
+      "numeric": "548",
+      "name": "Vanuatu",
+      "label": "Vanuatu",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "VE",
+      "iso3": "VEN",
+      "numeric": "862",
+      "name": "Venezuela, Bolivarian Republic of",
+      "label": "Venezuela",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 1586,
+      "dshield_reports": 115599,
+      "dshield_targets": 12458,
+      "ransomware_victims": 38,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "VN",
+      "iso3": "VNM",
+      "numeric": "704",
+      "name": "Viet Nam",
+      "label": "Vietnam",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "dshield_sources": 4976,
+      "dshield_reports": 6317730,
+      "dshield_targets": 301715,
+      "ransomware_victims": 86,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "VG",
+      "iso3": "VGB",
+      "numeric": "092",
+      "name": "Virgin Islands (British)",
+      "label": "Virgin Islands (British)",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 10,
+      "dshield_reports": 2887,
+      "dshield_targets": 37,
+      "ransomware_victims": 4,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "VI",
+      "iso3": "VIR",
+      "numeric": "850",
+      "name": "Virgin Islands (U.S.)",
+      "label": "Virgin Islands (U.S.)",
+      "region": "Americas",
+      "subregion": "Latin America and the Caribbean",
+      "dshield_sources": 8,
+      "dshield_reports": 1977,
+      "dshield_targets": 181,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "WF",
+      "iso3": "WLF",
+      "numeric": "876",
+      "name": "Wallis and Futuna",
+      "label": "Wallis and Futuna",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "EH",
+      "iso3": "ESH",
+      "numeric": "732",
+      "name": "Western Sahara",
+      "label": "Western Sahara",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "XK",
+      "iso3": "",
+      "numeric": "",
+      "name": "XK",
+      "label": "Kosovo",
+      "region": "",
+      "subregion": "",
+      "dshield_sources": 90,
+      "dshield_reports": 4169,
+      "dshield_targets": 1118,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "XX",
+      "iso3": "",
+      "numeric": "",
+      "name": "XX",
+      "label": "Unknown code",
+      "region": "",
+      "subregion": "",
+      "dshield_sources": 4,
+      "dshield_reports": 496008,
+      "dshield_targets": 8,
+      "ransomware_victims": 0,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "YE",
+      "iso3": "YEM",
+      "numeric": "887",
+      "name": "Yemen",
+      "label": "Yemen",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "dshield_sources": 5,
+      "dshield_reports": 1285,
+      "dshield_targets": 158,
+      "ransomware_victims": 2,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "ZM",
+      "iso3": "ZMB",
+      "numeric": "894",
+      "name": "Zambia",
+      "label": "Zambia",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 48,
+      "dshield_reports": 22944,
+      "dshield_targets": 964,
+      "ransomware_victims": 7,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "ZW",
+      "iso3": "ZWE",
+      "numeric": "716",
+      "name": "Zimbabwe",
+      "label": "Zimbabwe",
+      "region": "Africa",
+      "subregion": "Sub-Saharan Africa",
+      "dshield_sources": 67,
+      "dshield_reports": 19944,
+      "dshield_targets": 571,
+      "ransomware_victims": 7,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    },
+    {
+      "iso2": "AX",
+      "iso3": "ALA",
+      "numeric": "248",
+      "name": "Åland Islands",
+      "label": "Åland Islands",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
+      "ransomware_victims": 1,
+      "feodo_c2": 0,
+      "feodo_c2_online": 0,
+      "abusech_ips": null
+    }
+  ]
+}

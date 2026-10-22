@@ -1,0 +1,785 @@
+<?xml version='1.0' encoding='utf-8'?>
+<workbook original-version="18.1" source-build="2025.3.1 (20253.25.1210.1815)" source-platform="win" version="18.1" xmlns:user="http://www.tableausoftware.com/xml/user">
+  <preferences />
+  <datasources>
+    <datasource caption="kpis.csv" inline="true" name="federated.kpis" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="kpis.csv" name="textscan.kpis">
+            <connection class="textscan" directory="data" filename="kpis.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.kpis" name="kpis.csv" table="[kpis#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="integer" name="kev_entries" ordinal="0" />
+            <column datatype="real" name="ransomware_known_percent" ordinal="1" />
+            <column datatype="integer" name="dshield_zambia_sources" ordinal="2" />
+            <column datatype="integer" name="zambia_ransomware_victims" ordinal="3" />
+            <column datatype="integer" name="africa_ransomware_victims" ordinal="4" />
+          </columns>
+        </relation>
+        <cols>
+          <map key="[kev_entries]" value="[kpis.csv].[kev_entries]" />
+          <map key="[ransomware_known_percent]" value="[kpis.csv].[ransomware_known_percent]" />
+          <map key="[dshield_zambia_sources]" value="[kpis.csv].[dshield_zambia_sources]" />
+          <map key="[zambia_ransomware_victims]" value="[kpis.csv].[zambia_ransomware_victims]" />
+          <map key="[africa_ransomware_victims]" value="[kpis.csv].[africa_ransomware_victims]" />
+        </cols>
+      </connection>
+      <aliases enabled="yes" />
+      <column datatype="integer" name="[kev_entries]" role="measure" type="quantitative" />
+      <column datatype="real" name="[ransomware_known_percent]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[dshield_zambia_sources]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[zambia_ransomware_victims]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[africa_ransomware_victims]" role="measure" type="quantitative" />
+    </datasource>
+    <datasource caption="africa_ransomware_by_country.csv" inline="true" name="federated.africa" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="africa_ransomware_by_country.csv" name="textscan.africa_ransomware_by_country">
+            <connection class="textscan" directory="data" filename="africa_ransomware_by_country.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.africa_ransomware_by_country" name="africa_ransomware_by_country.csv" table="[africa_ransomware_by_country#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="iso2" ordinal="0" />
+            <column datatype="string" name="country" ordinal="1" />
+            <column datatype="integer" name="victim_count" ordinal="2" />
+          </columns>
+        </relation>
+        <cols>
+          <map key="[iso2]" value="[africa_ransomware_by_country.csv].[iso2]" />
+          <map key="[country]" value="[africa_ransomware_by_country.csv].[country]" />
+          <map key="[victim_count]" value="[africa_ransomware_by_country.csv].[victim_count]" />
+        </cols>
+      </connection>
+      <aliases enabled="yes" />
+      <column datatype="string" name="[iso2]" role="dimension" type="nominal" semantic-role="[Country].[ISO3166_2]" />
+      <column datatype="string" name="[country]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[victim_count]" role="measure" type="quantitative" />
+      <column datatype="real" hidden="true" name="[Latitude (generated)]" role="measure" semantic-role="[Geographical].[Latitude]" type="quantitative" />
+      <column datatype="real" hidden="true" name="[Longitude (generated)]" role="measure" semantic-role="[Geographical].[Longitude]" type="quantitative" />
+    </datasource>
+    <datasource caption="kev_by_month.csv" inline="true" name="federated.months" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="kev_by_month.csv" name="textscan.kev_by_month">
+            <connection class="textscan" directory="data" filename="kev_by_month.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.kev_by_month" name="kev_by_month.csv" table="[kev_by_month#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="month" ordinal="0" />
+            <column datatype="integer" name="entries_added" ordinal="1" />
+          </columns>
+        </relation>
+        <cols>
+          <map key="[month]" value="[kev_by_month.csv].[month]" />
+          <map key="[entries_added]" value="[kev_by_month.csv].[entries_added]" />
+        </cols>
+      </connection>
+      <aliases enabled="yes" />
+      <column datatype="string" name="[month]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[entries_added]" role="measure" type="quantitative" />
+    </datasource>
+    <datasource caption="kev_top_vendors.csv" inline="true" name="federated.vendors" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="kev_top_vendors.csv" name="textscan.kev_top_vendors">
+            <connection class="textscan" directory="data" filename="kev_top_vendors.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.kev_top_vendors" name="kev_top_vendors.csv" table="[kev_top_vendors#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="vendor" ordinal="0" />
+            <column datatype="integer" name="entries" ordinal="1" />
+            <column datatype="integer" name="ransomware_known" ordinal="2" />
+          </columns>
+        </relation>
+        <cols>
+          <map key="[vendor]" value="[kev_top_vendors.csv].[vendor]" />
+          <map key="[entries]" value="[kev_top_vendors.csv].[entries]" />
+          <map key="[ransomware_known]" value="[kev_top_vendors.csv].[ransomware_known]" />
+        </cols>
+      </connection>
+      <aliases enabled="yes" />
+      <column datatype="string" name="[vendor]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[entries]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[ransomware_known]" role="measure" type="quantitative" />
+    </datasource>
+    <datasource caption="africa_ransomware_by_sector.csv" inline="true" name="federated.sectors" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="africa_ransomware_by_sector.csv" name="textscan.africa_ransomware_by_sector">
+            <connection class="textscan" directory="data" filename="africa_ransomware_by_sector.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.africa_ransomware_by_sector" name="africa_ransomware_by_sector.csv" table="[africa_ransomware_by_sector#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="sector" ordinal="0" />
+            <column datatype="integer" name="victim_count" ordinal="1" />
+            <column datatype="string" name="in_website_chart" ordinal="2" />
+          </columns>
+        </relation>
+        <cols>
+          <map key="[sector]" value="[africa_ransomware_by_sector.csv].[sector]" />
+          <map key="[victim_count]" value="[africa_ransomware_by_sector.csv].[victim_count]" />
+          <map key="[in_website_chart]" value="[africa_ransomware_by_sector.csv].[in_website_chart]" />
+        </cols>
+      </connection>
+      <aliases enabled="yes" />
+      <column datatype="string" name="[sector]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[victim_count]" role="measure" type="quantitative" />
+      <column datatype="string" name="[in_website_chart]" role="dimension" type="nominal" />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name="KPI KEV entries">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>CISA KEV entries</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name="federated.kpis" />
+          </datasources>
+          <datasource-dependencies datasource="federated.kpis">
+            <column datatype="integer" name="[kev_entries]" role="measure" type="quantitative" />
+            <column-instance column="[kev_entries]" derivation="Sum" name="[sum:kev_entries:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Text" />
+          </pane>
+        </panes>
+        <rows>[federated.kpis].[sum:kev_entries:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid="{5E0DA48E-A0DA-4CCB-81E7-9B55DD71B5F8}" />
+    </worksheet>
+    <worksheet name="KPI Known ransomware percent">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Known ransomware use, percent</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name="federated.kpis" />
+          </datasources>
+          <datasource-dependencies datasource="federated.kpis">
+            <column datatype="real" name="[ransomware_known_percent]" role="measure" type="quantitative" />
+            <column-instance column="[ransomware_known_percent]" derivation="Sum" name="[sum:ransomware_known_percent:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Text" />
+          </pane>
+        </panes>
+        <rows>[federated.kpis].[sum:ransomware_known_percent:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid="{F68A53F9-FF46-4038-8246-0C42CE2FFDD1}" />
+    </worksheet>
+    <worksheet name="KPI Zambia sources">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Zambia DShield source IPs</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name="federated.kpis" />
+          </datasources>
+          <datasource-dependencies datasource="federated.kpis">
+            <column datatype="integer" name="[dshield_zambia_sources]" role="measure" type="quantitative" />
+            <column-instance column="[dshield_zambia_sources]" derivation="Sum" name="[sum:dshield_zambia_sources:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Text" />
+          </pane>
+        </panes>
+        <rows>[federated.kpis].[sum:dshield_zambia_sources:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid="{44C61995-EAAB-4C35-9145-6EA8B86DFC39}" />
+    </worksheet>
+    <worksheet name="KPI Zambia victims">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Zambia ransomware victims</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name="federated.kpis" />
+          </datasources>
+          <datasource-dependencies datasource="federated.kpis">
+            <column datatype="integer" name="[zambia_ransomware_victims]" role="measure" type="quantitative" />
+            <column-instance column="[zambia_ransomware_victims]" derivation="Sum" name="[sum:zambia_ransomware_victims:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Text" />
+          </pane>
+        </panes>
+        <rows>[federated.kpis].[sum:zambia_ransomware_victims:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid="{97E46DDF-9870-40C7-AFB9-11970256730E}" />
+    </worksheet>
+    <worksheet name="KPI Africa victims">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Africa ransomware victims</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name="federated.kpis" />
+          </datasources>
+          <datasource-dependencies datasource="federated.kpis">
+            <column datatype="integer" name="[africa_ransomware_victims]" role="measure" type="quantitative" />
+            <column-instance column="[africa_ransomware_victims]" derivation="Sum" name="[sum:africa_ransomware_victims:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Text" />
+          </pane>
+        </panes>
+        <rows>[federated.kpis].[sum:africa_ransomware_victims:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid="{98A1ACA2-88F6-400B-8A8E-F850BDAB59F3}" />
+    </worksheet>
+    <worksheet name="Africa map">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Africa disclosed ransomware victims</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name="federated.africa" />
+          </datasources>
+          <datasource-dependencies datasource="federated.africa">
+            <column datatype="string" name="[iso2]" role="dimension" type="nominal" semantic-role="[Country].[ISO3166_2]" />
+            <column-instance column="[iso2]" derivation="None" name="[none:iso2:nk]" pivot="key" type="nominal" />
+            <column datatype="string" name="[country]" role="dimension" type="nominal" />
+            <column-instance column="[country]" derivation="None" name="[none:country:nk]" pivot="key" type="nominal" />
+            <column datatype="integer" name="[victim_count]" role="measure" type="quantitative" />
+            <column-instance column="[victim_count]" derivation="Sum" name="[sum:victim_count:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Multipolygon" />
+            <encodings>
+              <color column="[federated.africa].[sum:victim_count:qk]" />
+              <lod column="[federated.africa].[none:iso2:nk]" />
+              <text column="[federated.africa].[none:country:nk]" />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.africa].[Latitude (generated)]</rows>
+        <cols>[federated.africa].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid="{9D860F93-9545-440C-BDA4-6A755A0ECB5A}" />
+    </worksheet>
+    <worksheet name="KEV over time">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>CISA KEV entries added by month</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name="federated.months" />
+          </datasources>
+          <datasource-dependencies datasource="federated.months">
+            <column datatype="string" name="[month]" role="dimension" type="nominal" />
+            <column-instance column="[month]" derivation="None" name="[none:month:nk]" pivot="key" type="nominal" />
+            <column datatype="integer" name="[entries_added]" role="measure" type="quantitative" />
+            <column-instance column="[entries_added]" derivation="Sum" name="[sum:entries_added:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <manual-sort column="[federated.months].[none:month:nk]" direction="ASC">
+            <dictionary>
+              <bucket>"2021-11"</bucket>
+              <bucket>"2021-12"</bucket>
+              <bucket>"2022-01"</bucket>
+              <bucket>"2022-02"</bucket>
+              <bucket>"2022-03"</bucket>
+              <bucket>"2022-04"</bucket>
+              <bucket>"2022-05"</bucket>
+              <bucket>"2022-06"</bucket>
+              <bucket>"2022-07"</bucket>
+              <bucket>"2022-08"</bucket>
+              <bucket>"2022-09"</bucket>
+              <bucket>"2022-10"</bucket>
+              <bucket>"2022-11"</bucket>
+              <bucket>"2022-12"</bucket>
+              <bucket>"2023-01"</bucket>
+              <bucket>"2023-02"</bucket>
+              <bucket>"2023-03"</bucket>
+              <bucket>"2023-04"</bucket>
+              <bucket>"2023-05"</bucket>
+              <bucket>"2023-06"</bucket>
+              <bucket>"2023-07"</bucket>
+              <bucket>"2023-08"</bucket>
+              <bucket>"2023-09"</bucket>
+              <bucket>"2023-10"</bucket>
+              <bucket>"2023-11"</bucket>
+              <bucket>"2023-12"</bucket>
+              <bucket>"2024-01"</bucket>
+              <bucket>"2024-02"</bucket>
+              <bucket>"2024-03"</bucket>
+              <bucket>"2024-04"</bucket>
+              <bucket>"2024-05"</bucket>
+              <bucket>"2024-06"</bucket>
+              <bucket>"2024-07"</bucket>
+              <bucket>"2024-08"</bucket>
+              <bucket>"2024-09"</bucket>
+              <bucket>"2024-10"</bucket>
+              <bucket>"2024-11"</bucket>
+              <bucket>"2024-12"</bucket>
+              <bucket>"2025-01"</bucket>
+              <bucket>"2025-02"</bucket>
+              <bucket>"2025-03"</bucket>
+              <bucket>"2025-04"</bucket>
+              <bucket>"2025-05"</bucket>
+              <bucket>"2025-06"</bucket>
+              <bucket>"2025-07"</bucket>
+              <bucket>"2025-08"</bucket>
+              <bucket>"2025-09"</bucket>
+              <bucket>"2025-10"</bucket>
+              <bucket>"2025-11"</bucket>
+              <bucket>"2025-12"</bucket>
+              <bucket>"2026-01"</bucket>
+              <bucket>"2026-02"</bucket>
+              <bucket>"2026-03"</bucket>
+              <bucket>"2026-04"</bucket>
+              <bucket>"2026-05"</bucket>
+              <bucket>"2026-06"</bucket>
+              <bucket>"2026-07"</bucket>
+              <bucket>"2026-08"</bucket>
+              <bucket>"2026-09"</bucket>
+              <bucket>"2026-10"</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="mark">
+            <format attr="mark-color" value="#5ee0c3" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Line" />
+          </pane>
+        </panes>
+        <rows>[federated.months].[sum:entries_added:qk]</rows>
+        <cols>[federated.months].[none:month:nk]</cols>
+      </table>
+      <simple-id uuid="{33171832-832F-4028-82F2-23604D0E5EC9}" />
+    </worksheet>
+    <worksheet name="Top vendors">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Top exploited vendors in the CISA catalog</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name="federated.vendors" />
+          </datasources>
+          <datasource-dependencies datasource="federated.vendors">
+            <column datatype="string" name="[vendor]" role="dimension" type="nominal" />
+            <column-instance column="[vendor]" derivation="None" name="[none:vendor:nk]" pivot="key" type="nominal" />
+            <column datatype="integer" name="[entries]" role="measure" type="quantitative" />
+            <column-instance column="[entries]" derivation="Sum" name="[sum:entries:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <manual-sort column="[federated.vendors].[none:vendor:nk]" direction="ASC">
+            <dictionary>
+              <bucket>"Microsoft"</bucket>
+              <bucket>"Cisco"</bucket>
+              <bucket>"Apple"</bucket>
+              <bucket>"Adobe"</bucket>
+              <bucket>"Google"</bucket>
+              <bucket>"Oracle"</bucket>
+              <bucket>"Apache"</bucket>
+              <bucket>"Ivanti"</bucket>
+              <bucket>"Fortinet"</bucket>
+              <bucket>"Linux"</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="mark">
+            <format attr="mark-color" value="#e7b34a" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+          </pane>
+        </panes>
+        <rows>[federated.vendors].[none:vendor:nk]</rows>
+        <cols>[federated.vendors].[sum:entries:qk]</cols>
+      </table>
+      <simple-id uuid="{34476845-D92E-4CCA-AE1F-6517B1621E23}" />
+    </worksheet>
+    <worksheet name="Africa sectors">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Africa ransomware victims by sector</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name="federated.sectors" />
+          </datasources>
+          <datasource-dependencies datasource="federated.sectors">
+            <column datatype="string" name="[sector]" role="dimension" type="nominal" />
+            <column-instance column="[sector]" derivation="None" name="[none:sector:nk]" pivot="key" type="nominal" />
+            <column datatype="integer" name="[victim_count]" role="measure" type="quantitative" />
+            <column-instance column="[victim_count]" derivation="Sum" name="[sum:victim_count:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <manual-sort column="[federated.sectors].[none:sector:nk]" direction="ASC">
+            <dictionary>
+              <bucket>"Financial Services"</bucket>
+              <bucket>"Professional Services"</bucket>
+              <bucket>"Technology"</bucket>
+              <bucket>"Government &amp; Defense"</bucket>
+              <bucket>"Manufacturing"</bucket>
+              <bucket>"Healthcare"</bucket>
+              <bucket>"Transportation"</bucket>
+              <bucket>"Energy &amp; Utilities"</bucket>
+              <bucket>"Other sectors"</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="mark">
+            <format attr="mark-color" value="#e7b34a" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+          </pane>
+        </panes>
+        <rows>[federated.sectors].[none:sector:nk]</rows>
+        <cols>[federated.sectors].[sum:victim_count:qk]</cols>
+      </table>
+      <simple-id uuid="{9E8BE7C9-0492-4C2A-825C-63A489DF4F68}" />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name="Zambia Cyber Threat Map">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Zambia Cyber Threat Map</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight="1100" maxwidth="1400" minheight="1100" minwidth="1400" sizing-mode="fixed" />
+      <zones>
+        <zone h="100000" id="1" type-v2="layout-basic" w="100000" x="0" y="0">
+          <zone h="98000" id="2" param="vert" type-v2="layout-flow" w="98000" x="1000" y="1000">
+            <zone fixed-size="48" h="6000" id="3" is-fixed="true" type-v2="title" w="98000" x="1000" y="1000" />
+            <zone h="14000" id="4" param="horz" type-v2="layout-flow" w="98000" x="1000" y="7000">
+              <zone h="14000" id="10" name="KPI KEV entries" w="19600" x="1000" y="7000" />
+              <zone h="14000" id="11" name="KPI Known ransomware percent" w="19600" x="20600" y="7000" />
+              <zone h="14000" id="12" name="KPI Zambia sources" w="19600" x="40200" y="7000" />
+              <zone h="14000" id="13" name="KPI Zambia victims" w="19600" x="59800" y="7000" />
+              <zone h="14000" id="14" name="KPI Africa victims" w="19600" x="79400" y="7000" />
+            </zone>
+            <zone h="40000" id="20" param="horz" type-v2="layout-flow" w="98000" x="1000" y="21000">
+              <zone h="40000" id="21" name="Africa map" w="52000" x="1000" y="21000" />
+              <zone h="40000" id="22" name="KEV over time" w="46000" x="53000" y="21000" />
+            </zone>
+            <zone h="38000" id="23" param="horz" type-v2="layout-flow" w="98000" x="1000" y="61000">
+              <zone h="38000" id="24" name="Top vendors" w="49000" x="1000" y="61000" />
+              <zone h="38000" id="25" name="Africa sectors" w="49000" x="50000" y="61000" />
+            </zone>
+          </zone>
+        </zone>
+      </zones>
+      <simple-id uuid="{37DD9BA1-823F-4C35-AC48-84D53E195504}" />
+    </dashboard>
+  </dashboards>
+  <windows source-height="30">
+    <window class="worksheet" name="KPI KEV entries">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="30">
+            <card type="columns" />
+          </strip>
+          <strip size="30">
+            <card type="rows" />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid="{C0C0790F-6237-4DE3-AEA9-4C18ACB59D07}" />
+    </window>
+    <window class="worksheet" name="KPI Known ransomware percent">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="30">
+            <card type="columns" />
+          </strip>
+          <strip size="30">
+            <card type="rows" />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid="{B306F337-96E0-4A4B-90C0-E315387967F9}" />
+    </window>
+    <window class="worksheet" name="KPI Zambia sources">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="30">
+            <card type="columns" />
+          </strip>
+          <strip size="30">
+            <card type="rows" />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid="{87DAB274-00F2-403F-BEC1-7F0AB8C2A21A}" />
+    </window>
+    <window class="worksheet" name="KPI Zambia victims">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="30">
+            <card type="columns" />
+          </strip>
+          <strip size="30">
+            <card type="rows" />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid="{2C836F05-CDE5-47E0-B7F3-1389A15BDF7A}" />
+    </window>
+    <window class="worksheet" name="KPI Africa victims">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="30">
+            <card type="columns" />
+          </strip>
+          <strip size="30">
+            <card type="rows" />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid="{191B16BB-30ED-426D-86E7-1424DAA084EF}" />
+    </window>
+    <window class="worksheet" name="Africa map">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="30">
+            <card type="columns" />
+          </strip>
+          <strip size="30">
+            <card type="rows" />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid="{0CFA99E4-A94A-45CA-BE1A-8F6249E3AD5C}" />
+    </window>
+    <window class="worksheet" name="KEV over time">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="30">
+            <card type="columns" />
+          </strip>
+          <strip size="30">
+            <card type="rows" />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid="{5A695D88-5765-4E9D-9312-E084AB2E6BF8}" />
+    </window>
+    <window class="worksheet" name="Top vendors">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="30">
+            <card type="columns" />
+          </strip>
+          <strip size="30">
+            <card type="rows" />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid="{148AC836-E5C3-4DD0-A06D-9D2EE644B931}" />
+    </window>
+    <window class="worksheet" name="Africa sectors">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="30">
+            <card type="columns" />
+          </strip>
+          <strip size="30">
+            <card type="rows" />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid="{9634DDC5-FFD8-4B51-B275-D01CB09F98BF}" />
+    </window>
+    <window class="dashboard" maximized="true" name="Zambia Cyber Threat Map">
+      <viewpoints>
+        <viewpoint name="KPI KEV entries" />
+        <viewpoint name="KPI Known ransomware percent" />
+        <viewpoint name="KPI Zambia sources" />
+        <viewpoint name="KPI Zambia victims" />
+        <viewpoint name="KPI Africa victims" />
+        <viewpoint name="Africa map" />
+        <viewpoint name="KEV over time" />
+        <viewpoint name="Top vendors" />
+        <viewpoint name="Africa sectors" />
+      </viewpoints>
+      <simple-id uuid="{B7D490BC-37F8-491C-86B2-732E876EE4DB}" />
+    </window>
+  </windows>
+</workbook>

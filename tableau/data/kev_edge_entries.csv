@@ -1,0 +1,266 @@
+cve_id,vendor,product,date_added,ransomware_flag
+CVE-2018-0171,Cisco,IOS and IOS XE,2021-11-03,Unknown
+CVE-2018-0296,Cisco,Adaptive Security Appliance (ASA),2021-11-03,Unknown
+CVE-2018-13379,Fortinet,FortiOS,2021-11-03,Known
+CVE-2019-11510,Ivanti,Pulse Connect Secure,2021-11-03,Known
+CVE-2019-11539,Ivanti,Pulse Connect Secure and Pulse Policy Secure,2021-11-03,Known
+CVE-2019-11634,Citrix,Workspace Application and Receiver for Windows,2021-11-03,Known
+CVE-2019-13608,Citrix,StoreFront Server,2021-11-03,Known
+CVE-2019-1653,Cisco,Small Business RV320 and RV325 Routers,2021-11-03,Unknown
+CVE-2019-19781,Citrix,"Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance",2021-11-03,Known
+CVE-2019-5591,Fortinet,FortiOS,2021-11-03,Known
+CVE-2019-7481,SonicWall,SMA100,2021-11-03,Known
+CVE-2020-12271,Sophos,SFOS,2021-11-03,Known
+CVE-2020-12812,Fortinet,FortiOS,2021-11-03,Known
+CVE-2020-15505,Ivanti,MobileIron Multiple Products,2021-11-03,Unknown
+CVE-2020-3118,Cisco,IOS XR,2021-11-03,Unknown
+CVE-2020-3161,Cisco,Cisco IP Phones,2021-11-03,Unknown
+CVE-2020-3452,Cisco,Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD),2021-11-03,Unknown
+CVE-2020-3566,Cisco,IOS XR,2021-11-03,Unknown
+CVE-2020-3569,Cisco,IOS XR,2021-11-03,Unknown
+CVE-2020-3580,Cisco,Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD),2021-11-03,Known
+CVE-2020-5902,F5,BIG-IP,2021-11-03,Known
+CVE-2020-8193,Citrix,"Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance",2021-11-03,Unknown
+CVE-2020-8195,Citrix,"Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance",2021-11-03,Unknown
+CVE-2020-8196,Citrix,"Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance",2021-11-03,Unknown
+CVE-2020-8243,Ivanti,Pulse Connect Secure,2021-11-03,Unknown
+CVE-2020-8260,Ivanti,Pulse Connect Secure,2021-11-03,Unknown
+CVE-2021-1497,Cisco,HyperFlex HX,2021-11-03,Unknown
+CVE-2021-1498,Cisco,HyperFlex HX,2021-11-03,Unknown
+CVE-2021-20016,SonicWall,SSLVPN SMA100,2021-11-03,Known
+CVE-2021-20021,SonicWall,SonicWall Email Security,2021-11-03,Known
+CVE-2021-20022,SonicWall,SonicWall Email Security,2021-11-03,Known
+CVE-2021-20023,SonicWall,SonicWall Email Security,2021-11-03,Known
+CVE-2021-22893,Ivanti,Pulse Connect Secure,2021-11-03,Known
+CVE-2021-22894,Ivanti,Pulse Connect Secure,2021-11-03,Unknown
+CVE-2021-22899,Ivanti,Pulse Connect Secure,2021-11-03,Unknown
+CVE-2021-22900,Ivanti,Pulse Connect Secure,2021-11-03,Unknown
+CVE-2021-22986,F5,BIG-IP and BIG-IQ Centralized Management,2021-11-03,Known
+CVE-2021-44168,Fortinet,FortiOS,2021-12-10,Unknown
+CVE-2018-13382,Fortinet,FortiOS and FortiProxy,2022-01-10,Known
+CVE-2018-13383,Fortinet,FortiOS and FortiProxy,2022-01-10,Known
+CVE-2019-1579,Palo Alto Networks,PAN-OS,2022-01-10,Known
+CVE-2021-22991,F5,BIG-IP Traffic Management Microkernel,2022-01-18,Unknown
+CVE-2021-20038,SonicWall,SMA 100 Appliances,2022-01-28,Known
+CVE-2017-12231,Cisco,IOS software,2022-03-03,Unknown
+CVE-2017-12232,Cisco,IOS software,2022-03-03,Unknown
+CVE-2017-12233,Cisco,IOS software,2022-03-03,Unknown
+CVE-2017-12234,Cisco,IOS software,2022-03-03,Unknown
+CVE-2017-12235,Cisco,IOS software,2022-03-03,Unknown
+CVE-2017-12237,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2017-12238,Cisco,Catalyst 6800 Series Switches,2022-03-03,Unknown
+CVE-2017-12240,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2017-12319,Cisco,IOS XE Software,2022-03-03,Unknown
+CVE-2017-6627,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2017-6663,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2017-6736,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2017-6737,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2017-6738,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2017-6739,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2017-6740,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2017-6743,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2017-6744,Cisco,IOS software,2022-03-03,Unknown
+CVE-2018-0151,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2018-0154,Cisco,IOS Software,2022-03-03,Unknown
+CVE-2018-0155,Cisco,Catalyst 4500 Series Switches and Cisco Catalyst 4500-X Series Switches,2022-03-03,Unknown
+CVE-2018-0156,Cisco,IOS Software and Cisco IOS XE Software,2022-03-03,Unknown
+CVE-2018-0158,Cisco,IOS Software and Cisco IOS XE Software,2022-03-03,Unknown
+CVE-2018-0159,Cisco,IOS Software and Cisco IOS XE Software,2022-03-03,Unknown
+CVE-2018-0161,Cisco,IOS Software,2022-03-03,Unknown
+CVE-2018-0167,Cisco,"IOS, XR, and XE Software",2022-03-03,Unknown
+CVE-2018-0172,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2018-0173,Cisco,IOS and IOS XE Software,2022-03-03,Unknown
+CVE-2018-0174,Cisco,IOS XE Software,2022-03-03,Unknown
+CVE-2018-0175,Cisco,"IOS, XR, and XE Software",2022-03-03,Unknown
+CVE-2018-0179,Cisco,IOS Software,2022-03-03,Unknown
+CVE-2018-0180,Cisco,IOS Software,2022-03-03,Unknown
+CVE-2019-1652,Cisco,Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers,2022-03-03,Unknown
+CVE-2022-20699,Cisco,"Small Business RV160, RV260, RV340, and RV345 Series Routers",2022-03-03,Unknown
+CVE-2022-20700,Cisco,"Small Business RV160, RV260, RV340, and RV345 Series Routers",2022-03-03,Unknown
+CVE-2022-20701,Cisco,"Small Business RV160, RV260, RV340, and RV345 Series Routers",2022-03-03,Unknown
+CVE-2022-20703,Cisco,"Small Business RV160, RV260, RV340, and RV345 Series Routers",2022-03-03,Unknown
+CVE-2022-20708,Cisco,"Small Business RV160, RV260, RV340, and RV345 Series Routers",2022-03-03,Unknown
+CVE-2020-8218,Pulse Secure,Pulse Connect Secure,2022-03-07,Unknown
+CVE-2020-5135,SonicWall,SonicOS,2022-03-15,Known
+CVE-2009-2055,Cisco,IOS XR,2022-03-25,Unknown
+CVE-2010-3035,Cisco,IOS XR,2022-03-25,Unknown
+CVE-2015-0666,Cisco,Prime Data Center Network Manager (DCNM),2022-03-25,Unknown
+CVE-2017-3881,Cisco,IOS and IOS XE,2022-03-25,Unknown
+CVE-2017-6316,Citrix,"NetScaler SD-WAN Enterprise, CloudBridge Virtual WAN, and XenMobile Server",2022-03-25,Unknown
+CVE-2018-0125,Cisco,VPN Routers,2022-03-25,Unknown
+CVE-2018-0147,Cisco,Secure Access Control System (ACS),2022-03-25,Unknown
+CVE-2019-12989,Citrix,SD-WAN and NetScaler,2022-03-25,Unknown
+CVE-2019-12991,Citrix,SD-WAN and NetScaler,2022-03-25,Unknown
+CVE-2020-1631,Juniper,Junos OS,2022-03-25,Unknown
+CVE-2020-2021,Palo Alto Networks,PAN-OS,2022-03-25,Known
+CVE-2020-25223,Sophos,SG UTM,2022-03-25,Unknown
+CVE-2021-22941,Citrix,ShareFile,2022-03-25,Known
+CVE-2022-26318,WatchGuard,Firebox and XTM Appliances,2022-03-25,Unknown
+CVE-2019-7483,SonicWall,SMA100,2022-03-28,Unknown
+CVE-2021-20028,SonicWall,Secure Remote Access (SRA),2022-03-28,Known
+CVE-2022-1040,Sophos,Firewall,2022-03-31,Unknown
+CVE-2022-23176,WatchGuard,Firebox and XTM,2022-04-11,Unknown
+CVE-2022-1388,F5,BIG-IP,2022-05-10,Known
+CVE-2022-20821,Cisco,IOS XR,2022-05-23,Unknown
+CVE-2016-6366,Cisco,Adaptive Security Appliance (ASA),2022-05-24,Unknown
+CVE-2016-6367,Cisco,Adaptive Security Appliance (ASA),2022-05-24,Unknown
+CVE-2019-15271,Cisco,RV Series Routers,2022-06-08,Unknown
+CVE-2017-15944,Palo Alto Networks,PAN-OS,2022-08-18,Unknown
+CVE-2022-0028,Palo Alto Networks,PAN-OS,2022-08-22,Unknown
+CVE-2018-13374,Fortinet,FortiOS and FortiADC,2022-09-08,Known
+CVE-2022-3236,Sophos,Firewall,2022-09-23,Unknown
+CVE-2022-40684,Fortinet,Multiple Products,2022-10-11,Known
+CVE-2020-3153,Cisco,AnyConnect Secure,2022-10-24,Known
+CVE-2020-3433,Cisco,AnyConnect Secure,2022-10-24,Known
+CVE-2022-27518,Citrix,Application Delivery Controller (ADC) and Gateway,2022-12-13,Unknown
+CVE-2022-42475,Fortinet,FortiOS,2022-12-13,Known
+CVE-2022-41328,Fortinet,FortiOS,2023-03-14,Unknown
+CVE-2017-6742,Cisco,IOS and IOS XE Software,2023-04-19,Unknown
+CVE-2004-1464,Cisco,IOS,2023-05-19,Unknown
+CVE-2016-6415,Cisco,"IOS, IOS XR, and IOS XE",2023-05-19,Unknown
+CVE-2023-2868,Barracuda Networks,Email Security Gateway (ESG) Appliance,2023-05-26,Unknown
+CVE-2023-27997,Fortinet,FortiOS and FortiProxy SSL-VPN,2023-06-13,Known
+CVE-2023-3519,Citrix,NetScaler ADC and NetScaler Gateway,2023-07-19,Known
+CVE-2023-35078,Ivanti,Endpoint Manager Mobile (EPMM),2023-07-25,Known
+CVE-2023-35081,Ivanti,Endpoint Manager Mobile (EPMM),2023-07-31,Unknown
+CVE-2023-24489,Citrix,Content Collaboration,2023-08-16,Unknown
+CVE-2023-38035,Ivanti,Sentry,2023-08-22,Known
+CVE-2023-20269,Cisco,Adaptive Security Appliance and Firepower Threat Defense,2023-09-13,Known
+CVE-2023-20109,Cisco,IOS and IOS XE,2023-10-10,Unknown
+CVE-2023-20198,Cisco,IOS XE Web UI,2023-10-16,Unknown
+CVE-2023-4966,Citrix,NetScaler ADC and NetScaler Gateway,2023-10-18,Known
+CVE-2023-20273,Cisco,Cisco IOS XE Web UI,2023-10-23,Unknown
+CVE-2023-46747,F5,BIG-IP Configuration Utility,2023-10-31,Known
+CVE-2023-46748,F5,BIG-IP Configuration Utility,2023-10-31,Unknown
+CVE-2023-36844,Juniper,Junos OS,2023-11-13,Unknown
+CVE-2023-36845,Juniper,Junos OS,2023-11-13,Unknown
+CVE-2023-36846,Juniper,Junos OS,2023-11-13,Unknown
+CVE-2023-36847,Juniper,Junos OS,2023-11-13,Unknown
+CVE-2023-36851,Juniper,Junos OS,2023-11-13,Unknown
+CVE-2023-1671,Sophos,Web Appliance,2023-11-16,Unknown
+CVE-2023-46805,Ivanti,Connect Secure and Policy Secure,2024-01-10,Known
+CVE-2024-21887,Ivanti,Connect Secure and Policy Secure,2024-01-10,Known
+CVE-2023-6548,Citrix,NetScaler ADC and NetScaler Gateway,2024-01-17,Unknown
+CVE-2023-6549,Citrix,NetScaler ADC and NetScaler Gateway,2024-01-17,Unknown
+CVE-2023-35082,Ivanti,Endpoint Manager Mobile (EPMM) and MobileIron Core,2024-01-18,Known
+CVE-2024-21893,Ivanti,"Connect Secure, Policy Secure, and Neurons",2024-01-31,Known
+CVE-2024-21762,Fortinet,FortiOS,2024-02-09,Known
+CVE-2020-3259,Cisco,Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD),2024-02-15,Known
+CVE-2021-44529,Ivanti,Endpoint Manager Cloud Service Appliance (EPM CSA),2024-03-25,Known
+CVE-2023-48788,Fortinet,FortiClient EMS,2024-03-25,Known
+CVE-2024-3400,Palo Alto Networks,PAN-OS,2024-04-12,Known
+CVE-2024-20353,Cisco,Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD),2024-04-24,Unknown
+CVE-2024-20359,Cisco,Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD),2024-04-24,Unknown
+CVE-2024-24919,Check Point,Quantum Security Gateways,2024-05-30,Known
+CVE-2024-20399,Cisco,NX-OS,2024-07-02,Unknown
+CVE-2024-40766,SonicWall,SonicOS,2024-09-09,Known
+CVE-2024-8190,Ivanti,Cloud Services Appliance,2024-09-13,Unknown
+CVE-2024-8963,Ivanti,Cloud Services Appliance (CSA),2024-09-19,Unknown
+CVE-2024-7593,Ivanti,Virtual Traffic Manager,2024-09-24,Unknown
+CVE-2024-29824,Ivanti,Endpoint Manager (EPM),2024-10-02,Unknown
+CVE-2024-23113,Fortinet,Multiple Products,2024-10-09,Unknown
+CVE-2024-9379,Ivanti,Cloud Services Appliance (CSA),2024-10-09,Unknown
+CVE-2024-9380,Ivanti,Cloud Services Appliance (CSA),2024-10-09,Unknown
+CVE-2024-47575,Fortinet,FortiManager,2024-10-23,Unknown
+CVE-2024-20481,Cisco,Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD),2024-10-24,Unknown
+CVE-2024-5910,Palo Alto Networks,Expedition,2024-11-07,Unknown
+CVE-2014-2120,Cisco,Adaptive Security Appliance (ASA),2024-11-12,Unknown
+CVE-2024-9463,Palo Alto Networks,Expedition,2024-11-14,Unknown
+CVE-2024-9465,Palo Alto Networks,Expedition,2024-11-14,Unknown
+CVE-2024-0012,Palo Alto Networks,PAN-OS,2024-11-18,Known
+CVE-2024-9474,Palo Alto Networks,PAN-OS,2024-11-18,Known
+CVE-2024-3393,Palo Alto Networks,PAN-OS,2024-12-30,Unknown
+CVE-2025-0282,Ivanti,"Connect Secure, Policy Secure, and ZTA Gateways",2025-01-08,Known
+CVE-2024-55591,Fortinet,FortiOS and FortiProxy,2025-01-14,Known
+CVE-2025-23006,SonicWall,SMA1000 Appliances,2025-01-24,Known
+CVE-2020-15069,Sophos,XG Firewall,2025-02-06,Unknown
+CVE-2020-29574,Sophos,CyberoamOS,2025-02-06,Known
+CVE-2024-53704,SonicWall,SonicOS,2025-02-18,Known
+CVE-2025-0108,Palo Alto Networks,PAN-OS,2025-02-18,Unknown
+CVE-2025-0111,Palo Alto Networks,PAN-OS,2025-02-20,Unknown
+CVE-2023-20118,Cisco,Small Business RV Series Routers,2025-03-03,Unknown
+CVE-2024-13159,Ivanti,Endpoint Manager (EPM),2025-03-10,Unknown
+CVE-2024-13160,Ivanti,Endpoint Manager (EPM),2025-03-10,Unknown
+CVE-2024-13161,Ivanti,Endpoint Manager (EPM),2025-03-10,Unknown
+CVE-2025-21590,Juniper,Junos OS,2025-03-13,Unknown
+CVE-2025-24472,Fortinet,FortiOS and FortiProxy,2025-03-18,Known
+CVE-2024-20439,Cisco,Smart Licensing Utility,2025-03-31,Unknown
+CVE-2025-22457,Ivanti,"Connect Secure, Policy Secure, and ZTA Gateways",2025-04-04,Known
+CVE-2021-20035,SonicWall,SMA100 Appliances,2025-04-16,Unknown
+CVE-2023-44221,SonicWall,SMA100 Appliances,2025-05-01,Unknown
+CVE-2025-32756,Fortinet,Multiple Products,2025-05-14,Unknown
+CVE-2025-4427,Ivanti,Endpoint Manager Mobile (EPMM),2025-05-19,Unknown
+CVE-2025-4428,Ivanti,Endpoint Manager Mobile (EPMM),2025-05-19,Unknown
+CVE-2019-6693,Fortinet,FortiOS,2025-06-25,Known
+CVE-2025-6543,Citrix,NetScaler ADC and Gateway,2025-06-30,Unknown
+CVE-2025-5777,Citrix,NetScaler ADC and Gateway,2025-07-10,Known
+CVE-2025-25257,Fortinet,FortiWeb,2025-07-18,Unknown
+CVE-2025-20281,Cisco,Identity Services Engine,2025-07-28,Unknown
+CVE-2025-20337,Cisco,Identity Services Engine,2025-07-28,Unknown
+CVE-2024-8068,Citrix,Session Recording,2025-08-25,Unknown
+CVE-2024-8069,Citrix,Session Recording,2025-08-25,Unknown
+CVE-2025-7775,Citrix,NetScaler,2025-08-26,Unknown
+CVE-2025-20333,Cisco,Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense,2025-09-25,Unknown
+CVE-2025-20362,Cisco,Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense,2025-09-25,Unknown
+CVE-2025-20352,Cisco,IOS and IOS XE,2025-09-29,Unknown
+CVE-2015-7755,Juniper,ScreenOS,2025-10-02,Unknown
+CVE-2025-9242,WatchGuard,Firebox,2025-11-12,Unknown
+CVE-2025-64446,Fortinet,FortiWeb,2025-11-14,Unknown
+CVE-2025-58034,Fortinet,FortiWeb,2025-11-18,Unknown
+CVE-2025-59718,Fortinet,Multiple Products,2025-12-16,Unknown
+CVE-2025-20393,Cisco,Multiple Products,2025-12-17,Unknown
+CVE-2025-40602,SonicWall,SMA1000 appliance,2025-12-17,Unknown
+CVE-2025-14733,WatchGuard,Firebox,2025-12-19,Known
+CVE-2026-20045,Cisco,Unified Communications Manager,2026-01-21,Unknown
+CVE-2026-24858,Fortinet,Multiple Products,2026-01-27,Unknown
+CVE-2026-1281,Ivanti,Endpoint Manager Mobile (EPMM),2026-01-29,Unknown
+CVE-2022-20775,Cisco,SD-WAN,2026-02-25,Unknown
+CVE-2026-20127,Cisco,Catalyst SD-WAN Controller and Manager,2026-02-25,Unknown
+CVE-2026-1603,Ivanti, Endpoint Manager (EPM),2026-03-09,Unknown
+CVE-2026-20131,Cisco,Secure Firewall Management Center (FMC),2026-03-19,Known
+CVE-2025-53521,F5,BIG-IP,2026-03-27,Unknown
+CVE-2026-3055,Citrix,NetScaler,2026-03-30,Unknown
+CVE-2026-35616,Fortinet,FortiClient EMS,2026-04-06,Unknown
+CVE-2026-1340,Ivanti,Endpoint Manager Mobile (EPMM),2026-04-08,Unknown
+CVE-2026-21643,Fortinet,FortiClient EMS,2026-04-13,Unknown
+CVE-2026-20122,Cisco,Catalyst SD-WAN Manger,2026-04-20,Unknown
+CVE-2026-20128,Cisco,Catalyst SD-WAN Manager,2026-04-20,Unknown
+CVE-2026-20133,Cisco,Catalyst SD-WAN Manager,2026-04-20,Unknown
+CVE-2026-0300,Palo Alto Networks,PAN-OS,2026-05-06,Unknown
+CVE-2026-6973,Ivanti,Endpoint Manager Mobile (EPMM),2026-05-07,Unknown
+CVE-2026-20182,Cisco,Catalyst SD-WAN,2026-05-14,Unknown
+CVE-2026-0257,Palo Alto Networks,PAN-OS,2026-05-29,Known
+CVE-2026-50751,Check Point,Security Gateway,2026-06-08,Known
+CVE-2026-20245,Cisco,Catalyst SD-WAN Manager,2026-06-09,Unknown
+CVE-2026-10520,Ivanti,Sentry,2026-06-11,Unknown
+CVE-2026-20262,Cisco,Catalyst SD-WAN Manager,2026-06-15,Unknown
+CVE-2026-20230,Cisco,Unified Communications Manager,2026-06-25,Unknown
+CVE-2008-4128,Cisco,IOS,2026-07-13,Unknown
+CVE-2026-15409,SonicWall,SMA1000 Appliances,2026-07-14,Known
+CVE-2026-15410,SonicWall,SMA1000 Appliances,2026-07-14,Known
+CVE-2026-25089,Fortinet,FortiSandbox,2026-07-16,Unknown
+CVE-2026-39808,Fortinet,FortiSandbox,2026-07-16,Unknown
+CVE-2026-16232,Check Point,SmartConsole,2026-07-22,Unknown
+CVE-2025-68686,Fortinet,FortiOS,2026-07-27,Unknown
+CVE-2026-20316,Cisco,Secure Firewall Management Center (FMC),2026-07-29,Known
+CVE-2026-20349,Cisco,Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ,2026-08-11,Unknown
+CVE-2026-8452,Citrix,NetScaler ADC and NetScaler Gateway,2026-08-26,Unknown
+CVE-2026-83548,SonicWall,SMA1000 Appliances,2026-09-02,Unknown
+CVE-2026-83549,SonicWall,SMA1000 Appliances,2026-09-02,Unknown
+CVE-2025-25249,Fortinet,Multiple Products,2026-09-09,Unknown
+CVE-2026-19490,Citrix,NetScaler,2026-09-09,Unknown
+CVE-2026-20079,Cisco,Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management,2026-09-09,Unknown
+CVE-2026-76461,Cisco,Secure Email Gateway,2026-09-14,Unknown
+CVE-2026-76460,Cisco,Identity Services Engine,2026-09-16,Unknown
+CVE-2026-85102,Check Point,Multiple Products,2026-09-22,Unknown
+CVE-2026-93616,Check Point,Multiple Products,2026-09-22,Unknown
+CVE-2026-94127,F5,BIG-IP APM,2026-09-22,Unknown
+CVE-2026-88771,Citrix,NetScaler,2026-09-27,Unknown
+CVE-2026-88772,Citrix,NetScaler,2026-09-27,Unknown
+CVE-2026-76504,Cisco,Catalyst SD-WAN Manager,2026-09-30,Unknown
+CVE-2026-104286,Fortinet,FortiMail,2026-10-01,Unknown
+CVE-2026-88779,Citrix,NetScaler,2026-10-04,Unknown
+CVE-2026-104935,Ivanti,Connect Secure,2026-10-13,Unknown
+CVE-2026-0322,Palo Alto Networks,PAN-OS,2026-10-14,Unknown
+CVE-2026-76519,Cisco,Secure Email Gateway,2026-10-14,Unknown
+CVE-2025-61624,Fortinet,Multiple Products,2026-10-16,Unknown

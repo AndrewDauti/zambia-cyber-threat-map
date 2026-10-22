@@ -66,7 +66,8 @@ URLhaus and ThreatFox now require a free [abuse.ch Auth-Key](https://auth.abuse.
 - Python 3.11+ for the pipeline. No third-party packages.
 - [Vite](https://vitejs.dev/) for the static site.
 - [D3](https://d3js.org/) for the map, the monthly area chart, and the ransomware donut. The bar charts are HTML.
-- The hero title is Instrument Serif. Section and card titles are Bricolage Grotesque. Body text is IBM Plex Sans, and figures are IBM Plex Mono. They are self-hosted with `font-display: swap`, so the page does not call a font CDN.
+- Headings, including the hero, are Bricolage Grotesque. Body text is IBM Plex Sans, and figures are IBM Plex Mono. They are self-hosted with `font-display: swap`, so the page does not call a font CDN.
+- `tableau/` is a Tableau Public workbook and the CSV extracts behind it. See `tableau/README.md`.
 - GitHub Actions refreshes the snapshot and publishes the site with GitHub Pages.
 
 The site is a build of static files. It does not call the feeds from the browser.
@@ -109,6 +110,10 @@ data/kev_by_month.csv            catalog additions by month
 data/kev_top_vendors.csv         top vendors
 data/DATA_LICENSES.md            terms for the data files
 web/                             Vite site
+tableau/README.md                how to open the workbook in Tableau Public
+tableau/Zambia_Cyber_Threat_Map.twb
+tableau/data/                    CSV extracts for that workbook
+tableau/export_extracts.py      rebuilds the CSVs from the snapshot
 .github/workflows/refresh-data.yml
 .github/workflows/pages.yml
 ```

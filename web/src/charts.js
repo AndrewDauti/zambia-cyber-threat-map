@@ -8,7 +8,6 @@ import { formatInt } from "./format.js";
 
 function hiddenTable(container, caption, headers, rows) {
   const table = document.createElement("table");
-  table.className = "sr-only";
   const cap = document.createElement("caption");
   cap.textContent = caption;
   table.append(cap);
@@ -32,7 +31,10 @@ function hiddenTable(container, caption, headers, rows) {
     body.append(tr);
   }
   table.append(thead, body);
-  container.append(table);
+  const hidden = document.createElement("div");
+  hidden.className = "sr-only";
+  hidden.append(table);
+  container.append(hidden);
 }
 
 export function renderBars(container, rows, { label, value, caption, empty }) {
@@ -200,8 +202,11 @@ export function renderLegend(container, rows) {
     swatch.className = "swatch";
     swatch.style.background = DONUT_COLORS[row.flag] || "#d7b15a";
     const label = document.createElement("span");
-    label.textContent = `${row.flag} · ${formatInt(row.count)}`;
-    item.append(swatch, label);
+    label.textContent = row.flag;
+    const count = document.createElement("span");
+    count.className = "legend-count";
+    count.textContent = formatInt(row.count);
+    item.append(swatch, label, count);
     container.append(item);
   }
 }

@@ -14,9 +14,9 @@
   --coral: #ff6b6b;
   --track: #1c2a40;
   --shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
-  --display: "Syne", "Arial Narrow", sans-serif;
-  --sans: "Outfit", "Segoe UI", sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, monospace;
+  --display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", "Courier New", monospace;
   --radius: 18px;
 }
 
@@ -68,15 +68,15 @@ body::before {
 
 .skip:focus { top: 12px; }
 
-h1, h2, h3 { font-family: var(--display); letter-spacing: -0.03em; margin: 0; }
-h1 { font-weight: 800; }
-h2, h3 { font-weight: 700; }
+h1, h2, h3 { font-family: var(--display); letter-spacing: -0.02em; margin: 0; }
+h1 { font-weight: 700; }
+h2, h3 { font-weight: 600; }
 
-h1 { font-size: clamp(2.6rem, 6vw, 4.6rem); line-height: 0.95; max-width: 12ch; }
+h1 { font-size: clamp(2.45rem, 5.4vw, 4.15rem); line-height: 1.02; max-width: 11ch; }
 
-h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); line-height: 1.05; }
+h2 { font-size: clamp(1.65rem, 2.8vw, 2.15rem); line-height: 1.12; }
 
-h3 { font-size: 1.15rem; }
+h3 { font-size: 1.2rem; line-height: 1.2; }
 
 p { margin: 0; }
 
@@ -265,7 +265,9 @@ a:hover { color: var(--gold-2); }
 
 .tip strong, .tip span { display: block; }
 
-.tip span { color: var(--muted); font-family: var(--mono); font-size: 0.78rem; }
+.tip strong { font-family: var(--sans); font-weight: 600; }
+
+.tip span { color: var(--muted); font-family: var(--mono); font-size: 0.78rem; font-variant-numeric: tabular-nums; }
 
 .legend-row {
   display: grid;
@@ -377,6 +379,7 @@ input[type="search"] {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-family: var(--sans);
   font-size: 0.92rem;
 }
 
@@ -401,7 +404,7 @@ input[type="search"] {
   color: var(--gold-2);
 }
 
-.chart svg { width: 100%; height: auto; display: block; }
+.chart svg { width: 100%; height: auto; display: block; font-family: var(--mono); }
 
 .line { fill: none; stroke: var(--mint); stroke-width: 2; }
 
@@ -435,7 +438,9 @@ input[type="search"] {
 
 .donut-legend { display: grid; gap: 8px; }
 
-.legend-item { display: flex; gap: 8px; align-items: center; color: var(--muted); }
+.legend-item { display: flex; gap: 8px; align-items: baseline; color: var(--muted); font-family: var(--sans); }
+
+.legend-count { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--gold-2); }
 
 .swatch { width: 12px; height: 12px; border-radius: 99px; }
 
@@ -489,7 +494,11 @@ caption { text-align: left; color: var(--faint); font-size: 0.82rem; padding: 8p
 
 th, td { padding: 9px 8px; text-align: left; vertical-align: top; border-bottom: 1px solid rgba(255, 255, 255, 0.06); }
 
-th { color: var(--faint); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 500; }
+th { color: var(--faint); font-family: var(--sans); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 500; }
+
+td { font-family: var(--sans); }
+
+.mono, .mono a { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 0.82rem; }
 
 .flag {
   display: inline-block;
@@ -559,6 +568,7 @@ th { color: var(--faint); font-size: 0.75rem; letter-spacing: 0.08em; text-trans
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
 }

@@ -1,10 +1,10 @@
-import "@fontsource/syne/700.css";
-import "@fontsource/syne/800.css";
-import "@fontsource/outfit/400.css";
-import "@fontsource/outfit/500.css";
-import "@fontsource/outfit/600.css";
-import "@fontsource/ibm-plex-mono/400.css";
-import "@fontsource/ibm-plex-mono/500.css";
+import "@fontsource/fraunces/latin-600.css";
+import "@fontsource/fraunces/latin-700.css";
+import "@fontsource/ibm-plex-sans/latin-400.css";
+import "@fontsource/ibm-plex-sans/latin-500.css";
+import "@fontsource/ibm-plex-sans/latin-600.css";
+import "@fontsource/ibm-plex-mono/latin-400.css";
+import "@fontsource/ibm-plex-mono/latin-500.css";
 import "./style.css";
 
 import { renderBars, renderDonut, renderLegend, renderTimeline } from "./charts.js";
@@ -484,7 +484,7 @@ function renderRecent() {
   }
   for (const item of recent) {
     const row = document.createElement("tr");
-    row.append(cell(formatDay(item.date_added)));
+    row.append(cell(formatDay(item.date_added), true));
     row.append(cveCell(item.cve));
     row.append(cell(item.vendor));
     row.append(cell(item.product));
@@ -501,14 +501,16 @@ function renderRecent() {
   }
 }
 
-function cell(value) {
+function cell(value, mono = false) {
   const td = document.createElement("td");
+  if (mono) td.className = "mono";
   td.textContent = value || "—";
   return td;
 }
 
 function cveCell(cve) {
   const td = document.createElement("td");
+  td.className = "mono";
   if (/^CVE-\d{4}-\d+$/.test(cve)) {
     const link = document.createElement("a");
     link.href = `https://nvd.nist.gov/vuln/detail/${cve}`;

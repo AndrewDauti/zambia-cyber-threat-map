@@ -66,7 +66,7 @@ URLhaus and ThreatFox now require a free [abuse.ch Auth-Key](https://auth.abuse.
 - Python 3.11+ for the pipeline. No third-party packages.
 - [Vite](https://vitejs.dev/) for the static site.
 - [D3](https://d3js.org/) for the map, the monthly area chart, and the ransomware donut. The bar charts are HTML.
-- Fonts are Fraunces for headings, IBM Plex Sans for body text, and IBM Plex Mono for figures and code. They are self-hosted with `font-display: swap`, so the page does not call a font CDN.
+- The hero title is Instrument Serif. Section and card titles are Bricolage Grotesque. Body text is IBM Plex Sans, and figures are IBM Plex Mono. They are self-hosted with `font-display: swap`, so the page does not call a font CDN.
 - GitHub Actions refreshes the snapshot and publishes the site with GitHub Pages.
 
 The site is a build of static files. It does not call the feeds from the browser.

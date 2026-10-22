@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#070b12" />
+    <meta
+      name="description"
+      content="A snapshot of public cyber threat data, read with Zambia in view: CISA exploited vulnerabilities, DShield attack sources, and disclosed ransomware victims."
+    />
+    <title>Zambia Cyber Threat Map</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="wrap">
+      <header class="site-header">
+        <p class="brand">Andrew Dauti · ZCAS · Lusaka</p>
+        <p class="brand-meta">Portfolio project · figures are from the cited snapshot, not estimates</p>
+      </header>
+
+      <main id="main">
+        <section class="hero">
+          <div>
+            <p class="kicker">Public threat data</p>
+            <h1><span class="gold">Zambia</span> Cyber Threat Map</h1>
+            <p class="deck">
+              Exploited vulnerabilities, honeypot attack sources, and disclosed ransomware victims.
+              The map opens on Zambia so a global feed is read from Lusaka, not from a press release.
+            </p>
+            <p class="snapshot-line">Snapshot built <time id="built-at">…</time></p>
+          </div>
+          <aside class="hero-card">
+            <p class="kicker">How to read it</p>
+            <p>
+              Color on the map is square-root scaled so smaller countries stay visible. The counts beside it are raw.
+              A blank figure means that feed was missing. A zero means the feed was present and the count was zero.
+            </p>
+          </aside>
+        </section>
+
+        <p id="loading" class="loading">Loading the snapshot…</p>
+        <p id="stale-banner" class="banner" hidden></p>
+        <section id="kpis" class="kpis" aria-label="Key figures"></section>
+
+        <section class="block" aria-labelledby="map-heading">
+          <div class="block-head">
+            <div>
+              <p class="kicker">Geography</p>
+              <h2 id="map-heading">Where the feeds place activity</h2>
+            </div>
+            <div class="controls">
+              <div class="seg" role="group" aria-label="Map metric">
+                <button type="button" data-metric="dshield_sources" aria-pressed="true">Attack sources</button>
+                <button type="button" data-metric="ransomware_victims" aria-pressed="false">Ransomware victims</button>
+                <button type="button" data-metric="feodo_c2" aria-pressed="false">Feodo C2</button>
+                <button type="button" data-metric="abusech_ips" aria-pressed="false" hidden>abuse.ch IPs</button>
+              </div>
+              <div class="seg" role="group" aria-label="Map extent">
+                <button type="button" data-view="world" aria-pressed="true">World</button>
+                <button type="button" data-view="africa" aria-pressed="false">Africa</button>
+                <button type="button" data-view="region" aria-pressed="false">Zambia region</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-layout">
+            <div class="card map-card">
+              <div class="map-frame">
+                <div id="map-canvas"></div>
+                <div id="map-tip" class="tip" hidden></div>
+              </div>
+              <div class="legend-row">
+                <span id="legend-min">0</span>
+                <span class="legend-bar" aria-hidden="true"></span>
+                <span id="legend-max"></span>
+              </div>
+              <p id="map-note" class="note-line"></p>
+            </div>
+
+            <div class="side">
+              <article class="card" id="selected-panel" aria-live="polite"></article>
+              <div class="card list-card">
+                <label class="search-label" for="country-search">Find a country</label>
+                <input id="country-search" type="search" placeholder="Zambia, ZA, South Africa…" autocomplete="off" />
+                <div id="country-list" class="country-list"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="block" aria-labelledby="kev-heading">
+          <div class="block-head">
+            <div>
+              <p class="kicker">CISA KEV</p>
+              <h2 id="kev-heading">What is already being exploited</h2>
+            </div>
+          </div>
+          <div class="grid-2">
+            <article class="card">
+              <div class="card-head">
+                <h3 id="vendor-heading">Top exploited vendors</h3>
+                <div class="seg" role="group" aria-label="Vendors or products">
+                  <button type="button" id="show-vendors" aria-pressed="true">Vendors</button>
+                  <button type="button" id="show-products" aria-pressed="false">Products</button>
+                </div>
+              </div>
+              <div id="vendor-chart"></div>
+            </article>
+            <article class="card">
+              <div class="card-head">
+                <h3>Catalog additions by month</h3>
+              </div>
+              <p class="note-line">Each point is a calendar month. The line only connects those counts.</p>
+              <div id="timeline" class="chart"></div>
+            </article>
+          </div>
+          <div class="grid-2 grid-2-even">
+            <article class="card">
+              <div class="card-head">
+                <h3>Known ransomware use</h3>
+              </div>
+              <div class="donut-layout">
+                <div class="donut-wrap">
+                  <div id="donut"></div>
+                  <div id="donut-center" class="donut-center"></div>
+                </div>
+                <div id="donut-legend" class="donut-legend"></div>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-head">
+                <h3>Edge vendors flagged for ransomware</h3>
+              </div>
+              <p class="note-line">Bar length is the count of KEV entries marked Known, not the vendor’s full catalog total.</p>
+              <div id="edge-chart"></div>
+              <p id="edge-note" class="note-line"></p>
+            </article>
+          </div>
+        </section>
+
+        <section class="block" aria-labelledby="ransom-heading">
+          <div class="block-head">
+            <div>
+              <p class="kicker">Ransomware.live</p>
+              <h2 id="ransom-heading">Disclosed victims, not a census</h2>
+            </div>
+          </div>
+          <div class="grid-3">
+            <article class="card">
+              <h3>Ransomware groups</h3>
+              <p class="note-line">Top groups by victim records in the file. Names are shown as published.</p>
+              <div id="groups-chart"></div>
+            </article>
+            <article class="card">
+              <h3>By discovery year</h3>
+              <p class="note-line">Year taken from the discovered date, then the published date.</p>
+              <div id="years-chart"></div>
+            </article>
+            <article class="card">
+              <h3>Africa by country tag</h3>
+              <p id="africa-kicker" class="note-line"></p>
+              <div id="africa-chart"></div>
+            </article>
+          </div>
+          <article class="card feodo-card">
+            <div>
+              <h3>Feodo Tracker command-and-control families</h3>
+              <p id="feodo-note" class="note-line"></p>
+              <div id="feodo-chart"></div>
+            </div>
+            <p id="abuse-note" class="callout"></p>
+          </article>
+        </section>
+
+        <section class="block" aria-labelledby="bank-heading">
+          <div class="block-head">
+            <div>
+              <p class="kicker">For a bank security team</p>
+              <h2 id="bank-heading">What this means for Zambian banks</h2>
+            </div>
+          </div>
+          <ol id="insights" class="insights"></ol>
+        </section>
+
+        <section class="block" aria-labelledby="recent-heading">
+          <div class="block-head">
+            <div>
+              <p class="kicker">Latest additions</p>
+              <h2 id="recent-heading">Newest entries in the catalog</h2>
+            </div>
+          </div>
+          <div class="card table-wrap">
+            <table>
+              <caption>The eight most recently added Known Exploited Vulnerabilities in this snapshot.</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Added</th>
+                  <th scope="col">CVE</th>
+                  <th scope="col">Vendor</th>
+                  <th scope="col">Product</th>
+                  <th scope="col">Ransomware use</th>
+                  <th scope="col">Name</th>
+                </tr>
+              </thead>
+              <tbody id="recent-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="block" aria-labelledby="method-heading">
+          <details class="method">
+            <summary id="method-heading">How these numbers were counted</summary>
+            <div id="method-body"></div>
+          </details>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <p class="kicker">Sources in this snapshot</p>
+          <div id="sources" class="sources"></div>
+        </div>
+        <p class="footer-by">
+          Built by Andrew Dauti, a final-year IT and cybersecurity student at ZCAS in Lusaka.
+          Map geometry: Natural Earth via world-atlas. Code is MIT. The data files are not.
+        </p>
+      </footer>
+    </div>
+    <noscript>This dashboard needs JavaScript to draw the charts from the snapshot file.</noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

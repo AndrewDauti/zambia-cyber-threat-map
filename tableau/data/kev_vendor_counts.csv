@@ -1,0 +1,291 @@
+vendor,entries,ransomware_known
+Microsoft,390,117
+Cisco,101,7
+Apple,95,0
+Adobe,82,11
+Google,75,0
+Oracle,46,13
+Apache,41,8
+Ivanti,36,12
+Fortinet,32,14
+Linux,31,2
+Citrix,27,7
+VMware,26,9
+D-Link,26,2
+SonicWall,19,13
+Synacor,19,6
+Android,17,0
+Palo Alto Networks,16,6
+Samsung,15,0
+SAP,14,3
+Atlassian,14,8
+Mozilla,13,1
+Zyxel,13,2
+Trend Micro,12,0
+Qualcomm,12,0
+SolarWinds,11,2
+Roundcube,11,0
+QNAP,11,9
+Progress,9,4
+Zoho,9,2
+Arm,9,0
+Red Hat,9,4
+IBM,8,2
+NETGEAR,8,0
+F5,8,4
+Juniper,8,0
+Sophos,7,2
+Mitel,7,5
+WordPress,6,0
+Jenkins,6,1
+TP-Link,6,0
+Exim,5,1
+Drupal,5,2
+DrayTek,5,0
+GitLab,5,1
+MikroTik,5,0
+GNU,5,0
+RARLAB,5,4
+Plex,5,0
+PaperCut,5,2
+Check Point,5,2
+Broadcom,5,1
+Langflow,5,1
+N-able,5,0
+Nagios,4,0
+Accellion,4,4
+Kentico,4,0
+Sitecore,4,1
+WatchGuard,4,1
+Ubiquiti,4,0
+GIGABYTE,4,4
+Veeam,4,4
+Fortra,4,2
+JetBrains,4,4
+ConnectWise,4,2
+BeyondTrust,4,1
+SimpleHelp ,4,3
+Craft CMS,4,0
+Gladinet,4,0
+Sangoma,4,0
+JFrog,4,0
+ImageMagick,3,0
+DotNetNuke (DNN),3,1
+Tenda,3,0
+SaltStack,3,0
+Kaseya,3,3
+Realtek,3,0
+Elastic,3,0
+PHP,3,1
+Rails,3,0
+VMware Tanzu,3,1
+Meta Platforms,3,0
+Veritas,3,3
+Laravel,3,1
+SysAid,3,1
+Qlik,3,3
+CrushFTP,3,1
+OSGeo,3,0
+TeleMessage,3,0
+ASUS,3,0
+Dassault Systèmes,3,0
+SmarterTools,3,3
+TrueConf,3,0
+BerriAI,3,0
+Arista,3,0
+ThinkPHP,2,0
+vBulletin,2,0
+Sonatype,2,0
+Unraid,2,0
+EyesOfNetwork,2,0
+Micro Focus,2,0
+MongoDB,2,0
+Hikvision,2,0
+Aviatrix,2,0
+Intel,2,1
+Zabbix,2,0
+Siemens,2,0
+Hewlett Packard (HP),2,0
+Rejetto,2,1
+Quest,2,1
+Dasan,2,1
+Dell,2,0
+Sudo,2,0
+Telerik,2,1
+WSO2,2,1
+PEAR,2,0
+Grafana Labs,2,0
+TIBCO,2,0
+CWP,2,0
+MinIO,2,0
+IETF,2,0
+ownCloud,2,0
+Acronis,2,0
+ServiceNow,2,0
+Dahua,2,0
+Versa,2,0
+PTZOptics,2,0
+CyberPersons,2,2
+Metabase,2,0
+Array Networks ,2,1
+Cleo,2,2
+NUUO,2,0
+Reolink,2,0
+Paessler,2,0
+Hitachi Vantara,2,0
+Advantive,2,0
+Commvault,2,0
+GeoVision,2,0
+Wing FTP Server,2,0
+OpenPLC,2,0
+LiteSpeed,2,0
+Zammad GmbH,2,0
+Ahsay,2,0
+Symantec,1,0
+Docker,1,0
+SIMalliance,1,0
+TeamViewer,1,0
+Netis,1,0
+TVT,1,0
+MediaTek,1,0
+Sumavision,1,0
+rConfig,1,0
+Amcrest,1,0
+Liferay,1,0
+PlaySMS,1,0
+Arcadyan,1,0
+McAfee,1,0
+Yealink,1,0
+ForgeRock,1,1
+BQE,1,1
+Perl,1,0
+Embedthis,1,0
+Fuel CMS,1,0
+Pi-hole,1,0
+Primetek,1,0
+FatPipe,1,0
+Npm package,1,0
+October CMS,1,0
+Grandstream,1,0
+PHPUnit,1,0
+ChakraCore,1,0
+Treck TCP/IP stack,1,0
+Pulse Secure,1,0
+phpMyAdmin,1,0
+D-Link and TRENDnet,1,0
+Arcserve,1,0
+LG,1,0
+Webmin,1,1
+QNAP Systems,1,0
+OpenBSD,1,0
+Redis,1,0
+Checkbox,1,0
+Alcatel,1,0
+InduSoft,1,0
+Trihedral,1,0
+Schneider Electric,1,0
+Crestron,1,0
+OpenSSL,1,0
+WebKitGTK,1,0
+Artifex,1,0
+Delta Electronics,1,0
+WebRTC,1,1
+dotCMS,1,1
+Code Aurora,1,0
+SugarCRM,1,0
+TerraMaster,1,1
+Cacti,1,0
+ZK Framework,1,1
+Teclib,1,0
+XStream,1,0
+Samba,1,1
+Novi Survey,1,0
+Ruckus Wireless,1,0
+Barracuda Networks,1,0
+Netwrix,1,1
+SolarView,1,0
+Ignite Realtime,1,0
+Unitronics,1,0
+FXC,1,0
+Spreadsheet::ParseExcel,1,0
+Joomla!,1,0
+Sunhillo,1,0
+Nice,1,0
+NextGen Healthcare,1,1
+Justice AV Solutions,1,0
+PHP Group,1,1
+Twilio,1,0
+Kingsoft,1,0
+ScienceLogic,1,0
+Nostromo,1,0
+North Grid,1,0
+ProjectSend,1,0
+Acclaim Systems,1,0
+JQuery,1,0
+Audinate,1,0
+7-Zip,1,0
+Trimble,1,0
+tj-actions,1,0
+NAKIVO,1,0
+Edimax,1,0
+reviewdog,1,0
+Qualitia,1,0
+Yiiframework,1,0
+FreeType,1,0
+ZKTeco,1,0
+MDaemon,1,0
+Srimax,1,0
+Erlang,1,0
+Wazuh,1,0
+AMI,1,0
+Looking Glass,1,0
+Git,1,0
+Adminer,1,0
+Libraesva,1,0
+Smartbedded,1,0
+SKYSEA,1,0
+IGEL,1,0
+Motex,1,0
+XWiki,1,0
+Meta,1,1
+Sierra Wireless,1,0
+Digiever,1,0
+Hewlett Packard Enterprise (HPE),1,0
+Gogs,1,0
+Vite,1,0
+Prettier,1,0
+React Native Community,1,0
+Notepad++,1,0
+TeamT5,1,0
+Soliton Systems K.K,1,0
+Rockwell,1,0
+Omnissa,1,0
+n8n,1,0
+Aquasecurity,1,0
+Marimo,1,0
+WebPros,1,1
+TanStack,1,1
+Nx,1,1
+Daemon,1,0
+Mirasvit,1,0
+Widget Factory,1,0
+Splunk,1,0
+Lantronix,1,0
+PTC,1,1
+JoomShaper,1,0
+Joomlack,1,0
+iCagenda,1,0
+Balbooa,1,0
+KNX Association,1,0
+DD-WRT,1,0
+Ray-Project,1,0
+MLflow,1,0
+Gitea,1,0
+Ajax.NET Professional,1,0
+Kludex,1,0
+Kestra,1,0
+ProFTPD,1,0
+ISC,1,0
+ONLYOFFICE,1,0
+Strapi,1,0
+EG Secure Solutions,1,0

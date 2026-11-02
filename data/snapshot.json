@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "project": "Zambia Cyber Threat Map",
-  "generated_at": "2026-10-26T13:06:26+00:00",
+  "generated_at": "2026-11-02T15:57:51+00:00",
   "sources": {
     "kev": {
       "id": "kev",
@@ -14,15 +14,15 @@
       "error": null,
       "reason": null,
       "stale_reason": null,
-      "retrieved_at": "2026-10-26T13:06:20+00:00",
+      "retrieved_at": "2026-11-02T15:57:45+00:00",
       "last_attempt_at": null,
       "data": {
-        "total": 1756,
-        "as_of": "2026-10-26",
+        "total": 1766,
+        "as_of": "2026-11-02",
         "ransomware_by_flag": [
           {
             "flag": "Unknown",
-            "count": 1395
+            "count": 1405
           },
           {
             "flag": "Known",
@@ -30,10 +30,10 @@
           }
         ],
         "ransomware_known": 361,
-        "ransomware_other": 1395,
-        "ransomware_pct": 20.6,
-        "added_last_30_days": 30,
-        "added_last_90_days": 101,
+        "ransomware_other": 1405,
+        "ransomware_pct": 20.4,
+        "added_last_30_days": 33,
+        "added_last_90_days": 109,
         "by_month": [
           {
             "month": "2021-11",
@@ -273,7 +273,7 @@
           },
           {
             "month": "2026-10",
-            "count": 26
+            "count": 36
           }
         ],
         "top_vendors": [
@@ -284,7 +284,7 @@
           },
           {
             "name": "Cisco",
-            "count": 101,
+            "count": 102,
             "ransomware_known": 7
           },
           {
@@ -294,12 +294,12 @@
           },
           {
             "name": "Adobe",
-            "count": 82,
+            "count": 83,
             "ransomware_known": 11
           },
           {
             "name": "Google",
-            "count": 75,
+            "count": 76,
             "ransomware_known": 0
           },
           {
@@ -314,18 +314,18 @@
           },
           {
             "name": "Ivanti",
-            "count": 36,
+            "count": 38,
             "ransomware_known": 12
+          },
+          {
+            "name": "Linux",
+            "count": 32,
+            "ransomware_known": 2
           },
           {
             "name": "Fortinet",
             "count": 32,
             "ransomware_known": 14
-          },
-          {
-            "name": "Linux",
-            "count": 31,
-            "ransomware_known": 2
           }
         ],
         "top_products": [
@@ -357,7 +357,7 @@
           {
             "vendor": "Linux",
             "product": "Kernel",
-            "count": 31
+            "count": 32
           },
           {
             "vendor": "Microsoft",
@@ -410,7 +410,7 @@
             },
             {
               "name": "Cisco",
-              "count": 101,
+              "count": 102,
               "ransomware_known": 7
             },
             {
@@ -425,7 +425,7 @@
             },
             {
               "name": "Ivanti",
-              "count": 36,
+              "count": 38,
               "ransomware_known": 12
             },
             {
@@ -544,7 +544,7 @@
               "ransomware_known": 0
             }
           ],
-          "total": 851,
+          "total": 854,
           "ransomware_known": 248
         },
         "edge": {
@@ -567,12 +567,12 @@
           "by_vendor": [
             {
               "name": "Cisco",
-              "count": 101,
+              "count": 102,
               "ransomware_known": 7
             },
             {
               "name": "Ivanti",
-              "count": 36,
+              "count": 38,
               "ransomware_known": 12
             },
             {
@@ -644,12 +644,12 @@
             },
             {
               "name": "Ivanti",
-              "count": 36,
+              "count": 38,
               "ransomware_known": 12
             },
             {
               "name": "Cisco",
-              "count": 101,
+              "count": 102,
               "ransomware_known": 7
             },
             {
@@ -683,7 +683,7 @@
               "ransomware_known": 1
             }
           ],
-          "total": 265,
+          "total": 268,
           "ransomware_known": 68
         },
         "microsoft": {
@@ -694,82 +694,82 @@
         },
         "recent": [
           {
-            "cve": "CVE-2026-114625",
-            "vendor": "Arista",
-            "product": "VeloCloud Orchestrator",
-            "name": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
-            "date_added": "2026-10-23",
+            "cve": "CVE-2026-118527",
+            "vendor": "Ivanti",
+            "product": "Connect Secure",
+            "name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+            "date_added": "2026-10-30",
             "ransomware": "Unknown",
-            "description": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator."
+            "description": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357."
           },
           {
-            "cve": "CVE-2026-110447",
-            "vendor": "Collabora",
-            "product": "Collabora Online – Built-in CODE Server",
-            "name": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
-            "date_added": "2026-10-23",
+            "cve": "CVE-2026-111357",
+            "vendor": "Ivanti",
+            "product": "Connect Secure",
+            "name": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+            "date_added": "2026-10-30",
             "ransomware": "Unknown",
-            "description": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running."
+            "description": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527."
           },
           {
-            "cve": "CVE-2026-96656",
-            "vendor": "Plex",
-            "product": "Media Server",
-            "name": "Plex Media Server External Control of File Name or Path Vulnerability",
-            "date_added": "2026-10-20",
+            "cve": "CVE-2026-97229",
+            "vendor": "GitLab",
+            "product": "Community Edition and Enterprise Edition",
+            "name": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+            "date_added": "2026-10-29",
             "ransomware": "Unknown",
-            "description": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655."
+            "description": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation."
           },
           {
-            "cve": "CVE-2026-96655",
-            "vendor": "Plex",
-            "product": "Media Server",
-            "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-            "date_added": "2026-10-20",
+            "cve": "CVE-2026-76418",
+            "vendor": "Cisco",
+            "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
+            "name": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+            "date_added": "2026-10-29",
             "ransomware": "Unknown",
-            "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656."
+            "description": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition."
           },
           {
-            "cve": "CVE-2026-96654",
-            "vendor": "Plex",
-            "product": "Media Server",
-            "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
-            "date_added": "2026-10-20",
+            "cve": "CVE-2026-46300",
+            "vendor": "Linux",
+            "product": "Kernel",
+            "name": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+            "date_added": "2026-10-28",
             "ransomware": "Unknown",
-            "description": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656."
+            "description": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root."
           },
           {
-            "cve": "CVE-2026-96652",
-            "vendor": "Plex",
-            "product": "Media Server",
-            "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-            "date_added": "2026-10-20",
+            "cve": "CVE-2026-41709",
+            "vendor": "Broadcom",
+            "product": "VMware ESX",
+            "name": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+            "date_added": "2026-10-28",
             "ransomware": "Unknown",
-            "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. "
+            "description": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged."
           },
           {
-            "cve": "CVE-2026-110936",
-            "vendor": "Siemens",
-            "product": "Software Center",
-            "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
-            "date_added": "2026-10-20",
+            "cve": "CVE-2026-48356",
+            "vendor": "Adobe",
+            "product": "Commerce and Magento",
+            "name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+            "date_added": "2026-10-27",
             "ransomware": "Unknown",
-            "description": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application."
+            "description": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session."
           },
           {
-            "cve": "CVE-2026-106931",
-            "vendor": "EG Secure Solutions",
-            "product": "SiteGuard Server Edition",
-            "name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-            "date_added": "2026-10-20",
+            "cve": "CVE-2026-111497",
+            "vendor": "Google",
+            "product": "Brotli",
+            "name": "Google Brotli Unchecked Return Value Vulnerability",
+            "date_added": "2026-10-27",
             "ransomware": "Unknown",
-            "description": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product."
+            "description": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream."
           }
         ],
-        "catalog_version": "2026.10.23",
-        "date_released": "2026-10-23T19:30:18.9209Z",
+        "catalog_version": "2026.10.30",
+        "date_released": "2026-10-30T17:02:45.3665Z",
         "title": "CISA Catalog of Known Exploited Vulnerabilities",
-        "count_reported": 1756
+        "count_reported": 1766
       }
     },
     "dshield": {
@@ -783,1431 +783,1410 @@
       "error": null,
       "reason": null,
       "stale_reason": null,
-      "retrieved_at": "2026-10-26T13:06:20+00:00",
+      "retrieved_at": "2026-11-02T15:57:45+00:00",
       "last_attempt_at": null,
       "data": {
         "endpoint": "https://isc.sans.edu/api/country/?json",
         "countries": [
           {
             "iso2": "US",
-            "sources": 62018,
-            "reports": 181524308,
-            "targets": 4793361,
-            "persistence": 236.0494
+            "sources": 56227,
+            "reports": 178628067,
+            "targets": 4678642,
+            "persistence": 256.3629
           },
           {
             "iso2": "CN",
-            "sources": 40636,
-            "reports": 13518563,
-            "targets": 846395,
-            "persistence": 253.2216
-          },
-          {
-            "iso2": "CA",
-            "sources": 11463,
-            "reports": 38538596,
-            "targets": 113436,
-            "persistence": 124.4952
+            "sources": 37819,
+            "reports": 13250324,
+            "targets": 817141,
+            "persistence": 268.6683
           },
           {
             "iso2": "RU",
-            "sources": 11416,
-            "reports": 10297672,
-            "targets": 147125,
-            "persistence": 169.0293
+            "sources": 10123,
+            "reports": 10605762,
+            "targets": 140615,
+            "persistence": 186.4633
+          },
+          {
+            "iso2": "CA",
+            "sources": 10045,
+            "reports": 39433091,
+            "targets": 106518,
+            "persistence": 135.8292
           },
           {
             "iso2": "BR",
-            "sources": 9616,
-            "reports": 7021800,
-            "targets": 249805,
-            "persistence": 106.6388
-          },
-          {
-            "iso2": "UA",
-            "sources": 8753,
-            "reports": 1151110,
-            "targets": 120069,
-            "persistence": 86.5158
-          },
-          {
-            "iso2": "AR",
-            "sources": 8713,
-            "reports": 986138,
-            "targets": 92667,
-            "persistence": 74.9767
+            "sources": 7821,
+            "reports": 6741809,
+            "targets": 221650,
+            "persistence": 120.7117
           },
           {
             "iso2": "PK",
-            "sources": 8637,
-            "reports": 6843265,
-            "targets": 145260,
-            "persistence": 137.6025
+            "sources": 7815,
+            "reports": 6997699,
+            "targets": 137017,
+            "persistence": 148.1072
+          },
+          {
+            "iso2": "UA",
+            "sources": 7647,
+            "reports": 1092743,
+            "targets": 108655,
+            "persistence": 94.016
+          },
+          {
+            "iso2": "AR",
+            "sources": 7258,
+            "reports": 1374697,
+            "targets": 77245,
+            "persistence": 84.2411
           },
           {
             "iso2": "GB",
-            "sources": 6714,
-            "reports": 30946540,
-            "targets": 1003314,
-            "persistence": 379.535
+            "sources": 6227,
+            "reports": 31033871,
+            "targets": 1000698,
+            "persistence": 408.7416
           },
           {
             "iso2": "NL",
-            "sources": 6432,
-            "reports": 74625811,
-            "targets": 325349,
-            "persistence": 194.2279
+            "sources": 5909,
+            "reports": 71297931,
+            "targets": 312019,
+            "persistence": 208.5476
           },
           {
             "iso2": "DE",
-            "sources": 6023,
-            "reports": 25706122,
-            "targets": 457765,
-            "persistence": 206.0674
+            "sources": 5556,
+            "reports": 25358506,
+            "targets": 452287,
+            "persistence": 221.171
           },
           {
             "iso2": "IN",
-            "sources": 5569,
-            "reports": 4078983,
-            "targets": 108326,
-            "persistence": 209.1402
+            "sources": 5007,
+            "reports": 3932447,
+            "targets": 102753,
+            "persistence": 226.159
           },
           {
             "iso2": "FR",
-            "sources": 5017,
-            "reports": 45712146,
-            "targets": 212724,
-            "persistence": 172.2755
+            "sources": 4457,
+            "reports": 46739561,
+            "targets": 205976,
+            "persistence": 188.1366
           },
           {
             "iso2": "KR",
-            "sources": 4520,
-            "reports": 3610599,
-            "targets": 153382,
-            "persistence": 209.985
+            "sources": 4147,
+            "reports": 3557945,
+            "targets": 149544,
+            "persistence": 223.694
           },
           {
             "iso2": "JP",
-            "sources": 4183,
-            "reports": 5353382,
-            "targets": 199938,
-            "persistence": 139.1298
-          },
-          {
-            "iso2": "TR",
-            "sources": 3835,
-            "reports": 21419827,
-            "targets": 95953,
-            "persistence": 108.9682
+            "sources": 3683,
+            "reports": 5345404,
+            "targets": 196078,
+            "persistence": 152.5558
           },
           {
             "iso2": "VN",
-            "sources": 3639,
-            "reports": 4617629,
-            "targets": 203682,
-            "persistence": 161.5688
+            "sources": 3440,
+            "reports": 5001081,
+            "targets": 200585,
+            "persistence": 167.418
           },
           {
-            "iso2": "TW",
-            "sources": 3052,
-            "reports": 1478725,
-            "targets": 65592,
-            "persistence": 154.6566
-          },
-          {
-            "iso2": "ID",
-            "sources": 2996,
-            "reports": 3086620,
-            "targets": 61980,
-            "persistence": 187.8438
-          },
-          {
-            "iso2": "HK",
-            "sources": 2977,
-            "reports": 6418216,
-            "targets": 179406,
-            "persistence": 212.9913
+            "iso2": "TR",
+            "sources": 3240,
+            "reports": 21205742,
+            "targets": 85151,
+            "persistence": 118.5451
           },
           {
             "iso2": "UZ",
-            "sources": 2958,
-            "reports": 297691,
-            "targets": 43056,
-            "persistence": 124.1974
+            "sources": 2811,
+            "reports": 292343,
+            "targets": 41533,
+            "persistence": 131.5617
+          },
+          {
+            "iso2": "HK",
+            "sources": 2712,
+            "reports": 7044717,
+            "targets": 176276,
+            "persistence": 231.7117
+          },
+          {
+            "iso2": "TW",
+            "sources": 2708,
+            "reports": 1465839,
+            "targets": 61407,
+            "persistence": 170.0654
+          },
+          {
+            "iso2": "ID",
+            "sources": 2664,
+            "reports": 2968503,
+            "targets": 58113,
+            "persistence": 204.2789
           },
           {
             "iso2": "SG",
-            "sources": 2854,
-            "reports": 14324232,
-            "targets": 215670,
-            "persistence": 200.8476
+            "sources": 2659,
+            "reports": 14317448,
+            "targets": 213657,
+            "persistence": 213.2403
           },
           {
             "iso2": "MX",
-            "sources": 2683,
-            "reports": 812784,
-            "targets": 39575,
-            "persistence": 116.2262
-          },
-          {
-            "iso2": "CO",
-            "sources": 2213,
-            "reports": 315491,
-            "targets": 28714,
-            "persistence": 109.836
+            "sources": 2178,
+            "reports": 763403,
+            "targets": 33852,
+            "persistence": 130.8444
           },
           {
             "iso2": "SE",
-            "sources": 2034,
-            "reports": 2916158,
-            "targets": 33683,
-            "persistence": 186.4562
+            "sources": 1882,
+            "reports": 2942440,
+            "targets": 32710,
+            "persistence": 198.4235
           },
           {
-            "iso2": "BD",
-            "sources": 2029,
-            "reports": 511702,
-            "targets": 23203,
-            "persistence": 115.7058
+            "iso2": "CO",
+            "sources": 1758,
+            "reports": 287680,
+            "targets": 24358,
+            "persistence": 123.7486
           },
           {
             "iso2": "CH",
-            "sources": 1940,
-            "reports": 8827802,
-            "targets": 49465,
-            "persistence": 238.9026
+            "sources": 1753,
+            "reports": 8910460,
+            "targets": 48207,
+            "persistence": 259.5248
           },
           {
-            "iso2": "TH",
-            "sources": 1710,
-            "reports": 733921,
-            "targets": 39698,
-            "persistence": 132.1263
+            "iso2": "BD",
+            "sources": 1610,
+            "reports": 560575,
+            "targets": 20708,
+            "persistence": 132.0081
           },
           {
             "iso2": "ES",
-            "sources": 1685,
-            "reports": 1115945,
-            "targets": 20534,
-            "persistence": 138.7056
-          },
-          {
-            "iso2": "ZA",
-            "sources": 1679,
-            "reports": 765246,
-            "targets": 23570,
-            "persistence": 129.4747
+            "sources": 1510,
+            "reports": 841103,
+            "targets": 18888,
+            "persistence": 151.0735
           },
           {
             "iso2": "MY",
-            "sources": 1635,
-            "reports": 747870,
-            "targets": 147098,
-            "persistence": 211.9211
+            "sources": 1484,
+            "reports": 779507,
+            "targets": 146216,
+            "persistence": 232.2237
           },
           {
             "iso2": "AU",
-            "sources": 1630,
-            "reports": 2173234,
-            "targets": 18111,
-            "persistence": 140.6638
+            "sources": 1424,
+            "reports": 2074013,
+            "targets": 17402,
+            "persistence": 156.4192
           },
           {
-            "iso2": "CL",
-            "sources": 1499,
-            "reports": 324848,
-            "targets": 17498,
-            "persistence": 109.7272
+            "iso2": "TH",
+            "sources": 1412,
+            "reports": 749376,
+            "targets": 38782,
+            "persistence": 158.3052
+          },
+          {
+            "iso2": "ZA",
+            "sources": 1392,
+            "reports": 853643,
+            "targets": 20750,
+            "persistence": 146.3657
           },
           {
             "iso2": "GT",
-            "sources": 1432,
-            "reports": 39296,
-            "targets": 4084,
-            "persistence": 75.3317
+            "sources": 1358,
+            "reports": 38822,
+            "targets": 3907,
+            "persistence": 79.1421
+          },
+          {
+            "iso2": "CL",
+            "sources": 1242,
+            "reports": 484551,
+            "targets": 15106,
+            "persistence": 121.9718
           },
           {
             "iso2": "VE",
-            "sources": 1352,
-            "reports": 110277,
-            "targets": 11188,
-            "persistence": 113.2751
+            "sources": 1129,
+            "reports": 98834,
+            "targets": 9944,
+            "persistence": 128.7086
           },
           {
             "iso2": "IT",
-            "sources": 1232,
-            "reports": 2795531,
-            "targets": 16617,
-            "persistence": 190.5974
+            "sources": 1073,
+            "reports": 2767001,
+            "targets": 14809,
+            "persistence": 211.0345
           },
           {
             "iso2": "PH",
-            "sources": 1203,
-            "reports": 1428454,
-            "targets": 20011,
-            "persistence": 192.7747
+            "sources": 1037,
+            "reports": 719745,
+            "targets": 19949,
+            "persistence": 219.135
           },
           {
             "iso2": "PL",
-            "sources": 1104,
-            "reports": 1039993,
-            "targets": 13680,
-            "persistence": 124.1005
-          },
-          {
-            "iso2": "MM",
-            "sources": 1076,
-            "reports": 307534,
-            "targets": 6424,
-            "persistence": 65.7165
-          },
-          {
-            "iso2": "BG",
-            "sources": 1064,
-            "reports": 61623548,
-            "targets": 69722,
-            "persistence": 139.6147
+            "sources": 978,
+            "reports": 1037541,
+            "targets": 13055,
+            "persistence": 132.8661
           },
           {
             "iso2": "GR",
-            "sources": 986,
-            "reports": 657486,
-            "targets": 6110,
-            "persistence": 174.2333
+            "sources": 954,
+            "reports": 662723,
+            "targets": 5944,
+            "persistence": 183.7904
+          },
+          {
+            "iso2": "BG",
+            "sources": 945,
+            "reports": 63185049,
+            "targets": 70180,
+            "persistence": 153.3397
           },
           {
             "iso2": "FI",
-            "sources": 952,
-            "reports": 3320979,
-            "targets": 25367,
-            "persistence": 192.9265
+            "sources": 900,
+            "reports": 3346475,
+            "targets": 24636,
+            "persistence": 202.0222
+          },
+          {
+            "iso2": "MM",
+            "sources": 868,
+            "reports": 306046,
+            "targets": 5869,
+            "persistence": 74.6164
           },
           {
             "iso2": "IR",
-            "sources": 913,
-            "reports": 1908824,
-            "targets": 25463,
-            "persistence": 90.0734
-          },
-          {
-            "iso2": "KE",
-            "sources": 912,
-            "reports": 107345,
-            "targets": 12453,
-            "persistence": 139.239
+            "sources": 849,
+            "reports": 1812494,
+            "targets": 24444,
+            "persistence": 95.3369
           },
           {
             "iso2": "PT",
-            "sources": 900,
-            "reports": 1297541,
-            "targets": 127777,
-            "persistence": 350.6278
+            "sources": 841,
+            "reports": 1294069,
+            "targets": 127295,
+            "persistence": 375.0143
           },
           {
             "iso2": "BE",
-            "sources": 830,
-            "reports": 706463,
-            "targets": 20009,
-            "persistence": 248.0108
+            "sources": 817,
+            "reports": 811282,
+            "targets": 34266,
+            "persistence": 249.1665
           },
           {
-            "iso2": "EC",
-            "sources": 785,
-            "reports": 90325,
-            "targets": 9543,
-            "persistence": 105.1236
+            "iso2": "KE",
+            "sources": 770,
+            "reports": 103934,
+            "targets": 11299,
+            "persistence": 157.0351
           },
           {
             "iso2": "RO",
-            "sources": 761,
-            "reports": 9102197,
-            "targets": 18751,
-            "persistence": 157.7043
+            "sources": 647,
+            "reports": 9752459,
+            "targets": 18273,
+            "persistence": 177.6136
           },
           {
-            "iso2": "IE",
-            "sources": 673,
-            "reports": 277083,
-            "targets": 6831,
-            "persistence": 184.1367
+            "iso2": "EC",
+            "sources": 643,
+            "reports": 84459,
+            "targets": 7360,
+            "persistence": 121.1649
           },
           {
             "iso2": "IL",
-            "sources": 630,
-            "reports": 186767,
-            "targets": 10857,
-            "persistence": 129.3508
-          },
-          {
-            "iso2": "KZ",
-            "sources": 626,
-            "reports": 1683638,
-            "targets": 13410,
-            "persistence": 227.8818
+            "sources": 576,
+            "reports": 183512,
+            "targets": 10632,
+            "persistence": 139.6979
           },
           {
             "iso2": "EG",
-            "sources": 587,
-            "reports": 147591,
-            "targets": 14541,
-            "persistence": 354.1397
+            "sources": 556,
+            "reports": 139324,
+            "targets": 14248,
+            "persistence": 366.3543
           },
           {
-            "iso2": "DO",
-            "sources": 584,
-            "reports": 95229,
-            "targets": 4135,
-            "persistence": 91.4983
+            "iso2": "IE",
+            "sources": 550,
+            "reports": 282093,
+            "targets": 6120,
+            "persistence": 209.0782
+          },
+          {
+            "iso2": "KZ",
+            "sources": 549,
+            "reports": 1625213,
+            "targets": 12648,
+            "persistence": 253.6995
           },
           {
             "iso2": "LT",
-            "sources": 569,
-            "reports": 774417,
-            "targets": 69788,
-            "persistence": 94.6608
+            "sources": 524,
+            "reports": 831812,
+            "targets": 69487,
+            "persistence": 96.6813
           },
           {
-            "iso2": "HU",
-            "sources": 560,
-            "reports": 392180,
-            "targets": 2476,
-            "persistence": 102.1089
-          },
-          {
-            "iso2": "CZ",
-            "sources": 526,
-            "reports": 432520,
-            "targets": 3213,
-            "persistence": 144.8346
+            "iso2": "DO",
+            "sources": 516,
+            "reports": 93749,
+            "targets": 3798,
+            "persistence": 102.6434
           },
           {
             "iso2": "SC",
-            "sources": 509,
-            "reports": 3328408,
-            "targets": 21422,
-            "persistence": 76.5874
+            "sources": 494,
+            "reports": 3740517,
+            "targets": 21018,
+            "persistence": 78.4656
           },
           {
-            "iso2": "IQ",
-            "sources": 498,
-            "reports": 279089,
-            "targets": 6848,
-            "persistence": 126.0643
+            "iso2": "HU",
+            "sources": 474,
+            "reports": 370082,
+            "targets": 2313,
+            "persistence": 114.3354
           },
           {
-            "iso2": "AZ",
-            "sources": 493,
-            "reports": 1020894,
-            "targets": 4095,
-            "persistence": 124.6085
-          },
-          {
-            "iso2": "NG",
-            "sources": 475,
-            "reports": 1117726,
-            "targets": 19597,
-            "persistence": 174.08
+            "iso2": "CZ",
+            "sources": 462,
+            "reports": 440058,
+            "targets": 2743,
+            "persistence": 155.8398
           },
           {
             "iso2": "AE",
-            "sources": 445,
-            "reports": 2474122,
-            "targets": 20021,
-            "persistence": 163.8921
+            "sources": 403,
+            "reports": 2804928,
+            "targets": 20650,
+            "persistence": 179.9231
+          },
+          {
+            "iso2": "NG",
+            "sources": 397,
+            "reports": 984282,
+            "targets": 19121,
+            "persistence": 202.9244
           },
           {
             "iso2": "NO",
-            "sources": 445,
-            "reports": 1207173,
-            "targets": 5299,
-            "persistence": 181.7191
+            "sources": 396,
+            "reports": 721138,
+            "targets": 4561,
+            "persistence": 198.9343
           },
           {
-            "iso2": "GE",
-            "sources": 432,
-            "reports": 105128,
-            "targets": 7541,
-            "persistence": 189.2593
+            "iso2": "IQ",
+            "sources": 393,
+            "reports": 163856,
+            "targets": 6658,
+            "persistence": 152.9949
           },
           {
             "iso2": "AT",
-            "sources": 421,
-            "reports": 344106,
-            "targets": 3615,
-            "persistence": 211.9097
+            "sources": 389,
+            "reports": 348755,
+            "targets": 3539,
+            "persistence": 227.2494
+          },
+          {
+            "iso2": "GE",
+            "sources": 389,
+            "reports": 105083,
+            "targets": 7166,
+            "persistence": 207.2931
+          },
+          {
+            "iso2": "AZ",
+            "sources": 388,
+            "reports": 1191487,
+            "targets": 3803,
+            "persistence": 149.9562
           },
           {
             "iso2": "DK",
-            "sources": 406,
-            "reports": 8103373,
-            "targets": 2915,
-            "persistence": 184.165
-          },
-          {
-            "iso2": "NP",
-            "sources": 397,
-            "reports": 26726,
-            "targets": 2860,
-            "persistence": 123.5491
+            "sources": 357,
+            "reports": 8400292,
+            "targets": 2600,
+            "persistence": 198.1485
           },
           {
             "iso2": "PE",
-            "sources": 374,
-            "reports": 150613,
-            "targets": 5888,
-            "persistence": 156.7059
+            "sources": 327,
+            "reports": 124892,
+            "targets": 4690,
+            "persistence": 172.4067
+          },
+          {
+            "iso2": "NP",
+            "sources": 326,
+            "reports": 26248,
+            "targets": 2651,
+            "persistence": 144.0706
           },
           {
             "iso2": "MD",
-            "sources": 359,
-            "reports": 174923,
-            "targets": 7304,
-            "persistence": 149.7549
+            "sources": 325,
+            "reports": 172457,
+            "targets": 6647,
+            "persistence": 160.08
           },
           {
             "iso2": "PY",
-            "sources": 341,
-            "reports": 19312,
-            "targets": 2360,
-            "persistence": 117.4692
+            "sources": 299,
+            "reports": 18236,
+            "targets": 2176,
+            "persistence": 129.8194
           },
           {
             "iso2": "NZ",
-            "sources": 339,
-            "reports": 261621,
-            "targets": 2406,
-            "persistence": 166.5369
+            "sources": 297,
+            "reports": 243021,
+            "targets": 2310,
+            "persistence": 183.1279
           },
           {
             "iso2": "AM",
-            "sources": 290,
-            "reports": 130894,
-            "targets": 5785,
-            "persistence": 181.8897
+            "sources": 263,
+            "reports": 128936,
+            "targets": 5347,
+            "persistence": 198.8099
           },
           {
             "iso2": "LV",
-            "sources": 272,
-            "reports": 230556,
-            "targets": 3429,
-            "persistence": 159.4228
+            "sources": 234,
+            "reports": 200216,
+            "targets": 3233,
+            "persistence": 175.3462
           },
           {
             "iso2": "BO",
-            "sources": 250,
-            "reports": 183471,
-            "targets": 5030,
-            "persistence": 265.772
-          },
-          {
-            "iso2": "SA",
-            "sources": 232,
-            "reports": 21985,
-            "targets": 2282,
-            "persistence": 140.3664
-          },
-          {
-            "iso2": "ET",
-            "sources": 230,
-            "reports": 83926,
-            "targets": 6164,
-            "persistence": 280.2348
+            "sources": 227,
+            "reports": 183046,
+            "targets": 4858,
+            "persistence": 281.6167
           },
           {
             "iso2": "TN",
-            "sources": 228,
-            "reports": 88688,
-            "targets": 4141,
-            "persistence": 433.8377
+            "sources": 216,
+            "reports": 88607,
+            "targets": 4117,
+            "persistence": 459.4491
           },
           {
-            "iso2": "CI",
-            "sources": 224,
-            "reports": 11588,
-            "targets": 1672,
-            "persistence": 80.7054
+            "iso2": "ET",
+            "sources": 210,
+            "reports": 91450,
+            "targets": 5852,
+            "persistence": 301.3429
           },
           {
-            "iso2": "AL",
-            "sources": 221,
-            "reports": 68236,
-            "targets": 3603,
-            "persistence": 128.4977
-          },
-          {
-            "iso2": "RS",
-            "sources": 221,
-            "reports": 45266,
-            "targets": 1798,
-            "persistence": 182.8914
+            "iso2": "SA",
+            "sources": 208,
+            "reports": 21234,
+            "targets": 2203,
+            "persistence": 156.524
           },
           {
             "iso2": "PR",
-            "sources": 218,
-            "reports": 13789,
-            "targets": 1752,
-            "persistence": 127.9725
+            "sources": 191,
+            "reports": 13011,
+            "targets": 1445,
+            "persistence": 136.3089
           },
           {
-            "iso2": "QA",
-            "sources": 217,
-            "reports": 135398,
-            "targets": 1127,
-            "persistence": 122.6406
+            "iso2": "RS",
+            "sources": 191,
+            "reports": 40826,
+            "targets": 1674,
+            "persistence": 200.7644
           },
           {
             "iso2": "SI",
-            "sources": 208,
-            "reports": 355031,
-            "targets": 7856,
-            "persistence": 129.5144
+            "sources": 189,
+            "reports": 388461,
+            "targets": 8048,
+            "persistence": 137.6772
           },
           {
-            "iso2": "BY",
-            "sources": 205,
-            "reports": 20293,
-            "targets": 1038,
-            "persistence": 190.4049
+            "iso2": "QA",
+            "sources": 187,
+            "reports": 115366,
+            "targets": 851,
+            "persistence": 137.4813
+          },
+          {
+            "iso2": "CI",
+            "sources": 186,
+            "reports": 8196,
+            "targets": 1305,
+            "persistence": 89.1344
           },
           {
             "iso2": "SK",
-            "sources": 202,
-            "reports": 231697,
-            "targets": 1379,
-            "persistence": 129.6485
+            "sources": 185,
+            "reports": 271229,
+            "targets": 1269,
+            "persistence": 139.9297
           },
           {
-            "iso2": "CG",
-            "sources": 195,
-            "reports": 1665,
-            "targets": 588,
-            "persistence": 63.0
+            "iso2": "AL",
+            "sources": 184,
+            "reports": 66456,
+            "targets": 3440,
+            "persistence": 145.0
+          },
+          {
+            "iso2": "BY",
+            "sources": 177,
+            "reports": 19636,
+            "targets": 939,
+            "persistence": 211.7684
           },
           {
             "iso2": "DZ",
-            "sources": 179,
-            "reports": 39863,
-            "targets": 1644,
-            "persistence": 216.5922
-          },
-          {
-            "iso2": "CR",
-            "sources": 175,
-            "reports": 13191,
-            "targets": 1893,
-            "persistence": 159.3486
+            "sources": 172,
+            "reports": 40069,
+            "targets": 1619,
+            "persistence": 227.3721
           },
           {
             "iso2": "MN",
-            "sources": 171,
-            "reports": 70594,
-            "targets": 3786,
-            "persistence": 611.152
+            "sources": 162,
+            "reports": 70251,
+            "targets": 3735,
+            "persistence": 637.0864
+          },
+          {
+            "iso2": "CG",
+            "sources": 161,
+            "reports": 1464,
+            "targets": 504,
+            "persistence": 69.6894
+          },
+          {
+            "iso2": "CR",
+            "sources": 148,
+            "reports": 9599,
+            "targets": 1652,
+            "persistence": 175.7973
           },
           {
             "iso2": "KH",
-            "sources": 167,
-            "reports": 65179,
-            "targets": 2754,
-            "persistence": 172.006
+            "sources": 145,
+            "reports": 64272,
+            "targets": 2368,
+            "persistence": 188.3931
           },
           {
             "iso2": "LU",
-            "sources": 159,
-            "reports": 426946,
-            "targets": 1899,
-            "persistence": 240.9937
-          },
-          {
-            "iso2": "MA",
-            "sources": 153,
-            "reports": 171359,
-            "targets": 4849,
-            "persistence": 195.4183
+            "sources": 142,
+            "reports": 360844,
+            "targets": 1994,
+            "persistence": 264.331
           },
           {
             "iso2": "EE",
-            "sources": 150,
-            "reports": 175162,
-            "targets": 1116,
-            "persistence": 126.16
+            "sources": 134,
+            "reports": 149924,
+            "targets": 1095,
+            "persistence": 129.6194
+          },
+          {
+            "iso2": "MA",
+            "sources": 134,
+            "reports": 170902,
+            "targets": 4762,
+            "persistence": 220.4403
           },
           {
             "iso2": "PA",
-            "sources": 149,
-            "reports": 1163555,
-            "targets": 5182,
-            "persistence": 219.7718
+            "sources": 130,
+            "reports": 1155949,
+            "targets": 5020,
+            "persistence": 249.1538
           },
           {
             "iso2": "IS",
-            "sources": 137,
-            "reports": 450503,
-            "targets": 730,
-            "persistence": 169.2847
+            "sources": 127,
+            "reports": 448022,
+            "targets": 706,
+            "persistence": 183.2362
           },
           {
             "iso2": "KG",
-            "sources": 137,
-            "reports": 15827,
-            "targets": 1550,
-            "persistence": 207.781
+            "sources": 120,
+            "reports": 12453,
+            "targets": 1427,
+            "persistence": 223.9167
           },
           {
             "iso2": "TG",
-            "sources": 137,
-            "reports": 5479,
-            "targets": 1294,
-            "persistence": 73.2336
+            "sources": 120,
+            "reports": 5187,
+            "targets": 1185,
+            "persistence": 81.4083
           },
           {
             "iso2": "HR",
-            "sources": 132,
-            "reports": 48552,
-            "targets": 821,
-            "persistence": 120.9318
-          },
-          {
-            "iso2": "BF",
-            "sources": 125,
-            "reports": 7577,
-            "targets": 1655,
-            "persistence": 73.968
+            "sources": 107,
+            "reports": 43841,
+            "targets": 721,
+            "persistence": 140.4579
           },
           {
             "iso2": "JO",
-            "sources": 111,
-            "reports": 13475,
-            "targets": 1760,
-            "persistence": 259.2613
+            "sources": 106,
+            "reports": 13405,
+            "targets": 1747,
+            "persistence": 275.5094
           },
           {
-            "iso2": "CM",
-            "sources": 109,
-            "reports": 60042,
-            "targets": 1333,
-            "persistence": 125.3761
+            "iso2": "BF",
+            "sources": 104,
+            "reports": 4797,
+            "targets": 1317,
+            "persistence": 82.5096
           },
           {
             "iso2": "TZ",
-            "sources": 105,
-            "reports": 57975,
-            "targets": 1401,
-            "persistence": 139.9333
+            "sources": 102,
+            "reports": 59766,
+            "targets": 1383,
+            "persistence": 142.4412
           },
           {
             "iso2": "LK",
-            "sources": 101,
-            "reports": 67719,
-            "targets": 3049,
-            "persistence": 325.5644
+            "sources": 93,
+            "reports": 65050,
+            "targets": 2878,
+            "persistence": 352.2796
+          },
+          {
+            "iso2": "CM",
+            "sources": 92,
+            "reports": 59771,
+            "targets": 1297,
+            "persistence": 140.9022
           },
           {
             "iso2": "SV",
-            "sources": 101,
-            "reports": 55223,
-            "targets": 1146,
-            "persistence": 101.1287
+            "sources": 88,
+            "reports": 55490,
+            "targets": 1066,
+            "persistence": 105.2955
           },
           {
             "iso2": "CY",
-            "sources": 96,
-            "reports": 30561,
-            "targets": 1106,
-            "persistence": 260.9896
+            "sources": 86,
+            "reports": 30100,
+            "targets": 1045,
+            "persistence": 285.7093
           },
           {
             "iso2": "LA",
-            "sources": 91,
-            "reports": 7496,
-            "targets": 790,
-            "persistence": 230.6154
-          },
-          {
-            "iso2": "MO",
-            "sources": 85,
-            "reports": 177924,
-            "targets": 2274,
-            "persistence": 268.8118
+            "sources": 78,
+            "reports": 7398,
+            "targets": 767,
+            "persistence": 265.9615
           },
           {
             "iso2": "OM",
-            "sources": 84,
-            "reports": 4056,
-            "targets": 647,
-            "persistence": 165.8095
+            "sources": 77,
+            "reports": 3923,
+            "targets": 604,
+            "persistence": 180.961
           },
           {
-            "iso2": "TT",
-            "sources": 84,
-            "reports": 10059,
-            "targets": 667,
-            "persistence": 102.4286
+            "iso2": "MO",
+            "sources": 76,
+            "reports": 178429,
+            "targets": 2262,
+            "persistence": 296.8947
           },
           {
             "iso2": "MK",
-            "sources": 83,
-            "reports": 48831,
-            "targets": 937,
-            "persistence": 204.9277
+            "sources": 75,
+            "reports": 48408,
+            "targets": 897,
+            "persistence": 225.3733
           },
           {
-            "iso2": "AO",
-            "sources": 80,
-            "reports": 23332,
-            "targets": 1009,
-            "persistence": 122.0875
-          },
-          {
-            "iso2": "MZ",
-            "sources": 80,
-            "reports": 14015,
-            "targets": 1353,
-            "persistence": 170.1
-          },
-          {
-            "iso2": "BH",
-            "sources": 78,
-            "reports": 23942,
-            "targets": 972,
-            "persistence": 117.5128
+            "iso2": "TT",
+            "sources": 73,
+            "reports": 9787,
+            "targets": 519,
+            "persistence": 111.3425
           },
           {
             "iso2": "GH",
-            "sources": 77,
-            "reports": 75424,
-            "targets": 1730,
-            "persistence": 140.8961
-          },
-          {
-            "iso2": "XK",
-            "sources": 77,
-            "reports": 3721,
-            "targets": 885,
-            "persistence": 242.1039
-          },
-          {
-            "iso2": "JM",
-            "sources": 75,
-            "reports": 2499,
-            "targets": 818,
-            "persistence": 159.8533
-          },
-          {
-            "iso2": "LB",
-            "sources": 74,
-            "reports": 4553,
-            "targets": 954,
-            "persistence": 188.0541
-          },
-          {
-            "iso2": "HN",
-            "sources": 73,
-            "reports": 8498,
-            "targets": 931,
-            "persistence": 136.0137
-          },
-          {
-            "iso2": "PS",
-            "sources": 73,
-            "reports": 4712,
-            "targets": 984,
-            "persistence": 442.726
-          },
-          {
-            "iso2": "KW",
             "sources": 72,
-            "reports": 14095,
-            "targets": 1208,
-            "persistence": 281.9444
+            "reports": 73186,
+            "targets": 1723,
+            "persistence": 151.1528
           },
           {
             "iso2": "TJ",
-            "sources": 72,
-            "reports": 16793,
-            "targets": 1265,
-            "persistence": 206.2083
+            "sources": 70,
+            "reports": 16788,
+            "targets": 1263,
+            "persistence": 214.6143
+          },
+          {
+            "iso2": "KW",
+            "sources": 69,
+            "reports": 13918,
+            "targets": 1153,
+            "persistence": 290.6522
+          },
+          {
+            "iso2": "HN",
+            "sources": 67,
+            "reports": 8416,
+            "targets": 920,
+            "persistence": 145.2687
+          },
+          {
+            "iso2": "JM",
+            "sources": 67,
+            "reports": 2344,
+            "targets": 781,
+            "persistence": 167.7015
+          },
+          {
+            "iso2": "PS",
+            "sources": 67,
+            "reports": 4506,
+            "targets": 945,
+            "persistence": 458.3582
+          },
+          {
+            "iso2": "AO",
+            "sources": 66,
+            "reports": 23061,
+            "targets": 961,
+            "persistence": 142.1061
+          },
+          {
+            "iso2": "BH",
+            "sources": 65,
+            "reports": 23721,
+            "targets": 925,
+            "persistence": 136.4308
+          },
+          {
+            "iso2": "XK",
+            "sources": 62,
+            "reports": 3615,
+            "targets": 826,
+            "persistence": 294.129
+          },
+          {
+            "iso2": "LB",
+            "sources": 60,
+            "reports": 4158,
+            "targets": 806,
+            "persistence": 217.75
           },
           {
             "iso2": "UY",
-            "sources": 66,
-            "reports": 11458,
-            "targets": 371,
-            "persistence": 81.0
+            "sources": 59,
+            "reports": 11315,
+            "targets": 359,
+            "persistence": 88.2712
           },
           {
             "iso2": "RE",
-            "sources": 65,
-            "reports": 5581,
-            "targets": 874,
-            "persistence": 100.1077
+            "sources": 58,
+            "reports": 4933,
+            "targets": 627,
+            "persistence": 108.569
           },
           {
-            "iso2": "LY",
-            "sources": 63,
-            "reports": 103053,
-            "targets": 730,
-            "persistence": 117.2857
+            "iso2": "MZ",
+            "sources": 57,
+            "reports": 13607,
+            "targets": 1169,
+            "persistence": 223.9123
           },
           {
             "iso2": "BA",
-            "sources": 62,
-            "reports": 49660,
-            "targets": 1151,
-            "persistence": 128.871
+            "sources": 52,
+            "reports": 71560,
+            "targets": 1114,
+            "persistence": 149.7692
           },
           {
-            "iso2": "ML",
-            "sources": 60,
-            "reports": 553,
-            "targets": 277,
-            "persistence": 70.9833
+            "iso2": "LY",
+            "sources": 52,
+            "reports": 102591,
+            "targets": 706,
+            "persistence": 105.6346
           },
           {
             "iso2": "SY",
-            "sources": 56,
-            "reports": 32777,
-            "targets": 1060,
-            "persistence": 158.6071
+            "sources": 50,
+            "reports": 31625,
+            "targets": 935,
+            "persistence": 171.66
           },
           {
             "iso2": "UG",
-            "sources": 56,
-            "reports": 24693,
-            "targets": 1421,
-            "persistence": 281.7679
-          },
-          {
-            "iso2": "ZW",
-            "sources": 56,
-            "reports": 19846,
-            "targets": 525,
-            "persistence": 169.4464
-          },
-          {
-            "iso2": "NI",
-            "sources": 52,
-            "reports": 9579,
-            "targets": 999,
-            "persistence": 189.7115
+            "sources": 50,
+            "reports": 24599,
+            "targets": 1398,
+            "persistence": 310.98
           },
           {
             "iso2": "BW",
-            "sources": 49,
-            "reports": 36144,
-            "targets": 737,
-            "persistence": 170.8776
+            "sources": 46,
+            "reports": 39243,
+            "targets": 766,
+            "persistence": 183.7391
+          },
+          {
+            "iso2": "NI",
+            "sources": 46,
+            "reports": 9442,
+            "targets": 963,
+            "persistence": 208.6957
           },
           {
             "iso2": "GP",
-            "sources": 49,
-            "reports": 9630,
-            "targets": 794,
-            "persistence": 78.2041
-          },
-          {
-            "iso2": "SN",
-            "sources": 46,
-            "reports": 33970,
-            "targets": 806,
-            "persistence": 119.4783
-          },
-          {
-            "iso2": "ZM",
             "sources": 45,
-            "reports": 22891,
-            "targets": 960,
-            "persistence": 155.2
+            "reports": 9289,
+            "targets": 646,
+            "persistence": 84.8889
+          },
+          {
+            "iso2": "ZW",
+            "sources": 45,
+            "reports": 19780,
+            "targets": 488,
+            "persistence": 206.7778
           },
           {
             "iso2": "AF",
-            "sources": 44,
-            "reports": 26283,
-            "targets": 1158,
-            "persistence": 223.9545
-          },
-          {
-            "iso2": "MQ",
             "sources": 42,
-            "reports": 7441,
-            "targets": 452,
-            "persistence": 84.7381
+            "reports": 26028,
+            "targets": 1151,
+            "persistence": 234.5714
           },
           {
             "iso2": "MU",
-            "sources": 42,
-            "reports": 48505,
-            "targets": 850,
-            "persistence": 280.5476
+            "sources": 41,
+            "reports": 48502,
+            "targets": 849,
+            "persistence": 289.7805
+          },
+          {
+            "iso2": "ML",
+            "sources": 40,
+            "reports": 457,
+            "targets": 212,
+            "persistence": 82.975
+          },
+          {
+            "iso2": "MQ",
+            "sources": 40,
+            "reports": 7400,
+            "targets": 444,
+            "persistence": 90.15
+          },
+          {
+            "iso2": "ZM",
+            "sources": 38,
+            "reports": 22818,
+            "targets": 917,
+            "persistence": 177.3421
           },
           {
             "iso2": "MT",
-            "sources": 39,
-            "reports": 4486,
-            "targets": 474,
-            "persistence": 187.1795
+            "sources": 36,
+            "reports": 3949,
+            "targets": 462,
+            "persistence": 200.25
+          },
+          {
+            "iso2": "SN",
+            "sources": 33,
+            "reports": 33682,
+            "targets": 782,
+            "persistence": 153.4545
           },
           {
             "iso2": "BS",
-            "sources": 38,
-            "reports": 3306,
-            "targets": 174,
-            "persistence": 93.1842
+            "sources": 31,
+            "reports": 2626,
+            "targets": 154,
+            "persistence": 105.5806
           },
           {
             "iso2": "RW",
-            "sources": 34,
-            "reports": 19876,
-            "targets": 377,
-            "persistence": 147.9412
+            "sources": 31,
+            "reports": 19592,
+            "targets": 370,
+            "persistence": 163.2581
           },
           {
             "iso2": "BN",
-            "sources": 28,
-            "reports": 4993,
-            "targets": 495,
-            "persistence": 248.0
-          },
-          {
-            "iso2": "GA",
-            "sources": 28,
-            "reports": 1966,
-            "targets": 267,
-            "persistence": 128.6786
-          },
-          {
-            "iso2": "MG",
-            "sources": 28,
-            "reports": 1263,
-            "targets": 294,
-            "persistence": 140.5714
+            "sources": 27,
+            "reports": 4989,
+            "targets": 493,
+            "persistence": 261.7778
           },
           {
             "iso2": "MV",
-            "sources": 28,
-            "reports": 2130,
-            "targets": 154,
-            "persistence": 310.7143
+            "sources": 25,
+            "reports": 2049,
+            "targets": 131,
+            "persistence": 305.48
           },
           {
             "iso2": "AD",
-            "sources": 26,
-            "reports": 33474,
+            "sources": 24,
+            "reports": 33617,
             "targets": 123,
-            "persistence": 117.9615
+            "persistence": 121.9583
+          },
+          {
+            "iso2": "GA",
+            "sources": 24,
+            "reports": 1939,
+            "targets": 261,
+            "persistence": 145.6667
           },
           {
             "iso2": "CD",
-            "sources": 26,
-            "reports": 5109,
-            "targets": 272,
-            "persistence": 70.7692
+            "sources": 22,
+            "reports": 5036,
+            "targets": 255,
+            "persistence": 76.4545
+          },
+          {
+            "iso2": "MG",
+            "sources": 22,
+            "reports": 1140,
+            "targets": 284,
+            "persistence": 161.4091
           },
           {
             "iso2": "NA",
-            "sources": 25,
-            "reports": 529,
-            "targets": 72,
-            "persistence": 94.96
+            "sources": 22,
+            "reports": 513,
+            "targets": 60,
+            "persistence": 107.8182
           },
           {
             "iso2": "CW",
-            "sources": 21,
-            "reports": 4666,
-            "targets": 209,
-            "persistence": 146.8095
-          },
-          {
-            "iso2": "ME",
-            "sources": 20,
-            "reports": 6354,
-            "targets": 150,
-            "persistence": 141.5
-          },
-          {
-            "iso2": "MC",
-            "sources": 19,
-            "reports": 116631,
-            "targets": 1882,
-            "persistence": 219.8947
+            "sources": 18,
+            "reports": 4500,
+            "targets": 151,
+            "persistence": 136.4444
           },
           {
             "iso2": "GU",
             "sources": 17,
             "reports": 1086,
             "targets": 188,
-            "persistence": 251.4118
+            "persistence": 252.6471
           },
           {
-            "iso2": "LR",
+            "iso2": "MC",
             "sources": 17,
-            "reports": 963,
-            "targets": 197,
-            "persistence": 171.0588
+            "reports": 116554,
+            "targets": 1878,
+            "persistence": 239.7647
           },
           {
             "iso2": "GY",
-            "sources": 16,
-            "reports": 784,
-            "targets": 41,
-            "persistence": 171.0
-          },
-          {
-            "iso2": "SR",
-            "sources": 16,
-            "reports": 3521,
-            "targets": 79,
-            "persistence": 273.9375
-          },
-          {
-            "iso2": "GF",
             "sources": 15,
-            "reports": 1495,
-            "targets": 373,
-            "persistence": 125.8
+            "reports": 781,
+            "targets": 40,
+            "persistence": 183.5333
+          },
+          {
+            "iso2": "ME",
+            "sources": 15,
+            "reports": 6095,
+            "targets": 144,
+            "persistence": 161.6
           },
           {
             "iso2": "TM",
             "sources": 15,
-            "reports": 265061,
-            "targets": 386,
-            "persistence": 177.4
+            "reports": 391285,
+            "targets": 409,
+            "persistence": 179.5333
           },
           {
             "iso2": "BZ",
             "sources": 14,
             "reports": 9280,
             "targets": 119,
-            "persistence": 122.2857
+            "persistence": 125.5714
+          },
+          {
+            "iso2": "GF",
+            "sources": 14,
+            "reports": 1351,
+            "targets": 345,
+            "persistence": 134.1429
+          },
+          {
+            "iso2": "SR",
+            "sources": 14,
+            "reports": 2448,
+            "targets": 73,
+            "persistence": 312.0714
           },
           {
             "iso2": "HT",
-            "sources": 14,
-            "reports": 3802,
-            "targets": 839,
-            "persistence": 83.6429
-          },
-          {
-            "iso2": "SO",
-            "sources": 14,
-            "reports": 193222,
-            "targets": 103,
-            "persistence": 93.1429
-          },
-          {
-            "iso2": "CV",
             "sources": 13,
-            "reports": 221,
-            "targets": 73,
-            "persistence": 40.0
+            "reports": 2605,
+            "targets": 583,
+            "persistence": 81.5385
           },
           {
             "iso2": "GM",
-            "sources": 13,
-            "reports": 410,
-            "targets": 69,
-            "persistence": 55.0769
-          },
-          {
-            "iso2": "MR",
-            "sources": 13,
-            "reports": 15885,
-            "targets": 597,
-            "persistence": 101.5385
-          },
-          {
-            "iso2": "AG",
             "sources": 12,
-            "reports": 1259,
-            "targets": 90,
-            "persistence": 51.1667
+            "reports": 289,
+            "targets": 58,
+            "persistence": 59.1667
           },
           {
-            "iso2": "MW",
+            "iso2": "LR",
             "sources": 12,
-            "reports": 8695,
-            "targets": 547,
-            "persistence": 167.4167
+            "reports": 886,
+            "targets": 158,
+            "persistence": 233.1667
           },
           {
-            "iso2": "NE",
+            "iso2": "SO",
             "sources": 12,
-            "reports": 887,
-            "targets": 25,
-            "persistence": 130.0
-          },
-          {
-            "iso2": "PF",
-            "sources": 12,
-            "reports": 362,
-            "targets": 117,
-            "persistence": 177.5833
-          },
-          {
-            "iso2": "SD",
-            "sources": 12,
-            "reports": 892,
-            "targets": 254,
-            "persistence": 228.5833
+            "reports": 193100,
+            "targets": 100,
+            "persistence": 102.4167
           },
           {
             "iso2": "DJ",
             "sources": 11,
             "reports": 404,
             "targets": 43,
-            "persistence": 187.3636
+            "persistence": 193.2727
+          },
+          {
+            "iso2": "MW",
+            "sources": 11,
+            "reports": 8694,
+            "targets": 546,
+            "persistence": 182.6364
+          },
+          {
+            "iso2": "NE",
+            "sources": 11,
+            "reports": 885,
+            "targets": 24,
+            "persistence": 138.5455
+          },
+          {
+            "iso2": "PF",
+            "sources": 11,
+            "reports": 344,
+            "targets": 105,
+            "persistence": 187.7273
+          },
+          {
+            "iso2": "AG",
+            "sources": 10,
+            "reports": 1201,
+            "targets": 82,
+            "persistence": 55.4
           },
           {
             "iso2": "BJ",
             "sources": 10,
             "reports": 479,
             "targets": 55,
-            "persistence": 88.2
-          },
-          {
-            "iso2": "BM",
-            "sources": 10,
-            "reports": 2595,
-            "targets": 45,
-            "persistence": 79.0
-          },
-          {
-            "iso2": "BT",
-            "sources": 10,
-            "reports": 510,
-            "targets": 29,
-            "persistence": 218.6
+            "persistence": 95.6
           },
           {
             "iso2": "ER",
             "sources": 10,
             "reports": 1676376,
             "targets": 1025,
-            "persistence": 143.6
+            "persistence": 149.4
           },
           {
             "iso2": "PG",
             "sources": 10,
             "reports": 394,
             "targets": 164,
-            "persistence": 81.3
+            "persistence": 82.1
           },
           {
-            "iso2": "FJ",
+            "iso2": "SD",
+            "sources": 10,
+            "reports": 863,
+            "targets": 252,
+            "persistence": 268.2
+          },
+          {
+            "iso2": "BT",
             "sources": 9,
-            "reports": 109,
-            "targets": 15,
-            "persistence": 78.4444
+            "reports": 425,
+            "targets": 28,
+            "persistence": 235.1111
+          },
+          {
+            "iso2": "CV",
+            "sources": 9,
+            "reports": 156,
+            "targets": 55,
+            "persistence": 42.4444
           },
           {
             "iso2": "IM",
             "sources": 9,
             "reports": 22322,
             "targets": 243,
-            "persistence": 112.7778
+            "persistence": 116.7778
           },
           {
             "iso2": "BB",
             "sources": 8,
             "reports": 353,
             "targets": 27,
-            "persistence": 245.125
+            "persistence": 249.0
+          },
+          {
+            "iso2": "FJ",
+            "sources": 8,
+            "reports": 106,
+            "targets": 14,
+            "persistence": 84.75
           },
           {
             "iso2": "LC",
             "sources": 8,
             "reports": 1682,
             "targets": 23,
-            "persistence": 64.25
+            "persistence": 65.875
           },
           {
-            "iso2": "TD",
+            "iso2": "MR",
             "sources": 8,
-            "reports": 84985,
-            "targets": 143,
-            "persistence": 180.875
+            "reports": 15872,
+            "targets": 591,
+            "persistence": 150.75
           },
           {
-            "iso2": "VG",
-            "sources": 8,
-            "reports": 2584,
-            "targets": 34,
-            "persistence": 101.25
-          },
-          {
-            "iso2": "VI",
-            "sources": 8,
-            "reports": 1977,
-            "targets": 181,
-            "persistence": 126.75
-          },
-          {
-            "iso2": "CU",
+            "iso2": "BM",
             "sources": 7,
-            "reports": 1375,
-            "targets": 13,
-            "persistence": 63.4286
+            "reports": 2453,
+            "targets": 39,
+            "persistence": 94.0
           },
           {
             "iso2": "FO",
             "sources": 7,
             "reports": 4211,
             "targets": 28,
-            "persistence": 150.2857
-          },
-          {
-            "iso2": "KY",
-            "sources": 7,
-            "reports": 320,
-            "targets": 42,
-            "persistence": 88.7143
+            "persistence": 154.4286
           },
           {
             "iso2": "NC",
             "sources": 7,
             "reports": 536,
             "targets": 71,
-            "persistence": 182.4286
+            "persistence": 188.2857
           },
           {
-            "iso2": "VC",
+            "iso2": "VG",
             "sources": 7,
-            "reports": 1220,
-            "targets": 19,
-            "persistence": 77.5714
+            "reports": 2492,
+            "targets": 33,
+            "persistence": 113.5714
           },
           {
             "iso2": "AW",
             "sources": 6,
             "reports": 14170,
             "targets": 26,
-            "persistence": 116.3333
+            "persistence": 121.3333
           },
           {
-            "iso2": "LI",
+            "iso2": "CU",
             "sources": 6,
-            "reports": 705,
-            "targets": 29,
-            "persistence": 80.6667
+            "reports": 1270,
+            "targets": 11,
+            "persistence": 48.6667
           },
           {
-            "iso2": "BI",
-            "sources": 5,
-            "reports": 369,
-            "targets": 30,
-            "persistence": 368.6
+            "iso2": "KY",
+            "sources": 6,
+            "reports": 314,
+            "targets": 41,
+            "persistence": 97.0
+          },
+          {
+            "iso2": "VC",
+            "sources": 6,
+            "reports": 1214,
+            "targets": 17,
+            "persistence": 88.1667
+          },
+          {
+            "iso2": "VI",
+            "sources": 6,
+            "reports": 1939,
+            "targets": 169,
+            "persistence": 147.8333
           },
           {
             "iso2": "GD",
             "sources": 5,
             "reports": 86,
             "targets": 8,
-            "persistence": 87.6
+            "persistence": 90.4
           },
           {
             "iso2": "GN",
             "sources": 5,
             "reports": 197,
             "targets": 21,
-            "persistence": 74.0
+            "persistence": 80.2
+          },
+          {
+            "iso2": "LI",
+            "sources": 5,
+            "reports": 690,
+            "targets": 28,
+            "persistence": 96.6
           },
           {
             "iso2": "LS",
             "sources": 5,
             "reports": 5059,
             "targets": 76,
-            "persistence": 80.0
+            "persistence": 82.4
           },
           {
             "iso2": "SZ",
             "sources": 5,
             "reports": 545,
             "targets": 82,
-            "persistence": 195.0
+            "persistence": 198.4
           },
           {
-            "iso2": "YE",
+            "iso2": "TD",
             "sources": 5,
-            "reports": 1285,
-            "targets": 158,
-            "persistence": 92.0
+            "reports": 2323,
+            "targets": 139,
+            "persistence": 275.2
           },
           {
-            "iso2": "BQ",
+            "iso2": "BI",
             "sources": 4,
-            "reports": 32,
-            "targets": 18,
-            "persistence": 57.0
+            "reports": 326,
+            "targets": 29,
+            "persistence": 453.5
           },
           {
             "iso2": "GL",
             "sources": 4,
             "reports": 700,
             "targets": 19,
-            "persistence": 188.25
+            "persistence": 190.5
           },
           {
             "iso2": "GQ",
             "sources": 4,
             "reports": 36,
             "targets": 8,
-            "persistence": 50.25
-          },
-          {
-            "iso2": "KM",
-            "sources": 4,
-            "reports": 240,
-            "targets": 78,
-            "persistence": 518.25
+            "persistence": 52.5
           },
           {
             "iso2": "SX",
             "sources": 4,
             "reports": 144,
             "targets": 36,
-            "persistence": 173.5
+            "persistence": 175.25
           },
           {
-            "iso2": "XX",
+            "iso2": "YE",
             "sources": 4,
-            "reports": 496008,
-            "targets": 8,
-            "persistence": 313.5
+            "reports": 777,
+            "targets": 83,
+            "persistence": 113.25
+          },
+          {
+            "iso2": "BQ",
+            "sources": 3,
+            "reports": 28,
+            "targets": 17,
+            "persistence": 60.0
           },
           {
             "iso2": "DM",
             "sources": 3,
             "reports": 229,
             "targets": 123,
-            "persistence": 389.3333
+            "persistence": 393.6667
           },
           {
-            "iso2": "KN",
+            "iso2": "KM",
             "sources": 3,
-            "reports": 29,
-            "targets": 5,
-            "persistence": 40.0
+            "reports": 235,
+            "targets": 77,
+            "persistence": 682.6667
           },
           {
             "iso2": "MF",
             "sources": 3,
             "reports": 73,
             "targets": 16,
-            "persistence": 104.3333
+            "persistence": 113.3333
           },
           {
-            "iso2": "SB",
+            "iso2": "XX",
             "sources": 3,
-            "reports": 81,
-            "targets": 8,
-            "persistence": 71.6667
-          },
-          {
-            "iso2": "TL",
-            "sources": 3,
-            "reports": 1027,
-            "targets": 75,
-            "persistence": 51.6667
+            "reports": 496007,
+            "targets": 7,
+            "persistence": 422.0
           },
           {
             "iso2": "CK",
@@ -2228,21 +2207,28 @@
             "sources": 2,
             "reports": 506,
             "targets": 34,
-            "persistence": 256.0
+            "persistence": 260.0
           },
           {
-            "iso2": "SL",
+            "iso2": "KN",
             "sources": 2,
-            "reports": 2392,
-            "targets": 30,
-            "persistence": 58.5
+            "reports": 28,
+            "targets": 4,
+            "persistence": 42.5
+          },
+          {
+            "iso2": "SB",
+            "sources": 2,
+            "reports": 80,
+            "targets": 7,
+            "persistence": 111.5
           },
           {
             "iso2": "SS",
             "sources": 2,
             "reports": 22,
             "targets": 8,
-            "persistence": 87.5
+            "persistence": 107.0
           },
           {
             "iso2": "ST",
@@ -2263,7 +2249,7 @@
             "sources": 1,
             "reports": 15784,
             "targets": 6,
-            "persistence": 138.0
+            "persistence": 147.0
           },
           {
             "iso2": "BV",
@@ -2291,14 +2277,14 @@
             "sources": 1,
             "reports": 46,
             "targets": 11,
-            "persistence": 148.0
+            "persistence": 152.0
           },
           {
-            "iso2": "PW",
+            "iso2": "SL",
             "sources": 1,
-            "reports": 2,
-            "targets": 1,
-            "persistence": 0.0
+            "reports": 2391,
+            "targets": 29,
+            "persistence": 91.0
           },
           {
             "iso2": "SM",
@@ -2308,17 +2294,17 @@
             "persistence": 97.0
           },
           {
-            "iso2": "WS",
+            "iso2": "TL",
             "sources": 1,
-            "reports": 10,
+            "reports": 6,
             "targets": 1,
-            "persistence": 54.0
+            "persistence": 64.0
           }
         ],
-        "country_rows": 218,
-        "total_sources": 277923,
-        "total_reports": 636440154,
-        "total_targets": 11029455,
+        "country_rows": 216,
+        "total_sources": 248729,
+        "total_reports": 634412437,
+        "total_targets": 10703822,
         "unknown_country_sources": 2,
         "unknown_country_reports": 367,
         "unknown_country_targets": 34,
@@ -2342,7 +2328,7 @@
       "error": null,
       "reason": null,
       "stale_reason": null,
-      "retrieved_at": "2026-10-26T13:06:23+00:00",
+      "retrieved_at": "2026-11-02T15:57:48+00:00",
       "last_attempt_at": null,
       "data": {
         "feed_updated": "2026-03-04 14:28:39 UTC",
@@ -2394,128 +2380,128 @@
       "error": null,
       "reason": null,
       "stale_reason": null,
-      "retrieved_at": "2026-10-26T13:06:23+00:00",
+      "retrieved_at": "2026-11-02T15:57:48+00:00",
       "last_attempt_at": null,
       "data": {
-        "total": 33306,
-        "unknown_country": 8338,
-        "unknown_sector": 1657,
-        "global_finance": 1868,
+        "total": 33709,
+        "unknown_country": 8398,
+        "unknown_sector": 1713,
+        "global_finance": 1890,
         "by_country": [
           {
             "iso2": "US",
-            "count": 10916
+            "count": 11086
           },
           {
             "iso2": "GB",
-            "count": 1169
+            "count": 1182
           },
           {
             "iso2": "DE",
-            "count": 1155
+            "count": 1175
           },
           {
             "iso2": "CA",
-            "count": 1125
+            "count": 1134
           },
           {
             "iso2": "IT",
-            "count": 741
+            "count": 752
           },
           {
             "iso2": "FR",
-            "count": 714
+            "count": 721
           },
           {
             "iso2": "BR",
-            "count": 605
+            "count": 607
           },
           {
             "iso2": "IN",
-            "count": 564
+            "count": 566
           },
           {
             "iso2": "AU",
-            "count": 546
+            "count": 552
           },
           {
             "iso2": "ES",
-            "count": 529
+            "count": 537
           },
           {
             "iso2": "JP",
-            "count": 358
+            "count": 361
           },
           {
             "iso2": "MX",
-            "count": 333
+            "count": 345
           },
           {
             "iso2": "CH",
-            "count": 260
+            "count": 262
           },
           {
             "iso2": "TW",
-            "count": 236
+            "count": 240
           },
           {
             "iso2": "TH",
-            "count": 232
+            "count": 233
           },
           {
             "iso2": "AR",
-            "count": 221
+            "count": 223
           },
           {
             "iso2": "NL",
-            "count": 198
+            "count": 200
           },
           {
             "iso2": "SG",
-            "count": 197
+            "count": 200
           },
           {
             "iso2": "AE",
-            "count": 192
-          },
-          {
-            "iso2": "IL",
-            "count": 188
+            "count": 194
           },
           {
             "iso2": "TR",
-            "count": 184
+            "count": 190
+          },
+          {
+            "iso2": "IL",
+            "count": 190
           },
           {
             "iso2": "BE",
-            "count": 184
+            "count": 187
           },
           {
             "iso2": "SE",
-            "count": 178
+            "count": 181
           },
           {
             "iso2": "MY",
-            "count": 167
+            "count": 174
           },
           {
             "iso2": "CO",
-            "count": 157
+            "count": 160
           },
           {
             "iso2": "ID",
-            "count": 154
+            "count": 156
           },
           {
             "iso2": "CN",
             "count": 151
           },
           {
-            "iso2": "KR",
-            "count": 148
+            "iso2": "AT",
+            "count": 150
           },
           {
-            "iso2": "AT",
+            "iso2": "KR",
             "count": 148
           },
           {
@@ -2524,7 +2510,7 @@
           },
           {
             "iso2": "ZA",
-            "count": 138
+            "count": 139
           },
           {
             "iso2": "HK",
@@ -2535,52 +2521,52 @@
             "count": 108
           },
           {
+            "iso2": "PH",
+            "count": 99
+          },
+          {
+            "iso2": "CL",
+            "count": 98
+          },
+          {
             "iso2": "PT",
             "count": 97
           },
           {
-            "iso2": "CL",
-            "count": 97
-          },
-          {
-            "iso2": "PH",
+            "iso2": "PE",
             "count": 95
           },
           {
-            "iso2": "PE",
-            "count": 94
+            "iso2": "DK",
+            "count": 88
           },
           {
             "iso2": "VN",
-            "count": 86
+            "count": 87
           },
           {
             "iso2": "SA",
             "count": 86
           },
           {
-            "iso2": "DK",
-            "count": 85
+            "iso2": "IE",
+            "count": 82
           },
           {
             "iso2": "EG",
-            "count": 81
+            "count": 82
           },
           {
-            "iso2": "IE",
-            "count": 80
+            "iso2": "RO",
+            "count": 74
           },
           {
             "iso2": "RU",
             "count": 74
           },
           {
-            "iso2": "RO",
-            "count": 73
-          },
-          {
             "iso2": "NO",
-            "count": 70
+            "count": 71
           },
           {
             "iso2": "NZ",
@@ -2591,20 +2577,20 @@
             "count": 52
           },
           {
+            "iso2": "BG",
+            "count": 47
+          },
+          {
+            "iso2": "PK",
+            "count": 47
+          },
+          {
             "iso2": "FI",
             "count": 47
           },
           {
-            "iso2": "BG",
-            "count": 46
-          },
-          {
-            "iso2": "PK",
-            "count": 46
-          },
-          {
             "iso2": "EC",
-            "count": 38
+            "count": 41
           },
           {
             "iso2": "VE",
@@ -2620,23 +2606,23 @@
           },
           {
             "iso2": "HU",
-            "count": 31
+            "count": 33
           },
           {
             "iso2": "HR",
             "count": 31
           },
           {
-            "iso2": "LU",
-            "count": 29
-          },
-          {
             "iso2": "DO",
-            "count": 29
+            "count": 30
           },
           {
             "iso2": "BD",
-            "count": 28
+            "count": 29
+          },
+          {
+            "iso2": "LU",
+            "count": 29
           },
           {
             "iso2": "SK",
@@ -2647,11 +2633,11 @@
             "count": 27
           },
           {
-            "iso2": "NG",
+            "iso2": "TN",
             "count": 25
           },
           {
-            "iso2": "TN",
+            "iso2": "NG",
             "count": 25
           },
           {
@@ -2667,16 +2653,16 @@
             "count": 24
           },
           {
+            "iso2": "UY",
+            "count": 23
+          },
+          {
             "iso2": "CR",
             "count": 23
           },
           {
             "iso2": "GT",
             "count": 23
-          },
-          {
-            "iso2": "UY",
-            "count": 22
           },
           {
             "iso2": "PR",
@@ -2687,6 +2673,10 @@
             "count": 22
           },
           {
+            "iso2": "CY",
+            "count": 21
+          },
+          {
             "iso2": "LK",
             "count": 21
           },
@@ -2695,16 +2685,20 @@
             "count": 20
           },
           {
-            "iso2": "CY",
-            "count": 20
+            "iso2": "LB",
+            "count": 18
           },
           {
             "iso2": "PY",
             "count": 18
           },
           {
-            "iso2": "LB",
+            "iso2": "JM",
             "count": 17
+          },
+          {
+            "iso2": "BO",
+            "count": 16
           },
           {
             "iso2": "NA",
@@ -2715,14 +2709,6 @@
             "count": 16
           },
           {
-            "iso2": "JM",
-            "count": 16
-          },
-          {
-            "iso2": "BO",
-            "count": 15
-          },
-          {
             "iso2": "TT",
             "count": 13
           },
@@ -2731,7 +2717,7 @@
             "count": 13
           },
           {
-            "iso2": "AO",
+            "iso2": "UA",
             "count": 12
           },
           {
@@ -2743,6 +2729,10 @@
             "count": 12
           },
           {
+            "iso2": "AO",
+            "count": 12
+          },
+          {
             "iso2": "MM",
             "count": 11
           },
@@ -2751,7 +2741,7 @@
             "count": 11
           },
           {
-            "iso2": "UA",
+            "iso2": "GH",
             "count": 11
           },
           {
@@ -2763,7 +2753,7 @@
             "count": 10
           },
           {
-            "iso2": "GH",
+            "iso2": "MT",
             "count": 10
           },
           {
@@ -2772,10 +2762,6 @@
           },
           {
             "iso2": "MN",
-            "count": 9
-          },
-          {
-            "iso2": "MT",
             "count": 9
           },
           {
@@ -2805,6 +2791,10 @@
           {
             "iso2": "IS",
             "count": 8
+          },
+          {
+            "iso2": "CI",
+            "count": 7
           },
           {
             "iso2": "GE",
@@ -2839,10 +2829,6 @@
             "count": 6
           },
           {
-            "iso2": "CI",
-            "count": 6
-          },
-          {
             "iso2": "CM",
             "count": 6
           },
@@ -2855,15 +2841,15 @@
             "count": 6
           },
           {
-            "iso2": "AD",
-            "count": 5
-          },
-          {
             "iso2": "ET",
             "count": 5
           },
           {
             "iso2": "GA",
+            "count": 5
+          },
+          {
+            "iso2": "AD",
             "count": 5
           },
           {
@@ -2939,6 +2925,10 @@
             "count": 4
           },
           {
+            "iso2": "AZ",
+            "count": 4
+          },
+          {
             "iso2": "MV",
             "count": 4
           },
@@ -2959,19 +2949,11 @@
             "count": 4
           },
           {
-            "iso2": "CU",
-            "count": 3
-          },
-          {
             "iso2": "TL",
             "count": 3
           },
           {
             "iso2": "ML",
-            "count": 3
-          },
-          {
-            "iso2": "AZ",
             "count": 3
           },
           {
@@ -2988,6 +2970,10 @@
           },
           {
             "iso2": "NP",
+            "count": 3
+          },
+          {
+            "iso2": "CU",
             "count": 3
           },
           {
@@ -3063,7 +3049,7 @@
             "count": 2
           },
           {
-            "iso2": "NC",
+            "iso2": "SL",
             "count": 1
           },
           {
@@ -3104,6 +3090,10 @@
           },
           {
             "iso2": "CD",
+            "count": 1
+          },
+          {
+            "iso2": "NC",
             "count": 1
           },
           {
@@ -3170,51 +3160,51 @@
         "by_sector": [
           {
             "sector": "Professional Services",
-            "count": 6173
+            "count": 6226
           },
           {
             "sector": "Manufacturing",
-            "count": 5815
+            "count": 5865
           },
           {
             "sector": "Technology",
-            "count": 4171
+            "count": 4213
           },
           {
             "sector": "Healthcare",
-            "count": 2833
+            "count": 2867
           },
           {
             "sector": "Retail & E-Commerce",
-            "count": 2305
+            "count": 2327
           },
           {
             "sector": "Financial Services",
-            "count": 1868
+            "count": 1890
           },
           {
             "sector": "Not Found",
-            "count": 1655
+            "count": 1711
           },
           {
             "sector": "Transportation",
-            "count": 1526
+            "count": 1543
           },
           {
             "sector": "Education",
-            "count": 1443
+            "count": 1471
           },
           {
             "sector": "Government & Defense",
-            "count": 1409
+            "count": 1429
           },
           {
             "sector": "Agriculture and Food Production",
-            "count": 1362
+            "count": 1369
           },
           {
             "sector": "Energy & Utilities",
-            "count": 1008
+            "count": 1022
           }
         ],
         "by_year": [
@@ -3268,17 +3258,17 @@
           },
           {
             "year": "2025",
-            "count": 8146
+            "count": 8303
           },
           {
             "year": "2026",
-            "count": 8719
+            "count": 8965
           }
         ],
         "top_groups": [
           {
             "name": "qilin",
-            "count": 2489
+            "count": 2660
           },
           {
             "name": "lockbit3",
@@ -3286,7 +3276,7 @@
           },
           {
             "name": "akira",
-            "count": 1652
+            "count": 1661
           },
           {
             "name": "clop",
@@ -3294,11 +3284,11 @@
           },
           {
             "name": "play",
-            "count": 1333
+            "count": 1340
           },
           {
             "name": "thegentlemen",
-            "count": 1006
+            "count": 1056
           },
           {
             "name": "lockbit2",
@@ -3306,7 +3296,7 @@
           },
           {
             "name": "incransom",
-            "count": 979
+            "count": 980
           },
           {
             "name": "ransomhub",
@@ -3317,19 +3307,19 @@
             "count": 731
           }
         ],
-        "other_groups": 19890,
-        "distinct_groups": 380,
+        "other_groups": 20055,
+        "distinct_groups": 383,
         "africa": {
-          "total": 499,
-          "finance": 66,
+          "total": 504,
+          "finance": 67,
           "by_country": [
             {
               "iso2": "ZA",
-              "count": 138
+              "count": 139
             },
             {
               "iso2": "EG",
-              "count": 81
+              "count": 82
             },
             {
               "iso2": "MA",
@@ -3340,11 +3330,11 @@
               "count": 27
             },
             {
-              "iso2": "NG",
+              "iso2": "TN",
               "count": 25
             },
             {
-              "iso2": "TN",
+              "iso2": "NG",
               "count": 25
             },
             {
@@ -3356,24 +3346,28 @@
               "count": 13
             },
             {
+              "iso2": "DZ",
+              "count": 12
+            },
+            {
               "iso2": "AO",
               "count": 12
             },
             {
-              "iso2": "DZ",
-              "count": 12
+              "iso2": "GH",
+              "count": 11
             },
             {
               "iso2": "SN",
               "count": 10
             },
             {
-              "iso2": "GH",
-              "count": 10
-            },
-            {
               "iso2": "MU",
               "count": 9
+            },
+            {
+              "iso2": "CI",
+              "count": 7
             },
             {
               "iso2": "BW",
@@ -3386,10 +3380,6 @@
             {
               "iso2": "ZM",
               "count": 7
-            },
-            {
-              "iso2": "CI",
-              "count": 6
             },
             {
               "iso2": "CM",
@@ -3444,6 +3434,10 @@
               "count": 2
             },
             {
+              "iso2": "SL",
+              "count": 1
+            },
+            {
               "iso2": "BJ",
               "count": 1
             },
@@ -3495,15 +3489,15 @@
           "by_sector": [
             {
               "sector": "Financial Services",
-              "count": 66
+              "count": 67
             },
             {
               "sector": "Professional Services",
-              "count": 61
+              "count": 62
             },
             {
               "sector": "Technology",
-              "count": 52
+              "count": 53
             },
             {
               "sector": "Government & Defense",
@@ -3515,7 +3509,7 @@
             },
             {
               "sector": "Healthcare",
-              "count": 36
+              "count": 37
             },
             {
               "sector": "Transportation",
@@ -3533,11 +3527,11 @@
             },
             {
               "name": "thegentlemen",
-              "count": 35
+              "count": 37
             },
             {
               "name": "qilin",
-              "count": 28
+              "count": 31
             },
             {
               "name": "alphv",
@@ -3625,7 +3619,7 @@
       "error": null,
       "reason": "ABUSECH_AUTH_KEY is not set",
       "stale_reason": null,
-      "retrieved_at": "2026-10-26T13:06:26+00:00",
+      "retrieved_at": "2026-11-02T15:57:51+00:00",
       "last_attempt_at": null,
       "data": null
     },
@@ -3640,7 +3634,7 @@
       "error": null,
       "reason": "ABUSECH_AUTH_KEY is not set",
       "stale_reason": null,
-      "retrieved_at": "2026-10-26T13:06:26+00:00",
+      "retrieved_at": "2026-11-02T15:57:51+00:00",
       "last_attempt_at": null,
       "data": null
     }
@@ -3654,9 +3648,9 @@
       "label": "Afghanistan",
       "region": "Asia",
       "subregion": "Southern Asia",
-      "dshield_sources": 44,
-      "dshield_reports": 26283,
-      "dshield_targets": 1158,
+      "dshield_sources": 42,
+      "dshield_reports": 26028,
+      "dshield_targets": 1151,
       "ransomware_victims": 3,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -3670,9 +3664,9 @@
       "label": "Albania",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 221,
-      "dshield_reports": 68236,
-      "dshield_targets": 3603,
+      "dshield_sources": 184,
+      "dshield_reports": 66456,
+      "dshield_targets": 3440,
       "ransomware_victims": 4,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -3686,9 +3680,9 @@
       "label": "Algeria",
       "region": "Africa",
       "subregion": "Northern Africa",
-      "dshield_sources": 179,
-      "dshield_reports": 39863,
-      "dshield_targets": 1644,
+      "dshield_sources": 172,
+      "dshield_reports": 40069,
+      "dshield_targets": 1619,
       "ransomware_victims": 12,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -3718,8 +3712,8 @@
       "label": "Andorra",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 26,
-      "dshield_reports": 33474,
+      "dshield_sources": 24,
+      "dshield_reports": 33617,
       "dshield_targets": 123,
       "ransomware_victims": 5,
       "feodo_c2": 0,
@@ -3734,9 +3728,9 @@
       "label": "Angola",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 80,
-      "dshield_reports": 23332,
-      "dshield_targets": 1009,
+      "dshield_sources": 66,
+      "dshield_reports": 23061,
+      "dshield_targets": 961,
       "ransomware_victims": 12,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -3782,9 +3776,9 @@
       "label": "Antigua and Barbuda",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 12,
-      "dshield_reports": 1259,
-      "dshield_targets": 90,
+      "dshield_sources": 10,
+      "dshield_reports": 1201,
+      "dshield_targets": 82,
       "ransomware_victims": 4,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -3798,10 +3792,10 @@
       "label": "Argentina",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 8713,
-      "dshield_reports": 986138,
-      "dshield_targets": 92667,
-      "ransomware_victims": 221,
+      "dshield_sources": 7258,
+      "dshield_reports": 1374697,
+      "dshield_targets": 77245,
+      "ransomware_victims": 223,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -3814,9 +3808,9 @@
       "label": "Armenia",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 290,
-      "dshield_reports": 130894,
-      "dshield_targets": 5785,
+      "dshield_sources": 263,
+      "dshield_reports": 128936,
+      "dshield_targets": 5347,
       "ransomware_victims": 3,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -3846,10 +3840,10 @@
       "label": "Australia",
       "region": "Oceania",
       "subregion": "Australia and New Zealand",
-      "dshield_sources": 1630,
-      "dshield_reports": 2173234,
-      "dshield_targets": 18111,
-      "ransomware_victims": 546,
+      "dshield_sources": 1424,
+      "dshield_reports": 2074013,
+      "dshield_targets": 17402,
+      "ransomware_victims": 552,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -3862,10 +3856,10 @@
       "label": "Austria",
       "region": "Europe",
       "subregion": "Western Europe",
-      "dshield_sources": 421,
-      "dshield_reports": 344106,
-      "dshield_targets": 3615,
-      "ransomware_victims": 148,
+      "dshield_sources": 389,
+      "dshield_reports": 348755,
+      "dshield_targets": 3539,
+      "ransomware_victims": 150,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -3878,10 +3872,10 @@
       "label": "Azerbaijan",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 493,
-      "dshield_reports": 1020894,
-      "dshield_targets": 4095,
-      "ransomware_victims": 3,
+      "dshield_sources": 388,
+      "dshield_reports": 1191487,
+      "dshield_targets": 3803,
+      "ransomware_victims": 4,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -3894,9 +3888,9 @@
       "label": "Bahamas",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 38,
-      "dshield_reports": 3306,
-      "dshield_targets": 174,
+      "dshield_sources": 31,
+      "dshield_reports": 2626,
+      "dshield_targets": 154,
       "ransomware_victims": 11,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -3910,9 +3904,9 @@
       "label": "Bahrain",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 78,
-      "dshield_reports": 23942,
-      "dshield_targets": 972,
+      "dshield_sources": 65,
+      "dshield_reports": 23721,
+      "dshield_targets": 925,
       "ransomware_victims": 9,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -3926,10 +3920,10 @@
       "label": "Bangladesh",
       "region": "Asia",
       "subregion": "Southern Asia",
-      "dshield_sources": 2029,
-      "dshield_reports": 511702,
-      "dshield_targets": 23203,
-      "ransomware_victims": 28,
+      "dshield_sources": 1610,
+      "dshield_reports": 560575,
+      "dshield_targets": 20708,
+      "ransomware_victims": 29,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -3958,9 +3952,9 @@
       "label": "Belarus",
       "region": "Europe",
       "subregion": "Eastern Europe",
-      "dshield_sources": 205,
-      "dshield_reports": 20293,
-      "dshield_targets": 1038,
+      "dshield_sources": 177,
+      "dshield_reports": 19636,
+      "dshield_targets": 939,
       "ransomware_victims": 5,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -3974,10 +3968,10 @@
       "label": "Belgium",
       "region": "Europe",
       "subregion": "Western Europe",
-      "dshield_sources": 830,
-      "dshield_reports": 706463,
-      "dshield_targets": 20009,
-      "ransomware_victims": 184,
+      "dshield_sources": 817,
+      "dshield_reports": 811282,
+      "dshield_targets": 34266,
+      "ransomware_victims": 187,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4022,9 +4016,9 @@
       "label": "Bermuda",
       "region": "Americas",
       "subregion": "Northern America",
-      "dshield_sources": 10,
-      "dshield_reports": 2595,
-      "dshield_targets": 45,
+      "dshield_sources": 7,
+      "dshield_reports": 2453,
+      "dshield_targets": 39,
       "ransomware_victims": 5,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4038,9 +4032,9 @@
       "label": "Bhutan",
       "region": "Asia",
       "subregion": "Southern Asia",
-      "dshield_sources": 10,
-      "dshield_reports": 510,
-      "dshield_targets": 29,
+      "dshield_sources": 9,
+      "dshield_reports": 425,
+      "dshield_targets": 28,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4054,10 +4048,10 @@
       "label": "Bolivia",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 250,
-      "dshield_reports": 183471,
-      "dshield_targets": 5030,
-      "ransomware_victims": 15,
+      "dshield_sources": 227,
+      "dshield_reports": 183046,
+      "dshield_targets": 4858,
+      "ransomware_victims": 16,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4070,9 +4064,9 @@
       "label": "Bonaire, Sint Eustatius and Saba",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 4,
-      "dshield_reports": 32,
-      "dshield_targets": 18,
+      "dshield_sources": 3,
+      "dshield_reports": 28,
+      "dshield_targets": 17,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4086,9 +4080,9 @@
       "label": "Bosnia and Herzegovina",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 62,
-      "dshield_reports": 49660,
-      "dshield_targets": 1151,
+      "dshield_sources": 52,
+      "dshield_reports": 71560,
+      "dshield_targets": 1114,
       "ransomware_victims": 5,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4102,9 +4096,9 @@
       "label": "Botswana",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 49,
-      "dshield_reports": 36144,
-      "dshield_targets": 737,
+      "dshield_sources": 46,
+      "dshield_reports": 39243,
+      "dshield_targets": 766,
       "ransomware_victims": 7,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4134,10 +4128,10 @@
       "label": "Brazil",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 9616,
-      "dshield_reports": 7021800,
-      "dshield_targets": 249805,
-      "ransomware_victims": 605,
+      "dshield_sources": 7821,
+      "dshield_reports": 6741809,
+      "dshield_targets": 221650,
+      "ransomware_victims": 607,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4166,9 +4160,9 @@
       "label": "Brunei",
       "region": "Asia",
       "subregion": "South-eastern Asia",
-      "dshield_sources": 28,
-      "dshield_reports": 4993,
-      "dshield_targets": 495,
+      "dshield_sources": 27,
+      "dshield_reports": 4989,
+      "dshield_targets": 493,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4182,10 +4176,10 @@
       "label": "Bulgaria",
       "region": "Europe",
       "subregion": "Eastern Europe",
-      "dshield_sources": 1064,
-      "dshield_reports": 61623548,
-      "dshield_targets": 69722,
-      "ransomware_victims": 46,
+      "dshield_sources": 945,
+      "dshield_reports": 63185049,
+      "dshield_targets": 70180,
+      "ransomware_victims": 47,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4198,9 +4192,9 @@
       "label": "Burkina Faso",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 125,
-      "dshield_reports": 7577,
-      "dshield_targets": 1655,
+      "dshield_sources": 104,
+      "dshield_reports": 4797,
+      "dshield_targets": 1317,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4214,9 +4208,9 @@
       "label": "Burundi",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 5,
-      "dshield_reports": 369,
-      "dshield_targets": 30,
+      "dshield_sources": 4,
+      "dshield_reports": 326,
+      "dshield_targets": 29,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4230,9 +4224,9 @@
       "label": "Cabo Verde",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 13,
-      "dshield_reports": 221,
-      "dshield_targets": 73,
+      "dshield_sources": 9,
+      "dshield_reports": 156,
+      "dshield_targets": 55,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4246,9 +4240,9 @@
       "label": "Cambodia",
       "region": "Asia",
       "subregion": "South-eastern Asia",
-      "dshield_sources": 167,
-      "dshield_reports": 65179,
-      "dshield_targets": 2754,
+      "dshield_sources": 145,
+      "dshield_reports": 64272,
+      "dshield_targets": 2368,
       "ransomware_victims": 5,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4262,9 +4256,9 @@
       "label": "Cameroon",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 109,
-      "dshield_reports": 60042,
-      "dshield_targets": 1333,
+      "dshield_sources": 92,
+      "dshield_reports": 59771,
+      "dshield_targets": 1297,
       "ransomware_victims": 6,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4278,10 +4272,10 @@
       "label": "Canada",
       "region": "Americas",
       "subregion": "Northern America",
-      "dshield_sources": 11463,
-      "dshield_reports": 38538596,
-      "dshield_targets": 113436,
-      "ransomware_victims": 1125,
+      "dshield_sources": 10045,
+      "dshield_reports": 39433091,
+      "dshield_targets": 106518,
+      "ransomware_victims": 1134,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4294,9 +4288,9 @@
       "label": "Cayman Islands",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 7,
-      "dshield_reports": 320,
-      "dshield_targets": 42,
+      "dshield_sources": 6,
+      "dshield_reports": 314,
+      "dshield_targets": 41,
       "ransomware_victims": 2,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4326,9 +4320,9 @@
       "label": "Chad",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 8,
-      "dshield_reports": 84985,
-      "dshield_targets": 143,
+      "dshield_sources": 5,
+      "dshield_reports": 2323,
+      "dshield_targets": 139,
       "ransomware_victims": 3,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4342,10 +4336,10 @@
       "label": "Chile",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 1499,
-      "dshield_reports": 324848,
-      "dshield_targets": 17498,
-      "ransomware_victims": 97,
+      "dshield_sources": 1242,
+      "dshield_reports": 484551,
+      "dshield_targets": 15106,
+      "ransomware_victims": 98,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4358,9 +4352,9 @@
       "label": "China",
       "region": "Asia",
       "subregion": "Eastern Asia",
-      "dshield_sources": 40636,
-      "dshield_reports": 13518563,
-      "dshield_targets": 846395,
+      "dshield_sources": 37819,
+      "dshield_reports": 13250324,
+      "dshield_targets": 817141,
       "ransomware_victims": 151,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4406,10 +4400,10 @@
       "label": "Colombia",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 2213,
-      "dshield_reports": 315491,
-      "dshield_targets": 28714,
-      "ransomware_victims": 157,
+      "dshield_sources": 1758,
+      "dshield_reports": 287680,
+      "dshield_targets": 24358,
+      "ransomware_victims": 160,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4422,9 +4416,9 @@
       "label": "Comoros",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 4,
-      "dshield_reports": 240,
-      "dshield_targets": 78,
+      "dshield_sources": 3,
+      "dshield_reports": 235,
+      "dshield_targets": 77,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4438,9 +4432,9 @@
       "label": "Congo",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 195,
-      "dshield_reports": 1665,
-      "dshield_targets": 588,
+      "dshield_sources": 161,
+      "dshield_reports": 1464,
+      "dshield_targets": 504,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4454,9 +4448,9 @@
       "label": "DR Congo",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 26,
-      "dshield_reports": 5109,
-      "dshield_targets": 272,
+      "dshield_sources": 22,
+      "dshield_reports": 5036,
+      "dshield_targets": 255,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4486,9 +4480,9 @@
       "label": "Costa Rica",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 175,
-      "dshield_reports": 13191,
-      "dshield_targets": 1893,
+      "dshield_sources": 148,
+      "dshield_reports": 9599,
+      "dshield_targets": 1652,
       "ransomware_victims": 23,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4502,9 +4496,9 @@
       "label": "Croatia",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 132,
-      "dshield_reports": 48552,
-      "dshield_targets": 821,
+      "dshield_sources": 107,
+      "dshield_reports": 43841,
+      "dshield_targets": 721,
       "ransomware_victims": 31,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4518,9 +4512,9 @@
       "label": "Cuba",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 7,
-      "dshield_reports": 1375,
-      "dshield_targets": 13,
+      "dshield_sources": 6,
+      "dshield_reports": 1270,
+      "dshield_targets": 11,
       "ransomware_victims": 3,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4534,9 +4528,9 @@
       "label": "Curaçao",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 21,
-      "dshield_reports": 4666,
-      "dshield_targets": 209,
+      "dshield_sources": 18,
+      "dshield_reports": 4500,
+      "dshield_targets": 151,
       "ransomware_victims": 2,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4550,10 +4544,10 @@
       "label": "Cyprus",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 96,
-      "dshield_reports": 30561,
-      "dshield_targets": 1106,
-      "ransomware_victims": 20,
+      "dshield_sources": 86,
+      "dshield_reports": 30100,
+      "dshield_targets": 1045,
+      "ransomware_victims": 21,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4566,9 +4560,9 @@
       "label": "Czechia",
       "region": "Europe",
       "subregion": "Eastern Europe",
-      "dshield_sources": 526,
-      "dshield_reports": 432520,
-      "dshield_targets": 3213,
+      "dshield_sources": 462,
+      "dshield_reports": 440058,
+      "dshield_targets": 2743,
       "ransomware_victims": 108,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4582,10 +4576,10 @@
       "label": "Côte d'Ivoire",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 224,
-      "dshield_reports": 11588,
-      "dshield_targets": 1672,
-      "ransomware_victims": 6,
+      "dshield_sources": 186,
+      "dshield_reports": 8196,
+      "dshield_targets": 1305,
+      "ransomware_victims": 7,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4598,10 +4592,10 @@
       "label": "Denmark",
       "region": "Europe",
       "subregion": "Northern Europe",
-      "dshield_sources": 406,
-      "dshield_reports": 8103373,
-      "dshield_targets": 2915,
-      "ransomware_victims": 85,
+      "dshield_sources": 357,
+      "dshield_reports": 8400292,
+      "dshield_targets": 2600,
+      "ransomware_victims": 88,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4646,10 +4640,10 @@
       "label": "Dominican Republic",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 584,
-      "dshield_reports": 95229,
-      "dshield_targets": 4135,
-      "ransomware_victims": 29,
+      "dshield_sources": 516,
+      "dshield_reports": 93749,
+      "dshield_targets": 3798,
+      "ransomware_victims": 30,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4662,10 +4656,10 @@
       "label": "Ecuador",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 785,
-      "dshield_reports": 90325,
-      "dshield_targets": 9543,
-      "ransomware_victims": 38,
+      "dshield_sources": 643,
+      "dshield_reports": 84459,
+      "dshield_targets": 7360,
+      "ransomware_victims": 41,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4678,10 +4672,10 @@
       "label": "Egypt",
       "region": "Africa",
       "subregion": "Northern Africa",
-      "dshield_sources": 587,
-      "dshield_reports": 147591,
-      "dshield_targets": 14541,
-      "ransomware_victims": 81,
+      "dshield_sources": 556,
+      "dshield_reports": 139324,
+      "dshield_targets": 14248,
+      "ransomware_victims": 82,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4694,9 +4688,9 @@
       "label": "El Salvador",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 101,
-      "dshield_reports": 55223,
-      "dshield_targets": 1146,
+      "dshield_sources": 88,
+      "dshield_reports": 55490,
+      "dshield_targets": 1066,
       "ransomware_victims": 12,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4742,9 +4736,9 @@
       "label": "Estonia",
       "region": "Europe",
       "subregion": "Northern Europe",
-      "dshield_sources": 150,
-      "dshield_reports": 175162,
-      "dshield_targets": 1116,
+      "dshield_sources": 134,
+      "dshield_reports": 149924,
+      "dshield_targets": 1095,
       "ransomware_victims": 6,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4774,9 +4768,9 @@
       "label": "Ethiopia",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 230,
-      "dshield_reports": 83926,
-      "dshield_targets": 6164,
+      "dshield_sources": 210,
+      "dshield_reports": 91450,
+      "dshield_targets": 5852,
       "ransomware_victims": 5,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4822,9 +4816,9 @@
       "label": "Fiji",
       "region": "Oceania",
       "subregion": "Melanesia",
-      "dshield_sources": 9,
-      "dshield_reports": 109,
-      "dshield_targets": 15,
+      "dshield_sources": 8,
+      "dshield_reports": 106,
+      "dshield_targets": 14,
       "ransomware_victims": 6,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4838,9 +4832,9 @@
       "label": "Finland",
       "region": "Europe",
       "subregion": "Northern Europe",
-      "dshield_sources": 952,
-      "dshield_reports": 3320979,
-      "dshield_targets": 25367,
+      "dshield_sources": 900,
+      "dshield_reports": 3346475,
+      "dshield_targets": 24636,
       "ransomware_victims": 47,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4854,10 +4848,10 @@
       "label": "France",
       "region": "Europe",
       "subregion": "Western Europe",
-      "dshield_sources": 5017,
-      "dshield_reports": 45712146,
-      "dshield_targets": 212724,
-      "ransomware_victims": 714,
+      "dshield_sources": 4457,
+      "dshield_reports": 46739561,
+      "dshield_targets": 205976,
+      "ransomware_victims": 721,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4870,9 +4864,9 @@
       "label": "French Guiana",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 15,
-      "dshield_reports": 1495,
-      "dshield_targets": 373,
+      "dshield_sources": 14,
+      "dshield_reports": 1351,
+      "dshield_targets": 345,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4886,9 +4880,9 @@
       "label": "French Polynesia",
       "region": "Oceania",
       "subregion": "Polynesia",
-      "dshield_sources": 12,
-      "dshield_reports": 362,
-      "dshield_targets": 117,
+      "dshield_sources": 11,
+      "dshield_reports": 344,
+      "dshield_targets": 105,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4918,9 +4912,9 @@
       "label": "Gabon",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 28,
-      "dshield_reports": 1966,
-      "dshield_targets": 267,
+      "dshield_sources": 24,
+      "dshield_reports": 1939,
+      "dshield_targets": 261,
       "ransomware_victims": 5,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4934,9 +4928,9 @@
       "label": "Gambia",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 13,
-      "dshield_reports": 410,
-      "dshield_targets": 69,
+      "dshield_sources": 12,
+      "dshield_reports": 289,
+      "dshield_targets": 58,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4950,9 +4944,9 @@
       "label": "Georgia",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 432,
-      "dshield_reports": 105128,
-      "dshield_targets": 7541,
+      "dshield_sources": 389,
+      "dshield_reports": 105083,
+      "dshield_targets": 7166,
       "ransomware_victims": 7,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -4966,10 +4960,10 @@
       "label": "Germany",
       "region": "Europe",
       "subregion": "Western Europe",
-      "dshield_sources": 6023,
-      "dshield_reports": 25706122,
-      "dshield_targets": 457765,
-      "ransomware_victims": 1155,
+      "dshield_sources": 5556,
+      "dshield_reports": 25358506,
+      "dshield_targets": 452287,
+      "ransomware_victims": 1175,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -4982,10 +4976,10 @@
       "label": "Ghana",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 77,
-      "dshield_reports": 75424,
-      "dshield_targets": 1730,
-      "ransomware_victims": 10,
+      "dshield_sources": 72,
+      "dshield_reports": 73186,
+      "dshield_targets": 1723,
+      "ransomware_victims": 11,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5014,9 +5008,9 @@
       "label": "Greece",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 986,
-      "dshield_reports": 657486,
-      "dshield_targets": 6110,
+      "dshield_sources": 954,
+      "dshield_reports": 662723,
+      "dshield_targets": 5944,
       "ransomware_victims": 52,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5062,9 +5056,9 @@
       "label": "Guadeloupe",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 49,
-      "dshield_reports": 9630,
-      "dshield_targets": 794,
+      "dshield_sources": 45,
+      "dshield_reports": 9289,
+      "dshield_targets": 646,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5094,9 +5088,9 @@
       "label": "Guatemala",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 1432,
-      "dshield_reports": 39296,
-      "dshield_targets": 4084,
+      "dshield_sources": 1358,
+      "dshield_reports": 38822,
+      "dshield_targets": 3907,
       "ransomware_victims": 23,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5158,9 +5152,9 @@
       "label": "Guyana",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 16,
-      "dshield_reports": 784,
-      "dshield_targets": 41,
+      "dshield_sources": 15,
+      "dshield_reports": 781,
+      "dshield_targets": 40,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5174,9 +5168,9 @@
       "label": "Haiti",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 14,
-      "dshield_reports": 3802,
-      "dshield_targets": 839,
+      "dshield_sources": 13,
+      "dshield_reports": 2605,
+      "dshield_targets": 583,
       "ransomware_victims": 4,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5222,9 +5216,9 @@
       "label": "Honduras",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 73,
-      "dshield_reports": 8498,
-      "dshield_targets": 931,
+      "dshield_sources": 67,
+      "dshield_reports": 8416,
+      "dshield_targets": 920,
       "ransomware_victims": 4,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5238,9 +5232,9 @@
       "label": "Hong Kong",
       "region": "Asia",
       "subregion": "Eastern Asia",
-      "dshield_sources": 2977,
-      "dshield_reports": 6418216,
-      "dshield_targets": 179406,
+      "dshield_sources": 2712,
+      "dshield_reports": 7044717,
+      "dshield_targets": 176276,
       "ransomware_victims": 114,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5254,10 +5248,10 @@
       "label": "Hungary",
       "region": "Europe",
       "subregion": "Eastern Europe",
-      "dshield_sources": 560,
-      "dshield_reports": 392180,
-      "dshield_targets": 2476,
-      "ransomware_victims": 31,
+      "dshield_sources": 474,
+      "dshield_reports": 370082,
+      "dshield_targets": 2313,
+      "ransomware_victims": 33,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5270,9 +5264,9 @@
       "label": "Iceland",
       "region": "Europe",
       "subregion": "Northern Europe",
-      "dshield_sources": 137,
-      "dshield_reports": 450503,
-      "dshield_targets": 730,
+      "dshield_sources": 127,
+      "dshield_reports": 448022,
+      "dshield_targets": 706,
       "ransomware_victims": 8,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5286,10 +5280,10 @@
       "label": "India",
       "region": "Asia",
       "subregion": "Southern Asia",
-      "dshield_sources": 5569,
-      "dshield_reports": 4078983,
-      "dshield_targets": 108326,
-      "ransomware_victims": 564,
+      "dshield_sources": 5007,
+      "dshield_reports": 3932447,
+      "dshield_targets": 102753,
+      "ransomware_victims": 566,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5302,10 +5296,10 @@
       "label": "Indonesia",
       "region": "Asia",
       "subregion": "South-eastern Asia",
-      "dshield_sources": 2996,
-      "dshield_reports": 3086620,
-      "dshield_targets": 61980,
-      "ransomware_victims": 154,
+      "dshield_sources": 2664,
+      "dshield_reports": 2968503,
+      "dshield_targets": 58113,
+      "ransomware_victims": 156,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5318,9 +5312,9 @@
       "label": "Iran",
       "region": "Asia",
       "subregion": "Southern Asia",
-      "dshield_sources": 913,
-      "dshield_reports": 1908824,
-      "dshield_targets": 25463,
+      "dshield_sources": 849,
+      "dshield_reports": 1812494,
+      "dshield_targets": 24444,
       "ransomware_victims": 34,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5334,9 +5328,9 @@
       "label": "Iraq",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 498,
-      "dshield_reports": 279089,
-      "dshield_targets": 6848,
+      "dshield_sources": 393,
+      "dshield_reports": 163856,
+      "dshield_targets": 6658,
       "ransomware_victims": 9,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5350,10 +5344,10 @@
       "label": "Ireland",
       "region": "Europe",
       "subregion": "Northern Europe",
-      "dshield_sources": 673,
-      "dshield_reports": 277083,
-      "dshield_targets": 6831,
-      "ransomware_victims": 80,
+      "dshield_sources": 550,
+      "dshield_reports": 282093,
+      "dshield_targets": 6120,
+      "ransomware_victims": 82,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5382,10 +5376,10 @@
       "label": "Israel",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 630,
-      "dshield_reports": 186767,
-      "dshield_targets": 10857,
-      "ransomware_victims": 188,
+      "dshield_sources": 576,
+      "dshield_reports": 183512,
+      "dshield_targets": 10632,
+      "ransomware_victims": 190,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5398,10 +5392,10 @@
       "label": "Italy",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 1232,
-      "dshield_reports": 2795531,
-      "dshield_targets": 16617,
-      "ransomware_victims": 741,
+      "dshield_sources": 1073,
+      "dshield_reports": 2767001,
+      "dshield_targets": 14809,
+      "ransomware_victims": 752,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5414,10 +5408,10 @@
       "label": "Jamaica",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 75,
-      "dshield_reports": 2499,
-      "dshield_targets": 818,
-      "ransomware_victims": 16,
+      "dshield_sources": 67,
+      "dshield_reports": 2344,
+      "dshield_targets": 781,
+      "ransomware_victims": 17,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5430,10 +5424,10 @@
       "label": "Japan",
       "region": "Asia",
       "subregion": "Eastern Asia",
-      "dshield_sources": 4183,
-      "dshield_reports": 5353382,
-      "dshield_targets": 199938,
-      "ransomware_victims": 358,
+      "dshield_sources": 3683,
+      "dshield_reports": 5345404,
+      "dshield_targets": 196078,
+      "ransomware_victims": 361,
       "feodo_c2": 1,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5462,9 +5456,9 @@
       "label": "Jordan",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 111,
-      "dshield_reports": 13475,
-      "dshield_targets": 1760,
+      "dshield_sources": 106,
+      "dshield_reports": 13405,
+      "dshield_targets": 1747,
       "ransomware_victims": 25,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5478,9 +5472,9 @@
       "label": "Kazakhstan",
       "region": "Asia",
       "subregion": "Central Asia",
-      "dshield_sources": 626,
-      "dshield_reports": 1683638,
-      "dshield_targets": 13410,
+      "dshield_sources": 549,
+      "dshield_reports": 1625213,
+      "dshield_targets": 12648,
       "ransomware_victims": 4,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5494,9 +5488,9 @@
       "label": "Kenya",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 912,
-      "dshield_reports": 107345,
-      "dshield_targets": 12453,
+      "dshield_sources": 770,
+      "dshield_reports": 103934,
+      "dshield_targets": 11299,
       "ransomware_victims": 27,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5542,9 +5536,9 @@
       "label": "South Korea",
       "region": "Asia",
       "subregion": "Eastern Asia",
-      "dshield_sources": 4520,
-      "dshield_reports": 3610599,
-      "dshield_targets": 153382,
+      "dshield_sources": 4147,
+      "dshield_reports": 3557945,
+      "dshield_targets": 149544,
       "ransomware_victims": 148,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5558,9 +5552,9 @@
       "label": "Kuwait",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 72,
-      "dshield_reports": 14095,
-      "dshield_targets": 1208,
+      "dshield_sources": 69,
+      "dshield_reports": 13918,
+      "dshield_targets": 1153,
       "ransomware_victims": 20,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5574,9 +5568,9 @@
       "label": "Kyrgyzstan",
       "region": "Asia",
       "subregion": "Central Asia",
-      "dshield_sources": 137,
-      "dshield_reports": 15827,
-      "dshield_targets": 1550,
+      "dshield_sources": 120,
+      "dshield_reports": 12453,
+      "dshield_targets": 1427,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5590,9 +5584,9 @@
       "label": "Laos",
       "region": "Asia",
       "subregion": "South-eastern Asia",
-      "dshield_sources": 91,
-      "dshield_reports": 7496,
-      "dshield_targets": 790,
+      "dshield_sources": 78,
+      "dshield_reports": 7398,
+      "dshield_targets": 767,
       "ransomware_victims": 6,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5606,9 +5600,9 @@
       "label": "Latvia",
       "region": "Europe",
       "subregion": "Northern Europe",
-      "dshield_sources": 272,
-      "dshield_reports": 230556,
-      "dshield_targets": 3429,
+      "dshield_sources": 234,
+      "dshield_reports": 200216,
+      "dshield_targets": 3233,
       "ransomware_victims": 8,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5622,10 +5616,10 @@
       "label": "Lebanon",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 74,
-      "dshield_reports": 4553,
-      "dshield_targets": 954,
-      "ransomware_victims": 17,
+      "dshield_sources": 60,
+      "dshield_reports": 4158,
+      "dshield_targets": 806,
+      "ransomware_victims": 18,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5654,9 +5648,9 @@
       "label": "Liberia",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 17,
-      "dshield_reports": 963,
-      "dshield_targets": 197,
+      "dshield_sources": 12,
+      "dshield_reports": 886,
+      "dshield_targets": 158,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5670,9 +5664,9 @@
       "label": "Libya",
       "region": "Africa",
       "subregion": "Northern Africa",
-      "dshield_sources": 63,
-      "dshield_reports": 103053,
-      "dshield_targets": 730,
+      "dshield_sources": 52,
+      "dshield_reports": 102591,
+      "dshield_targets": 706,
       "ransomware_victims": 5,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5686,9 +5680,9 @@
       "label": "Liechtenstein",
       "region": "Europe",
       "subregion": "Western Europe",
-      "dshield_sources": 6,
-      "dshield_reports": 705,
-      "dshield_targets": 29,
+      "dshield_sources": 5,
+      "dshield_reports": 690,
+      "dshield_targets": 28,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5702,9 +5696,9 @@
       "label": "Lithuania",
       "region": "Europe",
       "subregion": "Northern Europe",
-      "dshield_sources": 569,
-      "dshield_reports": 774417,
-      "dshield_targets": 69788,
+      "dshield_sources": 524,
+      "dshield_reports": 831812,
+      "dshield_targets": 69487,
       "ransomware_victims": 11,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5718,9 +5712,9 @@
       "label": "Luxembourg",
       "region": "Europe",
       "subregion": "Western Europe",
-      "dshield_sources": 159,
-      "dshield_reports": 426946,
-      "dshield_targets": 1899,
+      "dshield_sources": 142,
+      "dshield_reports": 360844,
+      "dshield_targets": 1994,
       "ransomware_victims": 29,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5734,9 +5728,9 @@
       "label": "Macao",
       "region": "Asia",
       "subregion": "Eastern Asia",
-      "dshield_sources": 85,
-      "dshield_reports": 177924,
-      "dshield_targets": 2274,
+      "dshield_sources": 76,
+      "dshield_reports": 178429,
+      "dshield_targets": 2262,
       "ransomware_victims": 4,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5750,9 +5744,9 @@
       "label": "Madagascar",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 28,
-      "dshield_reports": 1263,
-      "dshield_targets": 294,
+      "dshield_sources": 22,
+      "dshield_reports": 1140,
+      "dshield_targets": 284,
       "ransomware_victims": 2,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5766,9 +5760,9 @@
       "label": "Malawi",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 12,
-      "dshield_reports": 8695,
-      "dshield_targets": 547,
+      "dshield_sources": 11,
+      "dshield_reports": 8694,
+      "dshield_targets": 546,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5782,10 +5776,10 @@
       "label": "Malaysia",
       "region": "Asia",
       "subregion": "South-eastern Asia",
-      "dshield_sources": 1635,
-      "dshield_reports": 747870,
-      "dshield_targets": 147098,
-      "ransomware_victims": 167,
+      "dshield_sources": 1484,
+      "dshield_reports": 779507,
+      "dshield_targets": 146216,
+      "ransomware_victims": 174,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5798,9 +5792,9 @@
       "label": "Maldives",
       "region": "Asia",
       "subregion": "Southern Asia",
-      "dshield_sources": 28,
-      "dshield_reports": 2130,
-      "dshield_targets": 154,
+      "dshield_sources": 25,
+      "dshield_reports": 2049,
+      "dshield_targets": 131,
       "ransomware_victims": 4,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5814,9 +5808,9 @@
       "label": "Mali",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 60,
-      "dshield_reports": 553,
-      "dshield_targets": 277,
+      "dshield_sources": 40,
+      "dshield_reports": 457,
+      "dshield_targets": 212,
       "ransomware_victims": 3,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5830,10 +5824,10 @@
       "label": "Malta",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 39,
-      "dshield_reports": 4486,
-      "dshield_targets": 474,
-      "ransomware_victims": 9,
+      "dshield_sources": 36,
+      "dshield_reports": 3949,
+      "dshield_targets": 462,
+      "ransomware_victims": 10,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5862,9 +5856,9 @@
       "label": "Martinique",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 42,
-      "dshield_reports": 7441,
-      "dshield_targets": 452,
+      "dshield_sources": 40,
+      "dshield_reports": 7400,
+      "dshield_targets": 444,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5878,9 +5872,9 @@
       "label": "Mauritania",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 13,
-      "dshield_reports": 15885,
-      "dshield_targets": 597,
+      "dshield_sources": 8,
+      "dshield_reports": 15872,
+      "dshield_targets": 591,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5894,9 +5888,9 @@
       "label": "Mauritius",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 42,
-      "dshield_reports": 48505,
-      "dshield_targets": 850,
+      "dshield_sources": 41,
+      "dshield_reports": 48502,
+      "dshield_targets": 849,
       "ransomware_victims": 9,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5926,10 +5920,10 @@
       "label": "Mexico",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 2683,
-      "dshield_reports": 812784,
-      "dshield_targets": 39575,
-      "ransomware_victims": 333,
+      "dshield_sources": 2178,
+      "dshield_reports": 763403,
+      "dshield_targets": 33852,
+      "ransomware_victims": 345,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -5958,9 +5952,9 @@
       "label": "Moldova",
       "region": "Europe",
       "subregion": "Eastern Europe",
-      "dshield_sources": 359,
-      "dshield_reports": 174923,
-      "dshield_targets": 7304,
+      "dshield_sources": 325,
+      "dshield_reports": 172457,
+      "dshield_targets": 6647,
       "ransomware_victims": 5,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5974,9 +5968,9 @@
       "label": "Monaco",
       "region": "Europe",
       "subregion": "Western Europe",
-      "dshield_sources": 19,
-      "dshield_reports": 116631,
-      "dshield_targets": 1882,
+      "dshield_sources": 17,
+      "dshield_reports": 116554,
+      "dshield_targets": 1878,
       "ransomware_victims": 5,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -5990,9 +5984,9 @@
       "label": "Mongolia",
       "region": "Asia",
       "subregion": "Eastern Asia",
-      "dshield_sources": 171,
-      "dshield_reports": 70594,
-      "dshield_targets": 3786,
+      "dshield_sources": 162,
+      "dshield_reports": 70251,
+      "dshield_targets": 3735,
       "ransomware_victims": 9,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6006,9 +6000,9 @@
       "label": "Montenegro",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 20,
-      "dshield_reports": 6354,
-      "dshield_targets": 150,
+      "dshield_sources": 15,
+      "dshield_reports": 6095,
+      "dshield_targets": 144,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6038,9 +6032,9 @@
       "label": "Morocco",
       "region": "Africa",
       "subregion": "Northern Africa",
-      "dshield_sources": 153,
-      "dshield_reports": 171359,
-      "dshield_targets": 4849,
+      "dshield_sources": 134,
+      "dshield_reports": 170902,
+      "dshield_targets": 4762,
       "ransomware_victims": 35,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6054,9 +6048,9 @@
       "label": "Mozambique",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 80,
-      "dshield_reports": 14015,
-      "dshield_targets": 1353,
+      "dshield_sources": 57,
+      "dshield_reports": 13607,
+      "dshield_targets": 1169,
       "ransomware_victims": 2,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6070,9 +6064,9 @@
       "label": "Myanmar",
       "region": "Asia",
       "subregion": "South-eastern Asia",
-      "dshield_sources": 1076,
-      "dshield_reports": 307534,
-      "dshield_targets": 6424,
+      "dshield_sources": 868,
+      "dshield_reports": 306046,
+      "dshield_targets": 5869,
       "ransomware_victims": 11,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6086,9 +6080,9 @@
       "label": "Namibia",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 25,
-      "dshield_reports": 529,
-      "dshield_targets": 72,
+      "dshield_sources": 22,
+      "dshield_reports": 513,
+      "dshield_targets": 60,
       "ransomware_victims": 16,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6118,9 +6112,9 @@
       "label": "Nepal",
       "region": "Asia",
       "subregion": "Southern Asia",
-      "dshield_sources": 397,
-      "dshield_reports": 26726,
-      "dshield_targets": 2860,
+      "dshield_sources": 326,
+      "dshield_reports": 26248,
+      "dshield_targets": 2651,
       "ransomware_victims": 3,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6134,10 +6128,10 @@
       "label": "Netherlands",
       "region": "Europe",
       "subregion": "Western Europe",
-      "dshield_sources": 6432,
-      "dshield_reports": 74625811,
-      "dshield_targets": 325349,
-      "ransomware_victims": 198,
+      "dshield_sources": 5909,
+      "dshield_reports": 71297931,
+      "dshield_targets": 312019,
+      "ransomware_victims": 200,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -6166,9 +6160,9 @@
       "label": "New Zealand",
       "region": "Oceania",
       "subregion": "Australia and New Zealand",
-      "dshield_sources": 339,
-      "dshield_reports": 261621,
-      "dshield_targets": 2406,
+      "dshield_sources": 297,
+      "dshield_reports": 243021,
+      "dshield_targets": 2310,
       "ransomware_victims": 65,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6182,9 +6176,9 @@
       "label": "Nicaragua",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 52,
-      "dshield_reports": 9579,
-      "dshield_targets": 999,
+      "dshield_sources": 46,
+      "dshield_reports": 9442,
+      "dshield_targets": 963,
       "ransomware_victims": 5,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6198,9 +6192,9 @@
       "label": "Niger",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 12,
-      "dshield_reports": 887,
-      "dshield_targets": 25,
+      "dshield_sources": 11,
+      "dshield_reports": 885,
+      "dshield_targets": 24,
       "ransomware_victims": 2,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6214,9 +6208,9 @@
       "label": "Nigeria",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 475,
-      "dshield_reports": 1117726,
-      "dshield_targets": 19597,
+      "dshield_sources": 397,
+      "dshield_reports": 984282,
+      "dshield_targets": 19121,
       "ransomware_victims": 25,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6262,9 +6256,9 @@
       "label": "North Macedonia",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 83,
-      "dshield_reports": 48831,
-      "dshield_targets": 937,
+      "dshield_sources": 75,
+      "dshield_reports": 48408,
+      "dshield_targets": 897,
       "ransomware_victims": 8,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6294,10 +6288,10 @@
       "label": "Norway",
       "region": "Europe",
       "subregion": "Northern Europe",
-      "dshield_sources": 445,
-      "dshield_reports": 1207173,
-      "dshield_targets": 5299,
-      "ransomware_victims": 70,
+      "dshield_sources": 396,
+      "dshield_reports": 721138,
+      "dshield_targets": 4561,
+      "ransomware_victims": 71,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -6310,9 +6304,9 @@
       "label": "Oman",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 84,
-      "dshield_reports": 4056,
-      "dshield_targets": 647,
+      "dshield_sources": 77,
+      "dshield_reports": 3923,
+      "dshield_targets": 604,
       "ransomware_victims": 25,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6326,10 +6320,10 @@
       "label": "Pakistan",
       "region": "Asia",
       "subregion": "Southern Asia",
-      "dshield_sources": 8637,
-      "dshield_reports": 6843265,
-      "dshield_targets": 145260,
-      "ransomware_victims": 46,
+      "dshield_sources": 7815,
+      "dshield_reports": 6997699,
+      "dshield_targets": 137017,
+      "ransomware_victims": 47,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -6342,9 +6336,9 @@
       "label": "Palau",
       "region": "Oceania",
       "subregion": "Micronesia",
-      "dshield_sources": 1,
-      "dshield_reports": 2,
-      "dshield_targets": 1,
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
       "ransomware_victims": 3,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6358,9 +6352,9 @@
       "label": "Palestine, State of",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 73,
-      "dshield_reports": 4712,
-      "dshield_targets": 984,
+      "dshield_sources": 67,
+      "dshield_reports": 4506,
+      "dshield_targets": 945,
       "ransomware_victims": 6,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6374,9 +6368,9 @@
       "label": "Panama",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 149,
-      "dshield_reports": 1163555,
-      "dshield_targets": 5182,
+      "dshield_sources": 130,
+      "dshield_reports": 1155949,
+      "dshield_targets": 5020,
       "ransomware_victims": 22,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6406,9 +6400,9 @@
       "label": "Paraguay",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 341,
-      "dshield_reports": 19312,
-      "dshield_targets": 2360,
+      "dshield_sources": 299,
+      "dshield_reports": 18236,
+      "dshield_targets": 2176,
       "ransomware_victims": 18,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6422,10 +6416,10 @@
       "label": "Peru",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 374,
-      "dshield_reports": 150613,
-      "dshield_targets": 5888,
-      "ransomware_victims": 94,
+      "dshield_sources": 327,
+      "dshield_reports": 124892,
+      "dshield_targets": 4690,
+      "ransomware_victims": 95,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -6438,10 +6432,10 @@
       "label": "Philippines",
       "region": "Asia",
       "subregion": "South-eastern Asia",
-      "dshield_sources": 1203,
-      "dshield_reports": 1428454,
-      "dshield_targets": 20011,
-      "ransomware_victims": 95,
+      "dshield_sources": 1037,
+      "dshield_reports": 719745,
+      "dshield_targets": 19949,
+      "ransomware_victims": 99,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -6470,9 +6464,9 @@
       "label": "Poland",
       "region": "Europe",
       "subregion": "Eastern Europe",
-      "dshield_sources": 1104,
-      "dshield_reports": 1039993,
-      "dshield_targets": 13680,
+      "dshield_sources": 978,
+      "dshield_reports": 1037541,
+      "dshield_targets": 13055,
       "ransomware_victims": 143,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6486,9 +6480,9 @@
       "label": "Portugal",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 900,
-      "dshield_reports": 1297541,
-      "dshield_targets": 127777,
+      "dshield_sources": 841,
+      "dshield_reports": 1294069,
+      "dshield_targets": 127295,
       "ransomware_victims": 97,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6502,9 +6496,9 @@
       "label": "Puerto Rico",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 218,
-      "dshield_reports": 13789,
-      "dshield_targets": 1752,
+      "dshield_sources": 191,
+      "dshield_reports": 13011,
+      "dshield_targets": 1445,
       "ransomware_victims": 22,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6518,9 +6512,9 @@
       "label": "Qatar",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 217,
-      "dshield_reports": 135398,
-      "dshield_targets": 1127,
+      "dshield_sources": 187,
+      "dshield_reports": 115366,
+      "dshield_targets": 851,
       "ransomware_victims": 24,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6534,10 +6528,10 @@
       "label": "Romania",
       "region": "Europe",
       "subregion": "Eastern Europe",
-      "dshield_sources": 761,
-      "dshield_reports": 9102197,
-      "dshield_targets": 18751,
-      "ransomware_victims": 73,
+      "dshield_sources": 647,
+      "dshield_reports": 9752459,
+      "dshield_targets": 18273,
+      "ransomware_victims": 74,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -6550,9 +6544,9 @@
       "label": "Russia",
       "region": "Europe",
       "subregion": "Eastern Europe",
-      "dshield_sources": 11416,
-      "dshield_reports": 10297672,
-      "dshield_targets": 147125,
+      "dshield_sources": 10123,
+      "dshield_reports": 10605762,
+      "dshield_targets": 140615,
       "ransomware_victims": 74,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6566,9 +6560,9 @@
       "label": "Rwanda",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 34,
-      "dshield_reports": 19876,
-      "dshield_targets": 377,
+      "dshield_sources": 31,
+      "dshield_reports": 19592,
+      "dshield_targets": 370,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6582,9 +6576,9 @@
       "label": "Réunion",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 65,
-      "dshield_reports": 5581,
-      "dshield_targets": 874,
+      "dshield_sources": 58,
+      "dshield_reports": 4933,
+      "dshield_targets": 627,
       "ransomware_victims": 2,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6630,9 +6624,9 @@
       "label": "Saint Kitts and Nevis",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 3,
-      "dshield_reports": 29,
-      "dshield_targets": 5,
+      "dshield_sources": 2,
+      "dshield_reports": 28,
+      "dshield_targets": 4,
       "ransomware_victims": 2,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6694,9 +6688,9 @@
       "label": "Saint Vincent and the Grenadines",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 7,
-      "dshield_reports": 1220,
-      "dshield_targets": 19,
+      "dshield_sources": 6,
+      "dshield_reports": 1214,
+      "dshield_targets": 17,
       "ransomware_victims": 3,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6710,9 +6704,9 @@
       "label": "Samoa",
       "region": "Oceania",
       "subregion": "Polynesia",
-      "dshield_sources": 1,
-      "dshield_reports": 10,
-      "dshield_targets": 1,
+      "dshield_sources": 0,
+      "dshield_reports": 0,
+      "dshield_targets": 0,
       "ransomware_victims": 4,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6758,9 +6752,9 @@
       "label": "Saudi Arabia",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 232,
-      "dshield_reports": 21985,
-      "dshield_targets": 2282,
+      "dshield_sources": 208,
+      "dshield_reports": 21234,
+      "dshield_targets": 2203,
       "ransomware_victims": 86,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6774,9 +6768,9 @@
       "label": "Senegal",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 46,
-      "dshield_reports": 33970,
-      "dshield_targets": 806,
+      "dshield_sources": 33,
+      "dshield_reports": 33682,
+      "dshield_targets": 782,
       "ransomware_victims": 10,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6790,9 +6784,9 @@
       "label": "Serbia",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 221,
-      "dshield_reports": 45266,
-      "dshield_targets": 1798,
+      "dshield_sources": 191,
+      "dshield_reports": 40826,
+      "dshield_targets": 1674,
       "ransomware_victims": 16,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6806,9 +6800,9 @@
       "label": "Seychelles",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 509,
-      "dshield_reports": 3328408,
-      "dshield_targets": 21422,
+      "dshield_sources": 494,
+      "dshield_reports": 3740517,
+      "dshield_targets": 21018,
       "ransomware_victims": 3,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6822,10 +6816,10 @@
       "label": "Sierra Leone",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 2,
-      "dshield_reports": 2392,
-      "dshield_targets": 30,
-      "ransomware_victims": 0,
+      "dshield_sources": 1,
+      "dshield_reports": 2391,
+      "dshield_targets": 29,
+      "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -6838,10 +6832,10 @@
       "label": "Singapore",
       "region": "Asia",
       "subregion": "South-eastern Asia",
-      "dshield_sources": 2854,
-      "dshield_reports": 14324232,
-      "dshield_targets": 215670,
-      "ransomware_victims": 197,
+      "dshield_sources": 2659,
+      "dshield_reports": 14317448,
+      "dshield_targets": 213657,
+      "ransomware_victims": 200,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -6870,9 +6864,9 @@
       "label": "Slovakia",
       "region": "Europe",
       "subregion": "Eastern Europe",
-      "dshield_sources": 202,
-      "dshield_reports": 231697,
-      "dshield_targets": 1379,
+      "dshield_sources": 185,
+      "dshield_reports": 271229,
+      "dshield_targets": 1269,
       "ransomware_victims": 27,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6886,9 +6880,9 @@
       "label": "Slovenia",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 208,
-      "dshield_reports": 355031,
-      "dshield_targets": 7856,
+      "dshield_sources": 189,
+      "dshield_reports": 388461,
+      "dshield_targets": 8048,
       "ransomware_victims": 10,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6902,9 +6896,9 @@
       "label": "Solomon Islands",
       "region": "Oceania",
       "subregion": "Melanesia",
-      "dshield_sources": 3,
-      "dshield_reports": 81,
-      "dshield_targets": 8,
+      "dshield_sources": 2,
+      "dshield_reports": 80,
+      "dshield_targets": 7,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6918,9 +6912,9 @@
       "label": "Somalia",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 14,
-      "dshield_reports": 193222,
-      "dshield_targets": 103,
+      "dshield_sources": 12,
+      "dshield_reports": 193100,
+      "dshield_targets": 100,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -6934,10 +6928,10 @@
       "label": "South Africa",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 1679,
-      "dshield_reports": 765246,
-      "dshield_targets": 23570,
-      "ransomware_victims": 138,
+      "dshield_sources": 1392,
+      "dshield_reports": 853643,
+      "dshield_targets": 20750,
+      "ransomware_victims": 139,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -6982,10 +6976,10 @@
       "label": "Spain",
       "region": "Europe",
       "subregion": "Southern Europe",
-      "dshield_sources": 1685,
-      "dshield_reports": 1115945,
-      "dshield_targets": 20534,
-      "ransomware_victims": 529,
+      "dshield_sources": 1510,
+      "dshield_reports": 841103,
+      "dshield_targets": 18888,
+      "ransomware_victims": 537,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -6998,9 +6992,9 @@
       "label": "Sri Lanka",
       "region": "Asia",
       "subregion": "Southern Asia",
-      "dshield_sources": 101,
-      "dshield_reports": 67719,
-      "dshield_targets": 3049,
+      "dshield_sources": 93,
+      "dshield_reports": 65050,
+      "dshield_targets": 2878,
       "ransomware_victims": 21,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7014,9 +7008,9 @@
       "label": "Sudan",
       "region": "Africa",
       "subregion": "Northern Africa",
-      "dshield_sources": 12,
-      "dshield_reports": 892,
-      "dshield_targets": 254,
+      "dshield_sources": 10,
+      "dshield_reports": 863,
+      "dshield_targets": 252,
       "ransomware_victims": 4,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7030,9 +7024,9 @@
       "label": "Suriname",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 16,
-      "dshield_reports": 3521,
-      "dshield_targets": 79,
+      "dshield_sources": 14,
+      "dshield_reports": 2448,
+      "dshield_targets": 73,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7062,10 +7056,10 @@
       "label": "Sweden",
       "region": "Europe",
       "subregion": "Northern Europe",
-      "dshield_sources": 2034,
-      "dshield_reports": 2916158,
-      "dshield_targets": 33683,
-      "ransomware_victims": 178,
+      "dshield_sources": 1882,
+      "dshield_reports": 2942440,
+      "dshield_targets": 32710,
+      "ransomware_victims": 181,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -7078,10 +7072,10 @@
       "label": "Switzerland",
       "region": "Europe",
       "subregion": "Western Europe",
-      "dshield_sources": 1940,
-      "dshield_reports": 8827802,
-      "dshield_targets": 49465,
-      "ransomware_victims": 260,
+      "dshield_sources": 1753,
+      "dshield_reports": 8910460,
+      "dshield_targets": 48207,
+      "ransomware_victims": 262,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -7094,9 +7088,9 @@
       "label": "Syria",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 56,
-      "dshield_reports": 32777,
-      "dshield_targets": 1060,
+      "dshield_sources": 50,
+      "dshield_reports": 31625,
+      "dshield_targets": 935,
       "ransomware_victims": 2,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7110,10 +7104,10 @@
       "label": "Taiwan",
       "region": "",
       "subregion": "",
-      "dshield_sources": 3052,
-      "dshield_reports": 1478725,
-      "dshield_targets": 65592,
-      "ransomware_victims": 236,
+      "dshield_sources": 2708,
+      "dshield_reports": 1465839,
+      "dshield_targets": 61407,
+      "ransomware_victims": 240,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -7126,9 +7120,9 @@
       "label": "Tajikistan",
       "region": "Asia",
       "subregion": "Central Asia",
-      "dshield_sources": 72,
-      "dshield_reports": 16793,
-      "dshield_targets": 1265,
+      "dshield_sources": 70,
+      "dshield_reports": 16788,
+      "dshield_targets": 1263,
       "ransomware_victims": 1,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7142,9 +7136,9 @@
       "label": "Tanzania",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 105,
-      "dshield_reports": 57975,
-      "dshield_targets": 1401,
+      "dshield_sources": 102,
+      "dshield_reports": 59766,
+      "dshield_targets": 1383,
       "ransomware_victims": 13,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7158,10 +7152,10 @@
       "label": "Thailand",
       "region": "Asia",
       "subregion": "South-eastern Asia",
-      "dshield_sources": 1710,
-      "dshield_reports": 733921,
-      "dshield_targets": 39698,
-      "ransomware_victims": 232,
+      "dshield_sources": 1412,
+      "dshield_reports": 749376,
+      "dshield_targets": 38782,
+      "ransomware_victims": 233,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -7174,9 +7168,9 @@
       "label": "Timor-Leste",
       "region": "Asia",
       "subregion": "South-eastern Asia",
-      "dshield_sources": 3,
-      "dshield_reports": 1027,
-      "dshield_targets": 75,
+      "dshield_sources": 1,
+      "dshield_reports": 6,
+      "dshield_targets": 1,
       "ransomware_victims": 3,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7190,9 +7184,9 @@
       "label": "Togo",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 137,
-      "dshield_reports": 5479,
-      "dshield_targets": 1294,
+      "dshield_sources": 120,
+      "dshield_reports": 5187,
+      "dshield_targets": 1185,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7238,9 +7232,9 @@
       "label": "Trinidad and Tobago",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 84,
-      "dshield_reports": 10059,
-      "dshield_targets": 667,
+      "dshield_sources": 73,
+      "dshield_reports": 9787,
+      "dshield_targets": 519,
       "ransomware_victims": 13,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7254,9 +7248,9 @@
       "label": "Tunisia",
       "region": "Africa",
       "subregion": "Northern Africa",
-      "dshield_sources": 228,
-      "dshield_reports": 88688,
-      "dshield_targets": 4141,
+      "dshield_sources": 216,
+      "dshield_reports": 88607,
+      "dshield_targets": 4117,
       "ransomware_victims": 25,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7271,8 +7265,8 @@
       "region": "Asia",
       "subregion": "Central Asia",
       "dshield_sources": 15,
-      "dshield_reports": 265061,
-      "dshield_targets": 386,
+      "dshield_reports": 391285,
+      "dshield_targets": 409,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7318,10 +7312,10 @@
       "label": "Türkiye",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 3835,
-      "dshield_reports": 21419827,
-      "dshield_targets": 95953,
-      "ransomware_victims": 184,
+      "dshield_sources": 3240,
+      "dshield_reports": 21205742,
+      "dshield_targets": 85151,
+      "ransomware_victims": 190,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -7334,9 +7328,9 @@
       "label": "Uganda",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 56,
-      "dshield_reports": 24693,
-      "dshield_targets": 1421,
+      "dshield_sources": 50,
+      "dshield_reports": 24599,
+      "dshield_targets": 1398,
       "ransomware_victims": 5,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7350,10 +7344,10 @@
       "label": "Ukraine",
       "region": "Europe",
       "subregion": "Eastern Europe",
-      "dshield_sources": 8753,
-      "dshield_reports": 1151110,
-      "dshield_targets": 120069,
-      "ransomware_victims": 11,
+      "dshield_sources": 7647,
+      "dshield_reports": 1092743,
+      "dshield_targets": 108655,
+      "ransomware_victims": 12,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -7366,10 +7360,10 @@
       "label": "United Arab Emirates",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 445,
-      "dshield_reports": 2474122,
-      "dshield_targets": 20021,
-      "ransomware_victims": 192,
+      "dshield_sources": 403,
+      "dshield_reports": 2804928,
+      "dshield_targets": 20650,
+      "ransomware_victims": 194,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -7382,10 +7376,10 @@
       "label": "United Kingdom",
       "region": "Europe",
       "subregion": "Northern Europe",
-      "dshield_sources": 6714,
-      "dshield_reports": 30946540,
-      "dshield_targets": 1003314,
-      "ransomware_victims": 1169,
+      "dshield_sources": 6227,
+      "dshield_reports": 31033871,
+      "dshield_targets": 1000698,
+      "ransomware_victims": 1182,
       "feodo_c2": 1,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -7414,10 +7408,10 @@
       "label": "United States",
       "region": "Americas",
       "subregion": "Northern America",
-      "dshield_sources": 62018,
-      "dshield_reports": 181524308,
-      "dshield_targets": 4793361,
-      "ransomware_victims": 10916,
+      "dshield_sources": 56227,
+      "dshield_reports": 178628067,
+      "dshield_targets": 4678642,
+      "ransomware_victims": 11086,
       "feodo_c2": 3,
       "feodo_c2_online": 1,
       "abusech_ips": null
@@ -7430,10 +7424,10 @@
       "label": "Uruguay",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 66,
-      "dshield_reports": 11458,
-      "dshield_targets": 371,
-      "ransomware_victims": 22,
+      "dshield_sources": 59,
+      "dshield_reports": 11315,
+      "dshield_targets": 359,
+      "ransomware_victims": 23,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -7446,9 +7440,9 @@
       "label": "Uzbekistan",
       "region": "Asia",
       "subregion": "Central Asia",
-      "dshield_sources": 2958,
-      "dshield_reports": 297691,
-      "dshield_targets": 43056,
+      "dshield_sources": 2811,
+      "dshield_reports": 292343,
+      "dshield_targets": 41533,
       "ransomware_victims": 6,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7478,9 +7472,9 @@
       "label": "Venezuela",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 1352,
-      "dshield_reports": 110277,
-      "dshield_targets": 11188,
+      "dshield_sources": 1129,
+      "dshield_reports": 98834,
+      "dshield_targets": 9944,
       "ransomware_victims": 38,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7494,10 +7488,10 @@
       "label": "Vietnam",
       "region": "Asia",
       "subregion": "South-eastern Asia",
-      "dshield_sources": 3639,
-      "dshield_reports": 4617629,
-      "dshield_targets": 203682,
-      "ransomware_victims": 86,
+      "dshield_sources": 3440,
+      "dshield_reports": 5001081,
+      "dshield_targets": 200585,
+      "ransomware_victims": 87,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
       "abusech_ips": null
@@ -7510,9 +7504,9 @@
       "label": "Virgin Islands (British)",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 8,
-      "dshield_reports": 2584,
-      "dshield_targets": 34,
+      "dshield_sources": 7,
+      "dshield_reports": 2492,
+      "dshield_targets": 33,
       "ransomware_victims": 4,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7526,9 +7520,9 @@
       "label": "Virgin Islands (U.S.)",
       "region": "Americas",
       "subregion": "Latin America and the Caribbean",
-      "dshield_sources": 8,
-      "dshield_reports": 1977,
-      "dshield_targets": 181,
+      "dshield_sources": 6,
+      "dshield_reports": 1939,
+      "dshield_targets": 169,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7574,9 +7568,9 @@
       "label": "Kosovo",
       "region": "",
       "subregion": "",
-      "dshield_sources": 77,
-      "dshield_reports": 3721,
-      "dshield_targets": 885,
+      "dshield_sources": 62,
+      "dshield_reports": 3615,
+      "dshield_targets": 826,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7590,9 +7584,9 @@
       "label": "Unknown code",
       "region": "",
       "subregion": "",
-      "dshield_sources": 4,
-      "dshield_reports": 496008,
-      "dshield_targets": 8,
+      "dshield_sources": 3,
+      "dshield_reports": 496007,
+      "dshield_targets": 7,
       "ransomware_victims": 0,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7606,9 +7600,9 @@
       "label": "Yemen",
       "region": "Asia",
       "subregion": "Western Asia",
-      "dshield_sources": 5,
-      "dshield_reports": 1285,
-      "dshield_targets": 158,
+      "dshield_sources": 4,
+      "dshield_reports": 777,
+      "dshield_targets": 83,
       "ransomware_victims": 2,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7622,9 +7616,9 @@
       "label": "Zambia",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 45,
-      "dshield_reports": 22891,
-      "dshield_targets": 960,
+      "dshield_sources": 38,
+      "dshield_reports": 22818,
+      "dshield_targets": 917,
       "ransomware_victims": 7,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
@@ -7638,9 +7632,9 @@
       "label": "Zimbabwe",
       "region": "Africa",
       "subregion": "Sub-Saharan Africa",
-      "dshield_sources": 56,
-      "dshield_reports": 19846,
-      "dshield_targets": 525,
+      "dshield_sources": 45,
+      "dshield_reports": 19780,
+      "dshield_targets": 488,
       "ransomware_victims": 7,
       "feodo_c2": 0,
       "feodo_c2_online": 0,
